@@ -1,0 +1,25 @@
+NRM_key,NRM,population,total_interviewed,threat_key,threat,threat_total
+Burdekin1,Burdekin,240000,659,1,climate change,294
+Burnett Mary1,Burnett Mary,350000,44,1,climate change,14
+Cape York1,Cape York,17206,1,1,climate change,0
+Fitzroy1,Fitzroy,235000,244,1,climate change,97
+Mackay Whitsunday1,Mackay Whitsunday,189643,283,1,climate change,85
+Wet Tropics1,Wet Tropics,250000,521,1,climate change,234
+Burdekin2,Burdekin,240000,659,2,coral bleaching,134
+Burnett Mary2,Burnett Mary,350000,44,2,coral bleaching,3
+Cape York2,Cape York,17206,1,2,coral bleaching,0
+Fitzroy2,Fitzroy,235000,244,2,coral bleaching,29
+Mackay Whitsunday2,Mackay Whitsunday,189643,283,2,coral bleaching,44
+Wet Tropics2,Wet Tropics,250000,521,2,coral bleaching,96
+Burdekin3,Burdekin,240000,659,3,mining,93
+Burnett Mary3,Burnett Mary,350000,44,3,mining,9
+Cape York3,Cape York,17206,1,3,mining,0
+Fitzroy3,Fitzroy,235000,244,3,mining,34
+Mackay Whitsunday3,Mackay Whitsunday,189643,283,3,mining,56
+Wet Tropics3,Wet Tropics,250000,521,3,mining,91
+Burdekin4,Burdekin,240000,659,4,tourism,46
+Burnett Mary4,Burnett Mary,350000,44,4,tourism,4
+Cape York4,Cape York,17206,1,4,tourism,0
+Fitzroy4,Fitzroy,235000,244,4,tourism,11
+Mackay Whitsunday4,Mackay Whitsunday,189643,283,4,tourism,38
+Wet Tropics4,Wet Tropics,250000,521,4,tourism,102

@@ -9,7 +9,7 @@ var resident_word_cloud = "vegalite_files/resident_word_cloud.vg.json"
 
 var resident_word_bar = "vegalite_files/resident_word_bar.vg.json"
 
-var map_resident_threats = "vegalite_files/map_resident_threats.vg.json"
+var map_resident_threats = "vegalite_files/map_resident_threatsx.vg.json"
 
 vegaEmbed("#map_overview", map_overview).then(function(result) {
 }).catch(console.error);

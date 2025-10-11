@@ -1,13 +1,15 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"datasets": {
-    "QLD_label": {"state": "QUEENSLAND", "x": 146, "y": -27.5}
-},
-"concat": [
+"data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+"concat": [{
+"vconcat": 
+[
+    {
+        "hconcat": [
     {
         "width": 303,
         "height": 360,
-        "title": { "text": "Global Warming" },
+        "title": { "text": "Climate Change" },
         "projection": {"type": "mercator"},
         "view": {"fill": "white"},
         "layer": [
@@ -38,41 +40,61 @@
                     "url": "vegalite_files/maps/NRM_regions_2020.json",
                     "format": {"type": "topojson", "feature": "NRM_regions_2020"}
                 },
-                "transform": [{
-                    "lookup": "properties.NRM_REGION",
+                "transform": [
+                {
+                    "calculate": "datum.properties.NRM_REGION+'1'", "as": "combined_key"    
+                },{
+                    "lookup": "combined_key",
                     "from": {
-                        "data": {"url": "vegalite_files/data/resident_threats.csv"},
-                        "key": "NRM",
-                        "fields": ["population", "perc_interviewed", "climate_change_total", "climate_change_perc"]
+                        "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+                        "key": "NRM_key",
+                        "fields": ["NRM", "population", "total_interviewed", "threat", "threat_total"]
                     }
+                },{
+                    "calculate": "datum.threat_total/datum.total_interviewed",
+                    "as": "threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : format(datum.threat_perc, '.2%')",
+                    "as": "tooltip_threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : datum.threat_total",
+                    "as": "tooltip_threat_total"
                 }],
                 "mark": {
                     "type": "geoshape", 
                     "stroke": "darkgray",
-                    "opacity": 0.5
+                    "opacity": 0.6
                 },
                 "encoding": {
+                    "opacity": {
+                    "condition": {
+                        "test": "bar == null || datum.threat == bar.threat && datum.properties.NRM_REGION == bar.NRM",
+                        "value": 1
+                    }
+                    },
                     "color": {
-                        "field": "climate_change_perc",
+                        "condition": {
+                            "test": "datum.threat_perc == 0",
+                            "value": "lightgrey"
+                        },
+                        "field": "threat_perc",
                         "type": "quantitative",
                         "scale": {
-                            "domain": [0,0.45]
+                            "domain": [0,0.45], "scheme": {"name": "reds"}
                         },
                     "legend": {
-                        "title": "% of residents"
+                        "title": "% of residents",
+                        "format": ".0%"
                     }
                     },
                     "tooltip": [
                         {"field": "properties.NRM_REGION", "type": "nominal", "title": "NRM Region"},
-                        {"field": "population", "type": "quantitative", "title": "Population", "format": ","},
-                        {"field": "perc_interviewed", "type": "quantitative", "title": "Percentage of population interviewed", "format": ".3%"},
-                        {"field": "climate_change_total", "type": "quantitative", "title": "Total number of interviewed residents concerned about threat"},
-                        {"field": "climate_change_perc", "type": "quantitative", "title": "Percentage of interviewed residents concerned about threat", "format": ".2%"}
+                        {"field": "tooltip_threat_total", "title": "Num. interviewed residents concerned about threat"},
+                        {"field": "tooltip_threat_perc", "title": "Perc. interviewed residents concerned about threat"}
                     ]
                 }
-            },
-            {
-            "data": {"name": "QLD_label"},
+            },{
+            "data": {"values": {"state": "QUEENSLAND", "x": 146, "y": -27.5}},
             "mark": {"type": "text", "fontSize": 20, "color": "darkgray"},
             "encoding": {
                 "text": {"field": "state", "type": "nominal"},
@@ -114,41 +136,57 @@
                     "url": "vegalite_files/maps/NRM_regions_2020.json",
                     "format": {"type": "topojson", "feature": "NRM_regions_2020"}
                 },
-                "transform": [{
-                    "lookup": "properties.NRM_REGION",
+                "transform": [
+                {
+                    "calculate": "datum.properties.NRM_REGION+'2'", "as": "combined_key"    
+                },{
+                    "lookup": "combined_key",
                     "from": {
-                        "data": {"url": "vegalite_files/data/resident_threats.csv"},
-                        "key": "NRM",
-                        "fields": ["population", "perc_interviewed", "bleaching_total", "bleaching_perc"]
+                        "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+                        "key": "NRM_key",
+                        "fields": ["NRM", "population", "total_interviewed", "threat", "threat_total"]
                     }
+                },{
+                    "calculate": "datum.threat_total/datum.total_interviewed",
+                    "as": "threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : format(datum.threat_perc, '.2%')",
+                    "as": "tooltip_threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : datum.threat_total",
+                    "as": "tooltip_threat_total"
                 }],
                 "mark": {
                     "type": "geoshape", 
                     "stroke": "darkgray",
-                    "opacity": 0.5
+                    "opacity": 0.6
                 },
                 "encoding": {
+                    "opacity": {
+                    },
                     "color": {
-                        "field": "bleaching_perc",
+                        "condition": {
+                            "test": "datum.threat_perc == 0",
+                            "value": "lightgrey"
+                        },
+                        "field": "threat_perc",
                         "type": "quantitative",
                         "scale": {
-                            "domain": [0,0.45]
+                            "domain": [0,0.45], "scheme": {"name": "reds"}
                         },
                     "legend": {
-                        "title": "% of residents"
+                        "title": "% of residents",
+                        "format": ".0%"
                     }
                     },
                     "tooltip": [
                         {"field": "properties.NRM_REGION", "type": "nominal", "title": "NRM Region"},
-                        {"field": "population", "type": "quantitative", "title": "Population", "format": ","},
-                        {"field": "perc_interviewed", "type": "quantitative", "title": "Percentage of population interviewed", "format": ".3%"},
-                        {"field": "bleaching_total", "type": "quantitative", "title": "Total number of interviewed residents concerned about threat"},
-                        {"field": "bleaching_perc", "type": "quantitative", "title": "Percentage of interviewed residents concerned about threat", "format": ".2%"}
+                        {"field": "tooltip_threat_total", "title": "Num. interviewed residents concerned about threat"},
+                        {"field": "tooltip_threat_perc", "title": "Perc. interviewed residents concerned about threat"}
                     ]
                 }
-            },
-            {
-            "data": {"name": "QLD_label"},
+            },{
+            "data": {"values": {"state": "QUEENSLAND", "x": 146, "y": -27.5}},
             "mark": {"type": "text", "fontSize": 20, "color": "darkgray"},
             "encoding": {
                 "text": {"field": "state", "type": "nominal"},
@@ -156,7 +194,9 @@
                 "latitude": {"field": "y"}}
             }
         ]
-    },{
+    }]},
+    {"hconcat": [
+        {
         "width": 303,
         "height": 360,
         "title": { "text": "Mining" },
@@ -176,15 +216,7 @@
                     "url": "vegalite_files/maps/queensland_surrounds.json",
                     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
                 },
-                "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"},
-                "encoding": {
-                    "color": {
-                        "condition": {
-                            "test": "datum.properties.code_hasc == AU.QL",
-                            "value": "white"
-                        }, "value": "lightgray"
-                    }
-                }
+                "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"}
             },
             {
                 "data": {
@@ -198,41 +230,57 @@
                     "url": "vegalite_files/maps/NRM_regions_2020.json",
                     "format": {"type": "topojson", "feature": "NRM_regions_2020"}
                 },
-                "transform": [{
-                    "lookup": "properties.NRM_REGION",
+                "transform": [
+                {
+                    "calculate": "datum.properties.NRM_REGION+'3'", "as": "combined_key"    
+                },{
+                    "lookup": "combined_key",
                     "from": {
-                        "data": {"url": "vegalite_files/data/resident_threats.csv"},
-                        "key": "NRM",
-                        "fields": ["population", "perc_interviewed", "mining_total", "mining_perc"]
+                        "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+                        "key": "NRM_key",
+                        "fields": ["NRM", "population", "total_interviewed", "threat", "threat_total"]
                     }
+                },{
+                    "calculate": "datum.threat_total/datum.total_interviewed",
+                    "as": "threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : format(datum.threat_perc, '.2%')",
+                    "as": "tooltip_threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : datum.threat_total",
+                    "as": "tooltip_threat_total"
                 }],
                 "mark": {
                     "type": "geoshape", 
                     "stroke": "darkgray",
-                    "opacity": 0.5
+                    "opacity": 0.6
                 },
                 "encoding": {
+                    "opacity": {
+                    },
                     "color": {
-                        "field": "mining_perc",
+                        "condition": {
+                            "test": "datum.threat_perc == 0",
+                            "value": "lightgrey"
+                        },
+                        "field": "threat_perc",
                         "type": "quantitative",
                         "scale": {
-                            "domain": [0,0.45]
+                            "domain": [0,0.45], "scheme": {"name": "reds"}
                         },
                     "legend": {
-                        "title": "% of residents"
+                        "title": "% of residents",
+                        "format": ".0%"
                     }
                     },
                     "tooltip": [
                         {"field": "properties.NRM_REGION", "type": "nominal", "title": "NRM Region"},
-                        {"field": "population", "type": "quantitative", "title": "Population", "format": ","},
-                        {"field": "perc_interviewed", "type": "quantitative", "title": "Percentage of population interviewed", "format": ".3%"},
-                        {"field": "mining_total", "type": "quantitative", "title": "Total number of interviewed residents concerned about threat"},
-                        {"field": "mining_perc", "type": "quantitative", "title": "Percentage of interviewed residents concerned about threat", "format": ".2%"}
+                        {"field": "tooltip_threat_total", "title": "Num. interviewed residents concerned about threat"},
+                        {"field": "tooltip_threat_perc", "title": "Perc. interviewed residents concerned about threat"}
                     ]
                 }
-            },
-            {
-            "data": {"name": "QLD_label"},
+            },{
+            "data": {"values": {"state": "QUEENSLAND", "x": 146, "y": -27.5}},
             "mark": {"type": "text", "fontSize": 20, "color": "darkgray"},
             "encoding": {
                 "text": {"field": "state", "type": "nominal"},
@@ -260,15 +308,7 @@
                     "url": "vegalite_files/maps/queensland_surrounds.json",
                     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
                 },
-                "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"},
-                "encoding": {
-                    "color": {
-                        "condition": {
-                            "test": "datum.properties.code_hasc == AU.QL",
-                            "value": "white"
-                        }, "value": "lightgray"
-                    }
-                }
+                "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"}
             },
             {
                 "data": {
@@ -282,41 +322,57 @@
                     "url": "vegalite_files/maps/NRM_regions_2020.json",
                     "format": {"type": "topojson", "feature": "NRM_regions_2020"}
                 },
-                "transform": [{
-                    "lookup": "properties.NRM_REGION",
+                "transform": [
+                {
+                    "calculate": "datum.properties.NRM_REGION+'4'", "as": "combined_key"    
+                },{
+                    "lookup": "combined_key",
                     "from": {
-                        "data": {"url": "vegalite_files/data/resident_threats.csv"},
-                        "key": "NRM",
-                        "fields": ["population", "perc_interviewed", "tourism_total", "tourism_perc"]
+                        "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+                        "key": "NRM_key",
+                        "fields": ["NRM", "population", "total_interviewed", "threat", "threat_total"]
                     }
+                },{
+                    "calculate": "datum.threat_total/datum.total_interviewed",
+                    "as": "threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : format(datum.threat_perc, '.2%')",
+                    "as": "tooltip_threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : datum.threat_total",
+                    "as": "tooltip_threat_total"
                 }],
                 "mark": {
                     "type": "geoshape", 
                     "stroke": "darkgray",
-                    "opacity": 0.5
+                    "opacity": 0.6
                 },
                 "encoding": {
+                    "opacity": {
+                    },
                     "color": {
-                        "field": "tourism_perc",
+                        "condition": {
+                            "test": "datum.threat_perc == 0",
+                            "value": "lightgrey"
+                        },
+                        "field": "threat_perc",
                         "type": "quantitative",
                         "scale": {
-                            "domain": [0,0.45]
+                            "domain": [0,0.45], "scheme": {"name": "reds"}
                         },
                     "legend": {
-                        "title": "% of residents"
+                        "title": "% of residents",
+                        "format": ".0%"
                     }
                     },
                     "tooltip": [
                         {"field": "properties.NRM_REGION", "type": "nominal", "title": "NRM Region"},
-                        {"field": "population", "type": "quantitative", "title": "Population", "format": ","},
-                        {"field": "perc_interviewed", "type": "quantitative", "title": "Percentage of population interviewed", "format": ".3%"},
-                        {"field": "tourism_total", "type": "quantitative", "title": "Total number of interviewed residents concerned about threat"},
-                        {"field": "tourism_perc", "type": "quantitative", "title": "Percentage of interviewed residents concerned about threat", "format": ".2%"}
+                        {"field": "tooltip_threat_total", "title": "Num. interviewed residents concerned about threat"},
+                        {"field": "tooltip_threat_perc", "title": "Perc. interviewed residents concerned about threat"}
                     ]
                 }
-            },
-            {
-            "data": {"name": "QLD_label"},
+            },{
+            "data": {"values": {"state": "QUEENSLAND", "x": 146, "y": -27.5}},
             "mark": {"type": "text", "fontSize": 20, "color": "darkgray"},
             "encoding": {
                 "text": {"field": "state", "type": "nominal"},
@@ -325,5 +381,43 @@
             }
         ]
     }
+    ]}]
+    }, {
+    "hconcat":[
+    {
+        "title": { "text": "Climate Change" },
+        "height": 360,
+        "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+        "params": [{
+            "name": "bar",
+            "select": {
+                "type": "point",
+                "fields": ["NRM", "threat"]
+            }
+        }],
+        "transform": [
+            {"filter": "datum.NRM != 'Cape York'"},
+            {"calculate": "datum.threat_total/datum.total_interviewed",
+                "as": "threat_perc"}
+        ],
+        "mark": "bar",
+        "encoding": {
+            "column": {
+                "field": "NRM", "type": "nominal", "header": {"labelOrient": "bottom", "title": null}
+            },
+            "x": {"field": "threat", "type": "nominal", "axis": null, "grid": null},
+            "y": {"field": "threat_perc", "type": "quantitative", "grid": null, "axis": {"format": ".0%"}},
+            "xOffset": {"field": "threat", "type": "nominal"},
+            "color": {"field": "threat"},
+            "opacity": {
+                "condition": {
+                    "test": "bar.empty || datum.threat == bar.threat && datum.NRM == bar.NRM",
+                    "value": 1
+                }, "value": 0.5
+            }
+        }
+
+        }
+    ]}
 ]
 }

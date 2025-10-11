@@ -1,0 +1,54 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 630,
+"height": 600,
+"title": { "text": "Great Barrier Reef" },
+"projection": {"type": "mercator"},
+"layer": [
+    {
+        "data": {
+            "url": "vegalite_files/maps/STE_2021_AUST_GDA2020_QLD.json",
+            "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
+        },
+        "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "white"}
+    },{
+        "data": {
+            "url": "vegalite_files/maps/Great_Barrier_Reef_Marine_Park_Boundary_20_-1917278366387594965.json",
+            "format": {"type": "topojson", "feature": "Great_Barrier_Reef_Marine_Park_Boundary_20_-1917278366387594965"}
+        },
+        "mark": {"type": "geoshape", "fill": "green", "opacity": 0.5, "stroke": "white"}
+    },{
+        "data": {
+            "url": "vegalite_files/maps/Population_centres.csv"
+        },
+        "encoding": {
+            "longitude": {"field": "long", "type": "quantitative"}, 
+            "latitude": {"field": "lat", "type": "quantitative"}
+        },
+        "layer": [ {
+            "mark": {"type": "circle", "fill": "black"}
+        }, {
+            "mark": {"type": "text", "dx":-10, "align":"right"}, 
+            "encoding": {
+                "text": {"field": "name", "type": "nominal"}}
+        }]
+    },{
+        "data": {
+        "url": "vegalite_files/data/water_temp_1m.csv"
+        },
+        "mark": {"type": "circle", "opacity": "0.8"},
+        "encoding": {
+            "longitude": {"field": "AVG_LON", "type": "quantitative"},
+            "latitude": {"field": "AVG_LAT", "type": "quantitative"},
+            "color": {
+                "field": "AVG_TEMP", 
+                "type": "quantitative",
+                "scale": {"scheme": "reds"}}, 
+            "tooltip": [
+                {"field": "site_short_name", "type": "nominal", "title": "Site name"}, 
+                {"field": "AVG_TEMP", "type": "quantitative", "title": "Average temperature"}
+            ]
+        }
+    }
+]
+}

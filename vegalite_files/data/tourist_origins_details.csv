@@ -1,0 +1,1805 @@
+id,location,visited_GBR,visited_GBR_num,aust_1_or_over_2,"Q.28 IF AUSTRALIAN - Code State (1=NT, 2=NSW and ACT, 3=VIC, 4=QLD, 5=SA, 6=WA, 7=TAS)",aust_state,country_origin,geopol_region,coord,latitude,longitude
+18727447,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370437,Cairns,YES,1,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18428554,Airlie Beach,NO,2,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18428561,Airlie Beach,NO,2,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18446824,Airlie Beach,YES,1,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18530930,Cairns,NO,2,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18608442,Townsville,YES,1,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18672804,Townsville,YES,1,2,,,Argentina,South America,"34 00 S, 64 00 W",-34,-64
+18199882,Townsville,NO,2,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200519,Townsville,YES,1,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370206,Cairns,NO,2,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370217,Cairns,NO,2,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370229,Cairns,YES,1,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428555,Airlie Beach,NO,2,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444163,Airlie Beach,YES,1,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18821295,Cairns,YES,1,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18821413,Cairns,YES,1,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19133271,Kuranda,YES,1,1,1,NT,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18163297,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18172117,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18172146,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18173732,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18184054,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185495,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185519,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185555,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18199249,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18248170,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18260684,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18261640,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18261648,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272802,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272985,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272997,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273176,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273451,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274286,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274332,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274711,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18287486,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18288342,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18288685,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18288918,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289263,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289491,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289581,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289763,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299414,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299421,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305254,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305267,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305436,Yorkeys Knob,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18321511,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322418,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322633,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322867,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338591,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18353792,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18353794,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18355963,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368087,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368117,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368239,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368702,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368712,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368729,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369859,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369930,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369964,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370239,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370369,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373139,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373156,Port Douglas,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373185,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373186,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18382332,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18383910,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18398764,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18407220,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18409047,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18412555,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18425529,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426007,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426008,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18427272,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18427944,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428639,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428848,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428906,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18429162,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18440694,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444335,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444470,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444545,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444551,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444645,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444785,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444786,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444864,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18445964,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18445965,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446012,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446091,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446301,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446877,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446923,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18460880,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461075,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461330,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461331,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461412,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461597,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461613,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461798,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18462261,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18462427,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463556,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463971,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463972,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463995,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18471307,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18471313,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18471316,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18471318,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18472255,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18472826,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474112,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474114,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480493,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480498,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480767,Airlie Beach,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481563,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18494738,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18495300,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18495423,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496246,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497065,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497130,Port Douglas,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497229,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497305,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497719,,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18498551,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18511284,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18511287,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18511638,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512060,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512123,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514493,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18530625,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533004,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18534925,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549409,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549450,Mackay,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549922,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18553518,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18555972,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18559098,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18560635,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18576775,Yeppoon,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18629764,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647963,Mackay,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18648331,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18648332,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18649595,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18649619,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671352,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671356,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671357,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671454,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671469,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671473,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18711761,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18713335,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18713337,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18713927,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18713928,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714018,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714248,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714257,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714722,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714741,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18715188,Gladstone,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18725109,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726012,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726418,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726434,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726601,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779296,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779553,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779656,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779704,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779751,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18780162,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18780164,Cairns,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18780709,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18790874,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18796523,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18797023,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18835681,Cairns,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18836250,Airlie Beach,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18850604,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18850616,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18867437,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879621,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879622,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879624,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879626,Yeppoon,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18885397,Rockhampton,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18885399,Rockhampton,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18897964,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18898306,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18916386,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918939,Rockhampton,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918970,Rockhampton,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919339,Rockhampton,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919340,Rockhampton,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919552,Townsville,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919564,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18937451,Bundaberg,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18937490,Bundaberg,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18960732,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18961844,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962165,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962180,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962189,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962408,Townsville,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963949,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964069,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964186,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964686,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964706,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964780,Other,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964903,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964993,Other,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19081749,Bundaberg,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19131547,Kuranda,NO,2,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19133371,Kuranda,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19133380,Kuranda,YES,1,1,2,NSW,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18171922,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18172025,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18173322,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18183909,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18183936,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185398,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185415,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185417,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185506,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185843,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200394,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18233564,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18234853,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18251388,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18251389,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18261714,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272723,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272974,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273871,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273896,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273947,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274102,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18288298,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289019,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289488,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289967,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18290088,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299192,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299411,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18302125,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18302506,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18302607,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18303397,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305433,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305708,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18321638,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322096,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322472,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322887,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322897,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322905,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338582,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18340289,Port Douglas,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18352574,Port Douglas,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18353430,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18353476,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18353870,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18354210,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18355298,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18355372,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18355579,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356458,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356473,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356490,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368484,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369392,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370187,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370247,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370248,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370269,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370336,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370341,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370405,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370625,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373136,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373148,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373159,Port Douglas,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373173,Port Douglas,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373174,Port Douglas,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373175,Port Douglas,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373176,Port Douglas,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373179,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373181,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18383897,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18398860,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18413171,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18413231,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18413406,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414096,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414599,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18423083,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426076,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426143,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426237,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18427841,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428575,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428967,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18429152,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18429623,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444358,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446637,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446830,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446834,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18459390,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18460515,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18460871,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18460872,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18460873,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18461435,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463548,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463550,Airlie Beach,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18470577,Airlie Beach,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474118,Other,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481931,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18494462,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496238,Mackay,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496886,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496924,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496951,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497015,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497131,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497231,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497296,Port Douglas,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18497399,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18498223,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514457,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18530786,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533467,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533539,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533597,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18552400,Mackay,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18553526,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18592548,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18592583,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18592641,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18592679,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18608987,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18610579,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18628925,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18628954,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18628967,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18629683,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647010,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647959,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647962,Mackay,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671924,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18672801,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18694552,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18712490,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18712548,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18713640,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714413,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714751,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18715230,Gladstone,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18715870,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18725887,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726260,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726274,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18727522,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18743445,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18743530,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779323,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18790580,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18795980,Townsville,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18796000,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18821103,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18821136,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18831869,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18832094,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18834095,Cairns,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18836710,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18836730,Cairns,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18850119,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18850686,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18852083,Yeppoon,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879623,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879655,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18900566,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918927,Yeppoon,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918973,Rockhampton,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918980,Rockhampton,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919338,Rockhampton,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919724,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18937525,Townsville,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962173,Other,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963977,Other,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964002,Other,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964033,Other,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964283,Other,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964731,Other,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964749,Other,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964793,Other,NO,2,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18965170,Other,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19081652,,YES,1,1,3,VIC,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18163306,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18172156,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18172358,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18173364,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18174136,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18183661,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18184025,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185240,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185408,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185419,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185442,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185501,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185507,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185578,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185678,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185694,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185884,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18199867,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200419,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200420,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200423,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18242878,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18242935,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18242978,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18247479,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18261658,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18261709,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272600,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18272801,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273752,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273804,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274111,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274295,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274778,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18276870,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289429,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289436,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289443,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289954,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18290009,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18290072,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18290127,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18290180,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299162,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299194,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299196,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299197,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299408,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299428,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18300065,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18303984,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305779,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322148,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322168,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322485,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322493,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322499,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322856,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322946,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322954,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18323023,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18323025,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18324006,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18337682,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338324,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338392,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338501,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338530,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18338983,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18355526,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356180,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356363,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356764,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368404,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368680,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18368824,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369430,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369980,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370110,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370123,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370184,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370359,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370410,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370441,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370607,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370656,Gladstone,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370769,Gladstone,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373180,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18382222,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18398819,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18408002,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18409654,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18412436,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18412730,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18413315,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18413859,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18413942,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414575,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414580,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414582,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414583,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414596,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414718,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426003,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426634,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428015,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428206,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428542,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428862,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18428924,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18443543,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18443703,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18443923,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444166,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444191,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444199,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444424,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444873,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444956,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446088,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446198,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446199,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446660,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446684,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446816,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446917,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446930,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18447672,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18447673,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18454910,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18459953,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18460969,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18462280,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18462304,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463546,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463987,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18464161,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18464163,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18470726,Airlie Beach,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18471140,Airlie Beach,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18473807,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18473872,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474116,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474120,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474122,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474123,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474127,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474128,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474129,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474154,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480454,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480456,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480678,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480737,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480836,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480866,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480872,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480926,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481011,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481533,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481576,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481578,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481617,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481660,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481661,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481819,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481824,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481853,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481875,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481909,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481962,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18491818,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18494710,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18495115,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18495307,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18495969,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496235,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496248,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496336,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496494,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496558,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496605,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496903,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496905,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18511157,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18511260,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18511279,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512058,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512385,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512465,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512472,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512489,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512659,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18512820,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514343,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514432,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514433,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514469,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514473,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514481,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514485,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514495,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514514,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514538,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18515134,Gladstone,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18515135,Gladstone,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18532439,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18532447,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18532557,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533469,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533538,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18533992,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18535787,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549410,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549758,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549834,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549847,,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18549914,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18550565,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18551742,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18551792,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18551830,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18551906,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18552237,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18553310,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18554995,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18555663,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18555719,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18555794,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18557396,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18558274,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18592303,Yeppoon,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18592320,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18643002,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18643008,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18643015,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18643021,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647952,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647957,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18647960,Mackay,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18648065,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18648066,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18649231,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18649886,Mackay,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671115,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671314,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18671321,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18694388,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714072,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18715189,Gladstone,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18715283,Gladstone,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18725776,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726450,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18743468,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18754285,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18755933,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18756264,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18759341,,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18759415,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18759548,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18760490,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18760511,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18761940,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18762170,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18762182,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18777295,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18779549,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18780143,Cairns,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18780343,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18791308,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18812912,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18813136,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18813137,Townsville,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18820532,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18821160,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18831752,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18835565,Cairns,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18850684,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18850950,Yeppoon,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18852087,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18852088,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18867404,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18880211,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18884565,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18884717,Yeppoon,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18884870,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18884957,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18885396,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18885398,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918693,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918714,Townsville,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918937,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918942,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918943,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918958,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918959,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918960,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918961,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918965,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918966,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918967,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918969,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918974,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18951047,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18951054,Rockhampton,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18951056,Rockhampton,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18960582,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18960811,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18961782,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18961913,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962636,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962757,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962763,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962769,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962786,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962795,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962799,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962809,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962815,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962840,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963010,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963215,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963606,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963625,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963663,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963681,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963707,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964347,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964672,Other,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19081744,Other,YES,1,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19133383,Kuranda,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19133438,Kuranda,NO,2,1,4,QLD,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200230,Townsville,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200418,Townsville,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18243062,Townsville,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18273689,Other,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18274104,Cairns,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299195,Cairns,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18299420,Cairns,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18305170,Cairns,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18426489,Airlie Beach,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18442413,Airlie Beach,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18446906,Airlie Beach,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463364,Airlie Beach,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463369,Airlie Beach,,,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18496964,Mackay,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514516,Cairns,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18514735,Cairns,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18555999,Mackay,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18726530,Cairns,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18743414,Townsville,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18759856,Townsville,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879629,Yeppoon,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18879654,Yeppoon,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918933,Rockhampton,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18918972,Rockhampton,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919337,Rockhampton,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18951055,Rockhampton,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962150,Other,NO,2,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962169,Other,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18965051,Other,YES,1,1,5,SA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18173198,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18173206,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185244,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185334,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185515,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200000,Townsville,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18200422,Townsville,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18234619,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18245969,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18288544,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18288751,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18289489,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18304688,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322483,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18322875,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356378,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356661,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18356672,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18369954,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18382374,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18444580,Airlie Beach,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18473371,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474124,Other,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18480765,Airlie Beach,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18481520,Mackay,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18482962,Airlie Beach,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18559091,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18648881,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18649017,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18672321,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18712366,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18712444,Townsville,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18760482,Townsville,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18792716,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18797752,Cairns,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18884986,Cairns,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18919709,Townsville,NO,2,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963921,Other,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19133408,Kuranda,YES,1,1,6,WA,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18182131,Townsville,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18185675,Townsville,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18249233,Cairns,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18249249,Cairns,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18370313,Cairns,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18373182,Cairns,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18463547,Airlie Beach,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18474130,Other,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18821282,Cairns,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18962774,Other,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18963930,Other,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964433,Other,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18964723,Other,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18965108,Other,YES,1,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19131790,Kuranda,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+19131840,Kuranda,NO,2,1,7,TAS,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18414587,Airlie Beach,YES,1,1,,,Australia,Oceania,"27 00 S, 133 00 E",-27,133
+18714162,Cairns,NO,2,2,,,Austria,Europe,"47 20 N, 13 20 E",#VALUE!,#VALUE!
+18880430,Yeppoon,YES,1,2,,,Austria,Europe,"47 20 N, 13 20 E",#VALUE!,#VALUE!
+18234605,Cairns,YES,1,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18324092,Cairns,NO,2,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18414125,Airlie Beach,NO,2,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18426410,Airlie Beach,YES,1,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18428966,Cairns,YES,1,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18444865,Airlie Beach,YES,1,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18456280,Airlie Beach,YES,1,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18726003,Cairns,NO,2,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18726069,Cairns,NO,2,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18860596,Yeppoon,YES,1,2,,,Belgium,Europe,"50 50 N, 4 00 E",#VALUE!,4
+18287349,Cairns,YES,1,2,,,Brazil,South America,"10 00 S, 55 00 W",-10,-55
+18338540,Townsville,YES,1,2,,,Brazil,South America,"10 00 S, 55 00 W",-10,-55
+18446783,Airlie Beach,YES,1,2,,,Brazil,South America,"10 00 S, 55 00 W",-10,-55
+18860947,Yeppoon,YES,1,2,,,Brazil,South America,"10 00 S, 55 00 W",-10,-55
+19133284,Kuranda,NO,2,2,,,Brazil,South America,"10 00 S, 55 00 W",-10,-55
+19133355,Kuranda,NO,2,2,,,Brazil,South America,"10 00 S, 55 00 W",-10,-55
+18200670,Townsville,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18233551,Townsville,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18261559,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18261724,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18299422,Cairns,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18336269,Cairns,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18356077,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18356412,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18356425,Cairns,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18370321,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18370376,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18414141,Airlie Beach,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18414567,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18414585,Airlie Beach,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18428884,Airlie Beach,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18443662,Airlie Beach,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18444382,Airlie Beach,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18444929,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18446087,Airlie Beach,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18446836,Airlie Beach,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18472747,Airlie Beach,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18497849,Townsville,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18498608,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18549635,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18557291,Townsville,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18694379,Townsville,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18715964,Cairns,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18716035,Cairns,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18726699,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18777217,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18777447,Cairns,NO,2,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18779468,Townsville,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18779684,Cairns,YES,1,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+19131869,Kuranda,,,2,,,Canada,North America ,"60 00 N, 95 00 W",60,-95
+18414169,Airlie Beach,NO,2,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18414177,Airlie Beach,NO,2,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18460874,Airlie Beach,YES,1,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18714497,Cairns,YES,1,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18714498,Cairns,YES,1,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18834714,Cairns,NO,2,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18834856,Cairns,YES,1,2,,,China,Central Asia,"35 00 N, 105 00 E",35,105
+18412251,Airlie Beach,NO,2,2,,,Colombia,South America,"4 00 N, 72 00 W",4,-72
+18726375,Cairns,YES,1,2,,,Colombia,South America,"4 00 N, 72 00 W",4,-72
+18726627,Cairns,YES,1,2,,,Colombia,South America,"4 00 N, 72 00 W",4,-72
+18260818,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18260998,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18260999,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18273686,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18288666,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18446603,Airlie Beach,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18648334,Townsville,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18672372,Townsville,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18743156,Townsville,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18761319,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18779301,Townsville,NO,2,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18795937,Townsville,NO,2,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18795939,Townsville,NO,2,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18797863,Cairns,NO,2,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18838005,Cairns,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+19081640,Townsville,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+19081724,Townsville,YES,1,2,,,Denmark,Europe,"56 00 N, 10 00 E",56,10
+18247510,Townsville,YES,1,2,,,Ecuador,South America,"2 00 S, 77 30 W",-2,#VALUE!
+18305931,Cairns,NO,2,2,,,Estonia,Europe,"59 00 N, 26 00 E",59,26
+18260973,Cairns,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18273168,Cairns,NO,2,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18323041,Cairns,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18356228,Cairns,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18368984,Cairns,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18370770,Cairns,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18743241,Townsville,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18743242,Townsville,YES,1,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18760749,Cairns,NO,2,2,,,Finland,Europe,"64 00 N, 26 00 E",64,26
+18185797,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18234604,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18247047,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18247049,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18249286,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18273568,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18274117,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18274683,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18288669,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18289945,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18290220,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18299425,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18302693,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18302694,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18320900,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18321999,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18323221,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18338762,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18338806,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18338849,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18338867,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18352705,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18355580,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18355868,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18355917,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18356681,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18356750,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18356796,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18359781,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18373178,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18382607,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18382619,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18413101,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18413163,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18414054,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18414078,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18427470,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18427471,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18428932,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18428950,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18428979,Airlie Beach,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18429596,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18444239,Other,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18444761,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18444937,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18463557,Airlie Beach,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18463701,Airlie Beach,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18463968,Airlie Beach,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18464068,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18464165,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18464166,Airlie Beach,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18464196,Airlie Beach,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18474121,Other,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18497725,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18498194,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18512178,Airlie Beach,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18514175,Mackay,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18534845,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18557037,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18560633,Other,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18575771,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18592723,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18610141,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18670748,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18670764,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18672146,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18672979,Townsville,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18672983,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18715190,Gladstone,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18726143,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18726146,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18726399,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18727419,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18759842,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18759846,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18778557,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18780140,Townsville,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18780531,Cairns,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18811021,Cairns,NO,2,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18851069,Yeppoon,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18879656,Yeppoon,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18884423,Rockhampton,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18884703,Yeppoon,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18884725,Yeppoon,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18918928,Yeppoon,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+19131669,Kuranda,YES,1,2,,,France,Europe,"46 00 N, 2 00 E",46,2
+18173309,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18173313,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18173658,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18173668,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18174053,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18185144,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18185161,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18185463,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18200061,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18247086,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18247990,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18249277,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18249359,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18249363,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18260969,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18261000,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18261552,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18261560,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18288343,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18288533,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289311,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289482,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289586,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289792,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289933,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289949,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18289961,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18290087,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18290132,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18290502,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18290586,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18299142,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18299167,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18299409,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18299416,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18299417,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18304878,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18304890,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18321989,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18322469,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18322488,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18323024,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18323062,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18336804,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18336806,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18337453,Port Douglas,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18352453,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18353872,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18355365,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18359985,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18368737,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18368950,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18369308,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18370151,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18370174,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18370244,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18370649,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18412372,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18413049,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18413185,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18413190,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18414037,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18414053,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18414113,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18414456,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18414592,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18414601,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18426375,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18428642,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18428915,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18428925,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18428929,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18444782,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18446093,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18446595,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18446668,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18446819,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18446828,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18446929,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18460698,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18464061,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18471288,Airlie Beach,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18471312,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18473328,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18474125,Other,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18474126,Other,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18496666,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18496904,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18497457,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18497892,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18498103,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18511422,Mackay,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18514355,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18516787,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18533341,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18534802,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18535667,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18535694,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18608248,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18609023,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18629225,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18629561,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18649892,Airlie Beach,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18671602,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18671742,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18672788,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18672966,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18713487,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18713488,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18725293,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18727467,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18740930,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18741570,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18743507,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18743756,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18743757,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18760468,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18760539,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18761271,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18761443,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18761619,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18761925,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18761929,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18772641,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18772642,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18772644,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18772645,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18780821,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18795367,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18795391,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18795466,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18795834,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18796094,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18796582,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18796583,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18797766,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18797776,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18797848,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18821074,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18821085,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18821133,Townsville,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18831981,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18834881,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18834883,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18836793,Cairns,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18836829,Cairns,NO,2,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18850325,Yeppoon,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18850341,Yeppoon,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18851017,Yeppoon,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18867472,Yeppoon,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18884541,Rockhampton,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18901662,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18919715,Townsville,YES,1,2,,,Germany,Europe,"51 00 N, 9 00 E",51,9
+18836584,Cairns,YES,1,2,,,Iceland,Europe,"65 00 N, 18 00 W",65,-18
+18428933,Airlie Beach,YES,1,2,,,India,Central Asia,"20 00 N, 77 00 E",20,77
+18199475,Townsville,NO,2,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18200435,Townsville,NO,2,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18299413,Cairns,NO,2,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18305775,Cairns,NO,2,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18359917,Cairns,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18370315,Cairns,NO,2,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18414578,Airlie Beach,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18414594,Airlie Beach,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18426010,Airlie Beach,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18463970,Airlie Beach,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18463989,Airlie Beach,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18464006,Airlie Beach,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18514331,Cairns,NO,2,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18715247,Gladstone,YES,1,2,,,Ireland,Europe,"53 00 N, 8 00 W",53,-8
+18249447,Cairns,NO,2,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18274257,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18274270,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18289259,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18290548,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18321920,Cairns,NO,2,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18354250,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18368449,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18370082,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18370665,Cairns,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18446912,Airlie Beach,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18480771,Mackay,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18480784,Mackay,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18710916,Townsville,NO,2,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18710991,Townsville,NO,2,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18726455,Cairns,NO,2,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18726458,Cairns,NO,2,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18821069,Townsville,YES,1,2,,,Israel,Middle east,"31 30 N, 34 45 E",#VALUE!,#VALUE!
+18303816,Cairns,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18339028,Cairns,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18339033,Cairns,NO,2,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18373177,Cairns,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18382167,Cairns,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18428889,Cairns,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18497727,Townsville,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18560622,Other,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18560623,Other,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18851048,Yeppoon,YES,1,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18951058,Rockhampton,NO,2,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18964620,Other,NO,2,2,,,Italy,Europe,"42 50 N, 12 50 E",#VALUE!,#VALUE!
+18273148,Cairns,YES,1,2,,,Japan,Asia-Pacific,"36 00 N, 138 00 E",36,138
+18446780,Airlie Beach,YES,1,2,,,Japan,Asia-Pacific,"36 00 N, 138 00 E",36,138
+18464112,Airlie Beach,YES,1,2,,,Japan,Asia-Pacific,"36 00 N, 138 00 E",36,138
+18533465,Mackay,NO,2,2,,,Japan,Asia-Pacific,"36 00 N, 138 00 E",36,138
+18831682,Cairns,NO,2,2,,,Japan,Asia-Pacific,"36 00 N, 138 00 E",36,138
+18302940,Cairns,YES,1,2,,,Korea,Asia-Pacific,"37 00 N, 127 30 E",37,#VALUE!
+18726387,Cairns,YES,1,2,,,Korea,Asia-Pacific,"37 00 N, 127 30 E",37,#VALUE!
+18272595,Cairns,NO,2,2,,,Malaysia,Asia-Pacific,"2 30 N, 112 30 E",#VALUE!,#VALUE!
+18272661,Cairns,NO,2,2,,,Malaysia,Asia-Pacific,"2 30 N, 112 30 E",#VALUE!,#VALUE!
+18369459,Cairns,YES,1,2,,,Malaysia,Asia-Pacific,"2 30 N, 112 30 E",#VALUE!,#VALUE!
+18834641,Cairns,NO,2,2,,,Malaysia,Asia-Pacific,"2 30 N, 112 30 E",#VALUE!,#VALUE!
+18918947,Yeppoon,YES,1,2,,,Malaysia,Asia-Pacific,"2 30 N, 112 30 E",#VALUE!,#VALUE!
+18163298,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18163305,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18199869,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18273913,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18299158,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18299183,Cairns,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18299429,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18300225,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18303826,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18322419,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18338480,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18338575,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18352577,Port Douglas,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18356253,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18359650,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18368875,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18370035,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18370076,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18370370,Cairns,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18370670,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18373140,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18373152,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18411474,Airlie Beach,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18426464,Airlie Beach,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18426503,Airlie Beach,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18428808,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18444425,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18444847,Cairns,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18446775,Airlie Beach,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18446804,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18446805,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18446808,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18462564,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18463551,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18464058,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18464119,Airlie Beach,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18498163,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18531543,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18588842,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18714495,Cairns,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18714496,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18726135,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18726171,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18743439,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18761308,Cairns,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18761628,Cairns,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18796090,Townsville,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18797814,Townsville,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18834892,Cairns,NO,2,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18903320,Yeppoon,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18962411,Townsville,YES,1,2,,,Netherlands,Europe,"52 31 N, 5 46 E",#VALUE!,#VALUE!
+18185514,Townsville,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18185686,Townsville,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18199804,Townsville,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18273993,Cairns,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18299406,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18299419,Cairns,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18305850,Cairns,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18305883,Cairns,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18322383,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18322818,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18337034,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18353294,Cairns,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18355735,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18355916,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18369498,Cairns,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18373138,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18427916,Airlie Beach,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18446089,Airlie Beach,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18462485,Airlie Beach,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18463990,Airlie Beach,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18474117,Other,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18498240,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18512064,Mackay,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18512135,Mackay,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18714170,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18714220,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18726428,Townsville,NO,2,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18726460,Townsville,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18795181,Cairns,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18964728,Other,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18965248,Other,YES,1,2,,,New Zealand,Oceania,"41 00 S, 174 00 E",-41,174
+18322516,Townsville,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18322570,Townsville,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18356400,Cairns,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18359713,Cairns,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18370375,Cairns,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18373184,Cairns,NO,2,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18426001,Airlie Beach,NO,2,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18647718,Townsville,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18649632,Townsville,NO,2,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18780185,Cairns,YES,1,2,,,Norway,Europe,"62 00 N, 10 00 E",62,10
+18880349,Yeppoon,YES,1,2,,,Poland,Europe,"52 00 N, 20 00 E",52,20
+18760548,Townsville,NO,2,2,,,Slovenia,Europe,"46 07 N, 14 49 E",#VALUE!,#VALUE!
+18760550,Townsville,NO,2,2,,,Slovenia,Europe,"46 07 N, 14 49 E",#VALUE!,#VALUE!
+18464114,Airlie Beach,YES,1,2,,,South Africa,Africa,"29 00 S, 24 00 E",-29,24
+18714093,Yeppoon,YES,1,2,,,South Africa,Africa,"29 00 S, 24 00 E",-29,24
+18498168,Cairns,YES,1,2,,,Spain,Europe,"40 00 N, 4 00 W",40,-4
+18850392,Yeppoon,YES,1,2,,,Spain,Europe,"40 00 N, 4 00 W",40,-4
+18867407,Yeppoon,YES,1,2,,,Spain,Europe,"40 00 N, 4 00 W",40,-4
+18867452,Yeppoon,YES,1,2,,,Spain,Europe,"40 00 N, 4 00 W",40,-4
+18173323,Townsville,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18247339,Townsville,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18247982,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18287473,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18288689,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18288700,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18288749,Cairns,,,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18288921,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18289267,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18289458,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18302776,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18322778,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18338926,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18338950,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18368074,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18368816,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18370102,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18370115,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18370317,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18414184,Airlie Beach,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18414438,Airlie Beach,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18714239,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18714763,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18714777,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18715715,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18715766,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18715925,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18726001,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18726007,Cairns,NO,2,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18795760,Cairns,YES,1,2,,,Sweden,Europe,"62 00 N, 15 00 E",62,15
+18261642,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18289362,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18289398,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18289421,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18289460,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18289461,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18322836,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18353347,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18356172,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18356179,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18356181,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18369446,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18369461,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18370245,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18370291,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18370446,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18373151,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18373188,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18414586,Airlie Beach,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18426005,Airlie Beach,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18428454,Airlie Beach,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18428580,Airlie Beach,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18428907,Airlie Beach,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18444726,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18444802,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18471303,Airlie Beach,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18498155,Cairns,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18559081,Townsville,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18629708,Townsville,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18629737,Townsville,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18713381,Townsville,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18777310,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18833028,Cairns,NO,2,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18880609,Yeppoon,YES,1,2,,,Switzerland,Europe,"47 00 N, 8 00 E",47,8
+18494132,Mackay,YES,1,2,,,Taiwan,Asia-Pacific,"23 30 N, 121 00 E",#VALUE!,121
+18172097,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18172140,Townsville,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18172162,Townsville,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18173723,Townsville,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18185126,Townsville,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18185215,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18185220,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18248403,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18248414,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18249457,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18249577,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18249595,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18249605,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18250197,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18250223,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18273452,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18273474,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18273996,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274063,Other,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274122,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274125,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274128,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274646,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274691,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18274758,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18288136,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18288447,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18299159,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18303835,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18303970,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18304873,Trinity Park,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18305157,Trinity Park,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18305807,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18305908,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18305988,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18306013,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18306029,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18321679,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18322386,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18322445,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18322446,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18322724,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18324291,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18326068,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18326116,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18326208,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18337311,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18338256,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18338258,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18338511,Townsville,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18338580,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18338880,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18352432,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18353877,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18353878,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18353956,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18354306,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18354310,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18354312,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18354643,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18354644,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18355115,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18356633,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18356683,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359008,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359053,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359459,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359539,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359619,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359765,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18359844,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18360062,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18360067,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18368726,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18368749,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18368762,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18368988,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18369336,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18369945,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370014,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370037,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370112,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370147,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370261,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370362,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370379,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370456,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370475,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370482,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370491,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370613,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18370930,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18373134,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18382155,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18409296,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18409372,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18412352,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18412741,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18413477,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18413962,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18414105,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18414112,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18414584,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18414600,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18426006,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18426009,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18428660,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18428902,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18428923,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18428930,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18428965,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18443266,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18444889,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18446379,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18446779,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18463539,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18463552,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18464315,Airlie Beach,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18474115,Other,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18496753,Airlie Beach,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18497402,Port Douglas,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18514300,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18515826,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18516745,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18532951,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18550637,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18592489,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18592552,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18627749,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18627752,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18672939,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18686863,Townsville,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18693702,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18694402,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18708175,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18708397,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18708496,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18726547,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18743502,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18759008,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18759077,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18761664,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18761690,Cairns,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18779445,Townsville,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18780700,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18795349,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18821109,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18831757,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18835332,Cairns,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18879659,Yeppoon,YES,1,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18965284,Other,NO,2,2,,,United Kingdom,Europe,"54 00 N, 2 00 W",54,-2
+18185236,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18185503,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18199900,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18249435,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18261705,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18273716,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18273856,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18274933,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18288646,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18288662,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18289107,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18289457,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18289493,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18289502,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18289528,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18303507,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18320393,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18338242,Port Douglas,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18355787,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18356245,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18356742,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18356765,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18359957,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18368983,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18369044,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370299,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370423,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370440,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370704,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370807,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18370817,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18373183,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18382360,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18384016,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18408372,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18412442,Airlie Beach,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18414070,Airlie Beach,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18414074,Airlie Beach,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18428793,Airlie Beach,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18428971,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18429819,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18461046,Airlie Beach,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18461052,Airlie Beach,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18461350,Airlie Beach,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18461546,Airlie Beach,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18461552,Airlie Beach,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18498453,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18498482,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18549304,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18610715,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18670917,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18671480,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18672717,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18714738,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18715816,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18743111,Townsville,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18761366,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18761428,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18761709,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18762200,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18762208,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18762226,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18762249,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18777916,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18778507,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18779355,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18779446,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18779447,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18779841,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18789603,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18795006,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18795295,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18797807,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18808296,Townsville,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18813303,Townsville,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18821102,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18821116,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18821252,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18831615,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18832230,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18832740,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18834732,Cairns,NO,2,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18836745,Cairns,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+19046120,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+19046279,Townsville,YES,1,2,,,United States,North America ,"38 00 N, 97 00 W",38,-97
+18289446,Cairns,YES,1,2,,,,,,0,0
+18322531,Townsville,YES,1,2,,,,,,0,0
+18355044,Cairns,NO,2,2,,,,Europe,,0,0
+18447486,Townsville,NO,2,2,,,,Europe,,0,0
+18850267,Yeppoon,YES,1,2,,,,Europe,,0,0
+18860353,Yeppoon,YES,1,2,,,,Europe,,0,0
+19131685,Kuranda,YES,1,2,,,,Europe,,0,0
+19131783,Kuranda,YES,1,2,,,,Europe,,0,0
+18199418,Townsville,YES,1,,,,,,,0,0
+18200351,Townsville,YES,1,,,,,,,0,0
+18218574,Townsville,NO,2,,,,,,,0,0
+18218575,Townsville,YES,1,,,,,,,0,0
+18234612,Cairns,NO,2,,,,,,,0,0
+18234850,Cairns,YES,1,,,,,,,0,0
+18246001,Cairns,NO,2,,,,,,,0,0
+18247826,Cairns,NO,2,,,,,,,0,0
+18248167,Cairns,NO,2,,,,,,,0,0
+18248389,Cairns,YES,1,,,,,,,0,0
+18248407,Cairns,YES,1,,,,,,,0,0
+18249285,Cairns,NO,2,,,,,,,0,0
+18249477,Cairns,YES,1,,,,,,,0,0
+18260673,Cairns,YES,1,,,,,,,0,0
+18261551,Cairns,YES,1,,,,,,,0,0
+18272843,Cairns,NO,2,,,,,,,0,0
+18272851,Other,YES,1,,,,,,,0,0
+18273811,Cairns,YES,1,,,,,,,0,0
+18273860,Cairns,NO,2,,,,,,,0,0
+18274108,Cairns,YES,1,,,,,,,0,0
+18274113,Cairns,NO,2,,,,,,,0,0
+18274306,Other,YES,1,,,,,,,0,0
+18274315,Cairns,NO,2,,,,,,,0,0
+18288858,Cairns,YES,1,,,,,,,0,0
+18289059,Cairns,YES,1,,,,,,,0,0
+18289134,Cairns,YES,1,,,,,,,0,0
+18289456,Cairns,YES,1,,,,,,,0,0
+18289459,Cairns,YES,1,,,,,,,0,0
+18290062,Cairns,YES,1,,,,,,,0,0
+18290250,Cairns,YES,1,,,,,,,0,0
+18299166,Cairns,NO,2,,,,,,,0,0
+18299404,Cairns,YES,1,,,,,,,0,0
+18299405,Cairns,NO,2,,,,,,,0,0
+18299415,Cairns,NO,2,,,,,,,0,0
+18299424,Cairns,NO,2,,,,,,,0,0
+18300238,Cairns,YES,1,,,,,,,0,0
+18302714,Cairns,NO,2,,,,,,,0,0
+18303514,Cairns,YES,1,,,,,,,0,0
+18303651,Cairns,NO,2,,,,,,,0,0
+18303656,Cairns,NO,2,,,,,,,0,0
+18304703,Cairns,NO,2,,,,,,,0,0
+18304880,Trinity Park,YES,1,,,,,,,0,0
+18305255,Cairns,YES,1,,,,,,,0,0
+18305438,Cairns,YES,1,,,,,,,0,0
+18321515,Cairns,YES,1,,,,,,,0,0
+18321800,Cairns,NO,2,,,,,,,0,0
+18321828,Cairns,NO,2,,,,,,,0,0
+18322102,Cairns,NO,2,,,,,,,0,0
+18322104,Cairns,NO,2,,,,,,,0,0
+18322126,Cairns,NO,2,,,,,,,0,0
+18322514,Cairns,YES,1,,,,,,,0,0
+18322829,Cairns,NO,2,,,,,,,0,0
+18335243,Port Douglas,NO,2,,,,,,,0,0
+18336035,Cairns,YES,1,,,,,,,0,0
+18336262,Cairns,NO,2,,,,,,,0,0
+18337959,Port Douglas,NO,2,,,,,,,0,0
+18338254,Cairns,NO,2,,,,,,,0,0
+18338808,Cairns,NO,2,,,,,,,0,0
+18338941,Cairns,YES,1,,,,,,,0,0
+18339822,Port Douglas,NO,2,,,,,,,0,0
+18352576,Port Douglas,YES,1,,,,,,,0,0
+18353444,Cairns,NO,2,,,,,,,0,0
+18355535,Cairns,YES,1,,,,,,,0,0
+18355707,Cairns,NO,2,,,,,,,0,0
+18355826,Cairns,YES,1,,,,,,,0,0
+18355909,Cairns,YES,1,,,,,,,0,0
+18359297,Cairns,YES,1,,,,,,,0,0
+18359531,Cairns,YES,1,,,,,,,0,0
+18368990,Cairns,YES,1,,,,,,,0,0
+18368997,Cairns,YES,1,,,,,,,0,0
+18369270,Cairns,NO,2,,,,,,,0,0
+18369337,Cairns,YES,1,,,,,,,0,0
+18369752,Cairns,NO,2,,,,,,,0,0
+18369865,Cairns,YES,1,,,,,,,0,0
+18369866,Cairns,YES,1,,,,,,,0,0
+18369888,Cairns,NO,2,,,,,,,0,0
+18370011,Cairns,NO,2,,,,,,,0,0
+18370188,Cairns,YES,1,,,,,,,0,0
+18370396,Cairns,YES,1,,,,,,,0,0
+18373147,Cairns,YES,1,,,,,,,0,0
+18373197,Cairns,YES,1,,,,,,,0,0
+18410750,Townsville,YES,1,,,,,,,0,0
+18410804,Airlie Beach,NO,2,,,,,,,0,0
+18411987,Airlie Beach,NO,2,,,,,,,0,0
+18412122,Airlie Beach,NO,2,,,,,,,0,0
+18412164,Airlie Beach,NO,2,,,,,,,0,0
+18412172,Airlie Beach,NO,2,,,,,,,0,0
+18412339,Airlie Beach,YES,1,,,,,,,0,0
+18413120,Airlie Beach,NO,2,,,,,,,0,0
+18413903,Airlie Beach,YES,1,,,,,,,0,0
+18413961,Airlie Beach,YES,1,,,,,,,0,0
+18414726,Cairns,NO,2,,,,,,,0,0
+18425998,Airlie Beach,YES,1,,,,,,,0,0
+18428545,Airlie Beach,NO,2,,,,,,,0,0
+18428587,Airlie Beach,YES,1,,,,,,,0,0
+18428611,Airlie Beach,NO,2,,,,,,,0,0
+18428801,Cairns,YES,1,,,,,,,0,0
+18428803,Airlie Beach,NO,2,,,,,,,0,0
+18428876,Cairns,YES,1,,,,,,,0,0
+18428936,Cairns,YES,1,,,,,,,0,0
+18444784,Airlie Beach,NO,2,,,,,,,0,0
+18444863,Airlie Beach,YES,1,,,,,,,0,0
+18444869,Cairns,YES,1,,,,,,,0,0
+18446090,Airlie Beach,YES,1,,,,,,,0,0
+18446181,Airlie Beach,YES,1,,,,,,,0,0
+18446197,Airlie Beach,YES,1,,,,,,,0,0
+18446235,Airlie Beach,NO,2,,,,,,,0,0
+18446579,Airlie Beach,YES,1,,,,,,,0,0
+18446789,Townsville,YES,1,,,,,,,0,0
+18446817,Airlie Beach,NO,2,,,,,,,0,0
+18446827,Airlie Beach,NO,2,,,,,,,0,0
+18446915,Airlie Beach,NO,2,,,,,,,0,0
+18460438,Airlie Beach,NO,2,,,,,,,0,0
+18461093,Airlie Beach,YES,1,,,,,,,0,0
+18461808,Airlie Beach,NO,2,,,,,,,0,0
+18461816,Airlie Beach,YES,1,,,,,,,0,0
+18462263,Airlie Beach,NO,2,,,,,,,0,0
+18462317,Airlie Beach,YES,1,,,,,,,0,0
+18462430,Airlie Beach,YES,1,,,,,,,0,0
+18462563,Airlie Beach,YES,1,,,,,,,0,0
+18464168,Airlie Beach,YES,1,,,,,,,0,0
+18464172,Airlie Beach,YES,1,,,,,,,0,0
+18464236,Airlie Beach,YES,1,,,,,,,0,0
+18471309,Airlie Beach,NO,2,,,,,,,0,0
+18471314,Airlie Beach,YES,1,,,,,,,0,0
+18472499,Airlie Beach,YES,1,,,,,,,0,0
+18474113,Other,YES,1,,,,,,,0,0
+18480703,Mackay,NO,2,,,,,,,0,0
+18480817,Mackay,NO,2,,,,,,,0,0
+18481932,Mackay,NO,2,,,,,,,0,0
+18494777,Mackay,NO,2,,,,,,,0,0
+18497744,Airlie Beach,YES,1,,,,,,,0,0
+18498489,Cairns,YES,1,,,,,,,0,0
+18511267,Mackay,YES,1,,,,,,,0,0
+18511862,Mackay,NO,2,,,,,,,0,0
+18515133,Gladstone,YES,1,,,,,,,0,0
+18515811,Townsville,YES,1,,,,,,,0,0
+18533584,Cairns,YES,1,,,,,,,0,0
+18549457,,NO,2,,,,,,,0,0
+18549674,Cairns,YES,1,,,,,,,0,0
+18552756,Mackay,NO,2,,,,,,,0,0
+18552759,Mackay,NO,2,,,,,,,0,0
+18629417,Townsville,YES,1,,,,,,,0,0
+18629686,Airlie Beach,NO,2,,,,,,,0,0
+18671127,Townsville,YES,1,,,,,,,0,0
+18671178,Townsville,YES,1,,,,,,,0,0
+18671597,Townsville,YES,1,,,,,,,0,0
+18713469,Townsville,YES,1,,,,,,,0,0
+18713531,Townsville,NO,2,,,,,,,0,0
+18714161,Yeppoon,NO,2,,,,,,,0,0
+18726186,Townsville,YES,1,,,,,,,0,0
+18759070,Townsville,YES,1,,,,,,,0,0
+18759868,Townsville,YES,1,,,,,,,0,0
+18773858,Townsville,YES,1,,,,,,,0,0
+18776624,Townsville,YES,1,,,,,,,0,0
+18778889,Townsville,YES,1,,,,,,,0,0
+18779360,Townsville,YES,1,,,,,,,0,0
+18779537,Townsville,NO,2,,,,,,,0,0
+18780554,Cairns,YES,1,,,,,,,0,0
+18796524,Townsville,YES,1,,,,,,,0,0
+18836870,,,,,,,,,,0,0
+18900455,Townsville,NO,2,,,,,,,0,0
+18918941,Rockhampton,NO,2,,,,,,,0,0
+18918963,Rockhampton,NO,2,,,,,,,0,0
+18960458,Other,NO,2,,,,,,,0,0
+18962410,Townsville,YES,1,,,,,,,0,0
+18964510,Other,NO,2,,,,,,,0,0
+19131487,Kuranda,NO,2,,,,,,,0,0

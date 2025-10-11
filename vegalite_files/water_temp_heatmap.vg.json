@@ -1,0 +1,23 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 630,
+"height": 600,
+"title": { "text": "Great Barrier Reef" },
+"data": {
+    "url": "vegalite_files/data/water_temp.csv"
+    },
+"mark": "rect",
+"encoding": {
+            "x": {"field": "YEAR", "type": "nominal"},
+            "y": {"field": "DEPTH", "type": "quantitative"}, 
+            "color": {
+                "aggregate": "mean",
+                "field": "TEMP", 
+                "type": "quantitative",
+            "scale": {"type": "threshold", "domain": [20, 25, 30], "scheme": "reds"}},            "tooltip": [
+                {"field": "site_short_name", "type": "nominal", "title": "Site name"}, 
+                {"field": "TEMP", "type": "quantitative", "title": "Temperature"}
+            ]
+        }
+
+}

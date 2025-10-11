@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "width": 900,
+  "height": 560,
+  "padding": {"top": 0, "left": 0, "right": 0, "bottom": 0},
+  "signals": [],
+  "data": [
+    {
+        "name": "world",
+        "url": "vegalite_files/maps/world.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"},
+        "transform": [
+            {
+                "type": "geopath",
+                "projection": "projection"
+            }
+        ]
+    },{
+        "name": "country_origin",
+        "url": "vegalite_files/data/tourist_origins_countries.csv",
+        "format": {"type": "csv", "parse": "auto"},
+        "transform": [
+            {
+                "type": "geopoint",
+                "projection": "projection",
+                "fields": ["longitude", "latitude"]
+            },{
+                "type": "filter",
+                "expr": "datum.x != null && datum.y != null"
+            }
+        ]
+    },
+    {
+        "name": "routes",
+        "url": "vegalite_files/data/tourist_origins_countries.csv",
+        "format": {"type": "csv", "parse": "auto"},
+        "transform": [
+            {
+            "type": "lookup",
+            "from": "country_origin", "key": "country_origin",
+            "fields": ["country_origin", "destination", "total"], "as": ["source", "target", "width"]
+            },
+            {
+            "type": "linkpath",
+            "shape": "curve"
+            }
+        ]
+}
+  ],
+  "scales": [],
+  "projections": [
+    {
+        "name": "projection",
+        "type": "equalEarth",
+        "scale": 200,
+        "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
+    }
+  ],
+  "marks": [
+    {
+        "type": "path",
+        "from": {"data": "world"},
+        "encode": {
+        "enter": {
+            "fill": {"value": "#dedede"},
+            "stroke": {"value": "white"}
+        },
+        "update": {
+            "path": {"field": "path"}
+        }
+        }
+    }, {
+        "type": "symbol",
+        "from": {"data": "country_origin"},
+        "encode": {
+            "enter": {
+            "size": {"field": "total"},
+            "fill": {"value": "steelblue"},
+            "fillOpacity": {"value": 0.8},
+            "stroke": {"value": "white"},
+            "strokeWidth": {"value": 1.5}
+            },
+            "update": {
+            "x": {"field": "x"},
+            "y": {"field": "y"}
+            }
+        }
+    }, {
+        "type": "path",
+        "interactive": false,
+        "from": {"data": "routes"},
+        "encode": {
+            "enter": {
+            "path": {"field": "path"},
+            "stroke": {"value": "black"},
+            "strokeOpacity": {"value": 0.15},
+            "strokeWidth": {"value": "width"}
+            }
+        }
+    }  
+  ]
+}
+
+https://gist.github.com/XavierGimenez/82ed6db55ade843c51ee062852b5313e

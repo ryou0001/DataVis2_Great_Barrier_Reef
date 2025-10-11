@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "A word cloud visualization depicting Vega research paper abstracts.",
+  "width": 1000,
+  "height": 600,
+  "padding": 0,
+  "data": [
+    {
+      "name": "table",
+      "url": "vegalite_files/data/resident_phrases.csv",
+      "format": {"type": "csv"},
+      "transform": [
+        {
+          "type": "countpattern",
+          "field": "words",
+          "case": "upper",
+          "pattern": "[\\w' ]{3,}( [\\w']{3,})*",
+          "stopwords": "(and|that|but|for|the)"
+        },{
+          "type": "filter", "expr": "datum.count > 5"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "text"},
+      "range": ["#d5a928", "#652c90", "#939597"]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "text": {"field": "text"},
+          "align": {"value": "center"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"scale": "color", "field": "text"}
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      },
+      "transform": [
+        {
+          "type": "wordcloud",
+          "size": [800, 400],
+          "text": {"field": "text"},
+          "rotate": {"field": "datum.angle"},
+          "font": "Helvetica Neue, Arial",
+          "fontSize": {"field": "datum.count"},
+          "fontSizeRange": [8, 60],
+          "padding": 2
+        }
+      ]
+    }
+  ],
+  "tooltip": [
+    {"field": "datum.count", "type": "quantitative"}
+  ]
+}

@@ -1,0 +1,36 @@
+country_origin,geopol_region,latitude,longitude,total,destination
+Argentina,South America,-34,-64,7,Australia
+Australia,Oceania,-27,133,831,Australia
+Austria,Europe,47.33,13.33,2,Australia
+Belgium,Europe,50.83,4,10,Australia
+Brazil,South America,-10,-55,6,Australia
+Canada,North America ,60,-95,34,Australia
+China,Central Asia,35,105,7,Australia
+Colombia,South America,4,-72,3,Australia
+Denmark,Europe,56,10,17,Australia
+Ecuador,South America,-2,-77.5,1,Australia
+Estonia,Europe,59,26,1,Australia
+Finland,Europe,64,26,9,Australia
+France,Europe,46,2,86,Australia
+Germany,Europe,51,9,153,Australia
+Iceland,Europe,65,-18,1,Australia
+India,Central Asia,20,77,1,Australia
+Ireland,Europe,53,-8,14,Australia
+Israel,Middle east,31.5,34.75,18,Australia
+Italy,Europe,42.83,12.83,12,Australia
+Japan,Asia-Pacific,36,138,5,Australia
+Korea,Asia-Pacific,37,127.5,2,Australia
+Malaysia,Asia-Pacific,2.5,112.5,5,Australia
+Netherlands,Europe,52.52,5.77,51,Australia
+New Zealand,Oceania,-41,174,31,Australia
+Norway,Europe,62,10,10,Australia
+Poland,Europe,52,20,1,Australia
+Slovenia,Europe,46.12,14.82,2,Australia
+South Africa,Africa,-29,24,2,Australia
+Spain,Europe,40,-4,4,Australia
+Sweden,Europe,62,15,30,Australia
+Switzerland,Europe,47,8,34,Australia
+Taiwan,Asia-Pacific,23.5,121,1,Australia
+United Kingdom,Europe,54,-2,151,Australia
+United States,North America ,38,-97,86,Australia
+Unknown,,,,176,Australia

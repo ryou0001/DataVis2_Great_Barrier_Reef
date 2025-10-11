@@ -1,0 +1,32 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 630,
+"height": 600,
+"title": { "text": "Great Barrier Reef" },
+"projection": {"type": "equalEarth"},
+"layer": [
+    {
+    "data": {
+        "url": "vegalite_files/maps/Great_Barrier_Reef_Marine_Park_Boundary_20_-1917278366387594965.json",
+        "format": {"type": "topojson", "feature": "Great_Barrier_Reef_Marine_Park_Boundary_20_-1917278366387594965"}
+    },
+    "mark": {"type": "geoshape", "fill": "green", "opacity": 0.5}
+    },
+    {
+    "data": {
+        "url": "vegalite_files/maps/world.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "mark": {"type": "geoshape", "fill": "lightgreen"}
+    },
+    {
+    "data": {"url": "vegalite_files/data/tourist_origins_details3.csv"},
+    "mark": {"type": "circle"}, 
+    "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {"field": "total", "type": "quantitative"}
+        }
+    }
+]
+}

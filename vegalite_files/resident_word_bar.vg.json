@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bar chart visualization depicting words that GBR residents associate with the GBR.",
+  "width": 600,
+  "height": 400,
+  "padding": 0,
+  "title": "Words residents use to describe the Great Barrier Reef",
+  "data": {
+      "url": "vegalite_files/data/resident_words.csv"
+  },
+  "params": [
+    {
+      "name": "NRM_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Burdekin", 
+          "Burnett Mary",
+          "Cape York",
+          "Fitzroy",
+          "Mackay Whitsundays",
+          "Wet Tropics"
+        ],
+        "labels": [
+          "Show all",
+          "Burdekin", 
+          "Burnett Mary",
+          "Cape York",
+          "Fitzroy",
+          "Mackay Whitsundays",
+          "Wet Tropics"
+        ],
+        "name": "NRM selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "NRM_selection == null || datum.NRM == NRM_selection"},
+    {
+      "aggregate": [{
+        "op": "sum",
+        "field": "count",
+        "as": "word_count"
+      }],
+      "groupby": ["words"]
+    },{
+      "window": [{"op": "rank", "as": "rank"}],
+      "sort": [{"field": "word_count", "order": "descending"}]
+    },{
+      "filter": "datum.rank <=18"
+    }
+  ],
+  "encoding": {
+        "x": {"field": "word_count", "type": "quantitative", "stack": null},
+        "y": {"field": "words", "type": "nominal", "sort": "-x", "title": null}
+      },
+  "layer": [
+    {  
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "condition": [
+            {
+              "test": {"field": "words", "equal": "BLEACHING"},
+              "value": "red"
+            }, {
+              "test": {"field": "words", "equal": "DYING"},
+              "value": "red"
+            }, 
+            {
+              "test": {"field": "words", "equal": "TOURISM"},
+              "value": "green"
+            }
+        ]
+        }
+      }
+    }, {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -4,
+        "color": "white"
+      },
+      "encoding": {
+        "text": {"field": "word_count", "type": "quantitative"}
+      }
+    }
+  ]
+}

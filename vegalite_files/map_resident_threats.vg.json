@@ -78,6 +78,16 @@
                 "text": {"field": "state", "type": "nominal"},
                 "longitude": {"field": "x"}, 
                 "latitude": {"field": "y"}}
+            },
+            {
+                "mark": {
+                    "type": "image",
+                    "url": "vegalite_files/maps/test.png"
+                },
+                "encoding": {
+                    "x": {"value": 0},
+                    "y": {"value": 0}
+                }
             }
         ]
     },{

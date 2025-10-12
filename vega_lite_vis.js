@@ -10,7 +10,10 @@ var resident_word_cloud = "vegalite_files/resident_word_cloud.vg.json"
 
 var resident_word_bar = "vegalite_files/resident_word_bar.vg.json"
 
-var map_resident_threats = "vegalite_files/map_resident_threatsx.vg.json"
+var map_resident_threats_climate = "vegalite_files/map_resident_threats_climate.vg.json"
+var map_resident_threats_mining = "vegalite_files/map_resident_threats_mining.vg.json"
+var map_resident_threats_tourism = "vegalite_files/map_resident_threats_tourism.vg.json"
+
 
 var resident_financial_bar = "vegalite_files/resident_financial_bar.vg.json"
 
@@ -37,7 +40,13 @@ vegaEmbed("#resident_word_bar", resident_word_bar).then(function(result) {
 vegaEmbed("#resident_word_cloud", resident_word_cloud).then(function(result) {
 }).catch(console.error);
 
-vegaEmbed("#map_resident_threats", map_resident_threats).then(function(result) {
+vegaEmbed("#map_resident_threats_climate", map_resident_threats_climate).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#map_resident_threats_mining", map_resident_threats_mining).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#map_resident_threats_tourism", map_resident_threats_tourism).then(function(result) {
 }).catch(console.error);
 
 vegaEmbed("#resident_financial_bar", resident_financial_bar).then(function(result) {

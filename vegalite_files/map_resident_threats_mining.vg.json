@@ -1,0 +1,95 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+        "width": 303,
+        "height": 360,
+        "title": { "text": "Mining" },
+        "projection": {"type": "mercator"},
+        "view": {"fill": "white"},
+        "layer": [
+            {
+            "data": {
+                "name": "GBR_boundary",
+                "url": "vegalite_files/maps/GBR_boundary.json",
+                "format": {"type": "topojson", "feature": "GBR_boundary"}
+            },
+            "mark": {"type": "geoshape", "fill": "lightgray", "opacity": 0.5}
+            },
+            {
+                "data": {
+                    "url": "vegalite_files/maps/queensland_surrounds.json",
+                    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+                },
+                "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"}
+            },
+            {
+                "data": {
+                    "url": "vegalite_files/maps/queensland.json",
+                    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+                },
+                "mark": {"type": "geoshape", "fill": "white", "stroke": "darkgray"}
+            },
+            {
+                "data": {
+                    "url": "vegalite_files/maps/NRM_regions_2020.json",
+                    "format": {"type": "topojson", "feature": "NRM_regions_2020"}
+                },
+                "transform": [
+                {
+                    "calculate": "datum.properties.NRM_REGION+'3'", "as": "combined_key"    
+                },{
+                    "lookup": "combined_key",
+                    "from": {
+                        "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+                        "key": "NRM_key",
+                        "fields": ["NRM", "population", "total_interviewed", "threat", "threat_total"]
+                    }
+                },{
+                    "calculate": "datum.threat_total/datum.total_interviewed",
+                    "as": "threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : format(datum.threat_perc, '.2%')",
+                    "as": "tooltip_threat_perc"
+                },{
+                    "calculate": "datum.total_interviewed < 10 ? 'Insufficient data' : datum.threat_total",
+                    "as": "tooltip_threat_total"
+                }],
+                "mark": {
+                    "type": "geoshape", 
+                    "stroke": "darkgray",
+                    "opacity": 0.6
+                },
+                "encoding": {
+                    "opacity": {
+                    },
+                    "color": {
+                        "condition": {
+                            "test": "datum.threat_perc == 0",
+                            "value": "lightgrey"
+                        },
+                        "field": "threat_perc",
+                        "type": "quantitative",
+                        "scale": {
+                            "domain": [0,0.45], "scheme": {"name": "reds"}
+                        },
+                    "legend": {
+                        "title": "% of residents",
+                        "format": ".0%"
+                    }
+                    },
+                    "tooltip": [
+                        {"field": "properties.NRM_REGION", "type": "nominal", "title": "NRM Region"},
+                        {"field": "tooltip_threat_total", "title": "Num. interviewed residents concerned about threat"},
+                        {"field": "tooltip_threat_perc", "title": "Perc. interviewed residents concerned about threat"}
+                    ]
+                }
+            },{
+            "data": {"values": {"state": "QUEENSLAND", "x": 146, "y": -27.5}},
+            "mark": {"type": "text", "fontSize": 20, "color": "darkgray"},
+            "encoding": {
+                "text": {"field": "state", "type": "nominal"},
+                "longitude": {"field": "x"}, 
+                "latitude": {"field": "y"}}
+            }
+        ]
+    }

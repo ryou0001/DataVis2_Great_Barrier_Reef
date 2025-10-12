@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"width": 300,
+	"height": 300,
+	"title": { "text": "Frequency that Residents visit GBR" },
+	"data": {"url": "vegalite_files/data/resident_visits.csv"},
+	"transform": [
+		{"calculate": "datum.count / datum.total_count", "as": "count_perc"}
+	],
+	"mark": "rect",
+	"encoding": {
+		"x": {"field": "category", "type": "ordinal", "title": "did not visit < --- > visited multiple times a week"},
+		"y": {"field": "NRM", "type": "nominal"},
+		"color": {"field": "count_perc", "type": "quantitative", "legend": {"format": ".0%"}},
+		"tooltip": [
+			{"field": "cat_description"},
+			{"field": "count_perc", "format": ".2%"}
+		]
+	}
+}

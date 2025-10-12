@@ -68,7 +68,7 @@
                 "encoding": {
                     "opacity": {
                     "condition": {
-                        "test": "bar == null || datum.threat == bar.threat && datum.properties.NRM_REGION == bar.NRM",
+                        "test": "(datum.threat == bar.threat && datum.properties.NRM_REGION == bar.NRM) || datum.threat == threat_legend.threat",
                         "value": 1
                     }
                     },
@@ -394,6 +394,12 @@
                 "type": "point",
                 "fields": ["NRM", "threat"]
             }
+        },{
+            "name": "threat_legend",
+            "select": {
+                "type": "point",
+                "fields": ["threat"]
+            }, "bind": "legend"
         }],
         "transform": [
             {"filter": "datum.NRM != 'Cape York'"},
@@ -411,7 +417,7 @@
             "color": {"field": "threat"},
             "opacity": {
                 "condition": {
-                    "test": "bar.empty || datum.threat == bar.threat && datum.NRM == bar.NRM",
+                    "test": "(datum.threat == bar.threat && datum.NRM == bar.NRM) || datum.threat == threat_legend.threat",
                     "value": 1
                 }, "value": 0.5
             }

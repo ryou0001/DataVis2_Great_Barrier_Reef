@@ -1,0 +1,46 @@
+NRM,count,category,total_count,cat_description
+Burdekin,28,cat_0,659,Never visited
+Burdekin,48,cat_1,659,0 days in last 12 months
+Burdekin,74,cat_2,659,1-2 days (once or twice a year)
+Burdekin,115,cat_3,659,3-6 days (every few months)
+Burdekin,73,cat_4,659,7-12 days (approximately monthly)
+Burdekin,105,cat_5,659,13-24 days (approximately fortnightly)
+Burdekin,86,cat_6,659,25-52 days (approximately weekly)
+Burdekin,55,cat_7,659,53-100 days (several times a week)
+Burdekin,75,cat_8,659,>100 days (>3 times a week)
+Burnett Mary,4,cat_0,44,Never visited
+Burnett Mary,4,cat_1,44,0 days in last 12 months
+Burnett Mary,6,cat_2,44,1-2 days (once or twice a year)
+Burnett Mary,8,cat_3,44,3-6 days (every few months)
+Burnett Mary,4,cat_4,44,7-12 days (approximately monthly)
+Burnett Mary,4,cat_5,44,13-24 days (approximately fortnightly)
+Burnett Mary,3,cat_6,44,25-52 days (approximately weekly)
+Burnett Mary,3,cat_7,44,53-100 days (several times a week)
+Burnett Mary,8,cat_8,44,>100 days (>3 times a week)
+Fitzroy,13,cat_0,244,Never visited
+Fitzroy,11,cat_1,244,0 days in last 12 months
+Fitzroy,19,cat_2,244,1-2 days (once or twice a year)
+Fitzroy,41,cat_3,244,3-6 days (every few months)
+Fitzroy,23,cat_4,244,7-12 days (approximately monthly)
+Fitzroy,40,cat_5,244,13-24 days (approximately fortnightly)
+Fitzroy,52,cat_6,244,25-52 days (approximately weekly)
+Fitzroy,18,cat_7,244,53-100 days (several times a week)
+Fitzroy,27,cat_8,244,>100 days (>3 times a week)
+Mackay Whitsunday,7,cat_0,283,Never visited
+Mackay Whitsunday,17,cat_1,283,0 days in last 12 months
+Mackay Whitsunday,27,cat_2,283,1-2 days (once or twice a year)
+Mackay Whitsunday,53,cat_3,283,3-6 days (every few months)
+Mackay Whitsunday,35,cat_4,283,7-12 days (approximately monthly)
+Mackay Whitsunday,29,cat_5,283,13-24 days (approximately fortnightly)
+Mackay Whitsunday,43,cat_6,283,25-52 days (approximately weekly)
+Mackay Whitsunday,25,cat_7,283,53-100 days (several times a week)
+Mackay Whitsunday,47,cat_8,283,>100 days (>3 times a week)
+Wet Tropics,38,cat_0,521,Never visited
+Wet Tropics,57,cat_1,521,0 days in last 12 months
+Wet Tropics,75,cat_2,521,1-2 days (once or twice a year)
+Wet Tropics,103,cat_3,521,3-6 days (every few months)
+Wet Tropics,55,cat_4,521,7-12 days (approximately monthly)
+Wet Tropics,59,cat_5,521,13-24 days (approximately fortnightly)
+Wet Tropics,36,cat_6,521,25-52 days (approximately weekly)
+Wet Tropics,29,cat_7,521,53-100 days (several times a week)
+Wet Tropics,69,cat_8,521,>100 days (>3 times a week)

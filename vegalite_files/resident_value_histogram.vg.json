@@ -1,0 +1,121 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "vegalite_files/data/resident_value_gbr.csv"},
+	"params": [
+		{
+			"name": "NRM_selection",
+			"bind": {
+				"input": "select",
+				"options": [
+					null,
+					"Burdekin",
+					"Burnett Mary",
+					"Fitzroy",
+					"Mackay Whitsunday",
+					"Wet Tropics"
+				],
+				"labels": [
+					"Show all",
+					"Burdekin",
+					"Burnett Mary",
+					"Fitzroy",
+					"Mackay Whitsunday",
+					"Wet Tropics"
+				],
+				"name": "Select NRM Region: "
+			}
+		}
+	],
+	"transform": [
+		{
+			"filter": "NRM_selection == null || NRM_selection == datum.NRM"
+		}
+	],
+	"vconcat": [
+		{"hconcat": [
+			{
+				"width": 200,
+				"height": 150,
+				"title": { "text": "I love that I live beside the GBR" },
+				"layer": [
+					{
+						"mark": "bar",
+						"encoding": {
+							"x": {"bin": true, "field": "love_live_beside", "axis": {"format": ".0f"}, "title": "tbd"},
+							"y": {"aggregate": "count", "scale": {"domain": [0,1400]}} 
+						}
+					},
+					{
+						"mark": "rule",
+						"encoding": {
+							"x": {"aggregate": "mean", "field": "love_live_beside"},
+							"color": {"value": "red"}
+						}
+					}
+				]
+			},{
+			"width": 200,
+			"height": 150,
+			"title": { "text": "The GBR is part of my identity" },
+				"layer": [
+					{
+						"mark": "bar",
+						"encoding": {
+							"x": {"bin": true, "field": "identity", "axis": {"format": ".0f"}},
+							"y": {"aggregate": "count", "scale": {"domain": [0,1400]}} 
+						}
+					},
+					{
+						"mark": "rule",
+						"encoding": {
+							"x": {"aggregate": "mean", "field": "identity"},
+							"color": {"value": "red"}
+						}
+					}
+				]
+			}
+		]},
+		{"hconcat": [
+			{
+				"width": 200,
+				"height": 150,
+				"title": { "text": ["I feel proud that the GBR", "is a World Heritage Area"] },
+				"mark": "bar",
+				"encoding": {
+					"x": {"bin": true, "field": "proud_world_heritage", "axis": {"format": ".0f"}},
+					"y": {"aggregate": "count", "scale": {"domain": [0,1400]}} 
+				}
+			},{
+				"width": 200,
+				"height": 150,
+				"title": { "text": ["The GBR is a great asset for","the economy of this region"] },
+				"mark": "bar",
+				"encoding": {
+					"x": {"bin": true, "field": "asset", "axis": {"format": ".0f"}},
+					"y": {"aggregate": "count", "scale": {"domain": [0,1400]}} 
+				}
+			}
+		]},
+		{"hconcat": [
+			{
+				"width": 200,
+				"height": 150,
+				"title": { "text": ["The GBR contributes to my","quality of life and well-being"] },
+				"mark": "bar",
+				"encoding": {
+					"x": {"bin": true, "field": "quality_of_life", "axis": {"format": ".0f"}},
+					"y": {"aggregate": "count", "scale": {"domain": [0,1400]}} 
+				}
+			},{
+				"width": 200,
+				"height": 150,
+				"title": { "text": ["The aesthetic beauty of the GBR ","is outstanding"] },
+				"mark": "bar",
+				"encoding": {
+					"x": {"bin": true, "field": "aesthetic", "axis": {"format": ".0f"}},
+					"y": {"aggregate": "count", "scale": {"domain": [0,1400]}} 
+				}
+			}
+		]}
+	]
+}

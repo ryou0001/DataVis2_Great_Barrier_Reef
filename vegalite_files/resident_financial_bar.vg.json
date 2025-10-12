@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "hconcat": [
+    {
+  "width": 200,
+  "height": 200,
+  "title": "Total jobs and population",
+  "layer": [
+    {
+      "data": {
+        "url": "vegalite_files/data/residents.csv"
+      },
+			"transform": [{
+			"filter": "datum.NRM != 'Australia' && datum.NRM != 'Queensland'"
+			}],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "NRM", "type": "nominal"},
+        "x": {"field": "population", "type": "quantitative"}
+      }
+    },{
+    "data": {
+        "url": "vegalite_files/data/num_jobs.csv"
+    },
+      "params": [{
+      "name": "job_bar", "select":  {
+        "type": "point", 
+        "fields": ["NRM", "job"]}, 
+        "value": [{"NRM": null, "job": null}] 
+    }],
+    "transform": [{
+      "filter": "datum.NRM != 'Australia' && datum.NRM != 'Queensland'"
+    },{
+      "calculate": "datum.count * 1000", "as": "job_count"
+    },{
+			"calculate": "job_bar.job == datum.job ? 0 : (datum.job == 'Other' ? 2 : 1)", "as": "job_order"
+			}
+      ],
+    "mark": {"type": "bar", "size": 20},
+    "encoding": {
+          "y": {"field": "NRM", "type": "nominal"},
+          "x": {"field": "job_count", "type": "quantitative"},
+          "color": {"condition": {"test": "job_bar.job == datum.job", "value": "darkblue"}, "value": "lightblue"},
+					"order": {"field": "job_order"}
+        }
+  }
+  ]
+    },
+    {
+  "width": 600,
+  "height": 200,
+  "padding": 0,
+  "title": "Job numbers by type",
+  "layer": [{
+    "data": {
+        "url": "vegalite_files/data/num_jobs.csv"
+    },
+    "params": [{
+      "name": "job_bar", "select":  {
+        "type": "point", 
+        "fields": ["NRM", "job"]}, 
+        "value": [{"NRM": null, "job": "Construction"}]
+    }],
+    "transform": [{
+      "filter": "datum.NRM != 'Australia' && datum.NRM != 'Queensland'"
+    },{
+      "calculate": "datum.count * 1000", "as": "job_count"
+    },{
+			"calculate": "job_bar.job == datum.job ? 0 : (datum.job == 'Other' ? 2 : 1)", "as": "job_order"
+		}
+      ],
+    "mark": {"type": "bar", "size": 20},
+    "encoding": {
+          "y": {"field": "NRM", "type": "nominal", "axis": null},
+          "x": {"field": "job_count", "type": "quantitative"},
+          "color": {"field": "job"},
+					"opacity": {
+						"condition": {
+							"test": "job_bar == null || job_bar.job == datum.job",
+							"value": 1
+						}, "value": 0.4
+					},
+					"order": {"field": "job_order"},
+					"tooltip": [
+						{"field": "NRM", "title": "NRM"},
+						{"field": "job", "title": "Job type"},
+						{"field": "job_count", "format": ",", "title": "Count"}
+					]
+        }
+  	},{
+			"mark": "text",
+			"encoding": {
+				"text": {"value": "job_count"}
+			}
+		}
+  ]
+    }
+  ]
+}

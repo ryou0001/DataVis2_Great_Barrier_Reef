@@ -1,5 +1,6 @@
 var map_overview = "vegalite_files/overview.vg.json";
-var vg_2 = "vegalite_files/water_temp.vg.json";
+
+var map_NRM_overview = "vegalite_files/map_NRM_overview.vg.json";
 
 var tourist_origins = "vegalite_files/tourist_origin.vg.json"
 
@@ -11,13 +12,20 @@ var resident_word_bar = "vegalite_files/resident_word_bar.vg.json"
 
 var map_resident_threats = "vegalite_files/map_resident_threatsx.vg.json"
 
+var resident_financial_bar = "vegalite_files/resident_financial_bar.vg.json"
+
+var resident_visits_heatmap = "vegalite_files/resident_visits_heatmap.vg.json"
+
+var resident_value_histogram = "vegalite_files/resident_value_histogram.vg.json"
+
+
 vegaEmbed("#map_overview", map_overview).then(function(result) {
 }).catch(console.error);
 
-vegaEmbed("#map2", vg_2).then(function(result) {
+vegaEmbed("#map_NRM_overview", map_NRM_overview).then(function(result) {
 }).catch(console.error);
 
-vegaEmbed("#scatterplot1", watertemp_scatterplot).then(function(result) {
+vegaEmbed("#watertemp_scatterplot", watertemp_scatterplot).then(function(result) {
 }).catch(console.error);
 
 vegaEmbed("#tourist_origins", tourist_origins).then(function(result) {
@@ -30,4 +38,13 @@ vegaEmbed("#resident_word_cloud", resident_word_cloud).then(function(result) {
 }).catch(console.error);
 
 vegaEmbed("#map_resident_threats", map_resident_threats).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#resident_financial_bar", resident_financial_bar).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#resident_visits_heatmap", resident_visits_heatmap).then(function(result) {
+}).catch(console.error);
+
+vegaEmbed("#resident_value_histogram", resident_value_histogram).then(function(result) {
 }).catch(console.error);

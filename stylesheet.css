@@ -1,0 +1,130 @@
+
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.wrapper > div {
+  border: 0px solid white;
+  border-radius: 0px;
+  background-color: white;
+  padding: 0;
+  color: black;  
+}
+
+.original-surfer-regular {
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.residents_2col {
+  display: grid;
+  grid-template-columns: 610px 70px 610px;
+  gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+  font-family: Helvetica;
+}
+
+.residents_3col {
+  display: grid;
+  grid-template-columns: 200px 290px 310px 290px 200px;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  font-family: Helvetica;
+  background-color: aqua;
+}
+
+.residents_jobs {
+  display: grid;
+  grid-template-columns: 310px 70px 910px;
+  gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+  font-family: Helvetica;
+}
+
+.jobs_text {
+  grid-column: 1;
+  grid-row: 1;
+}
+.jobs_bar {
+  grid-column: 3;
+  grid-row: 1
+}
+
+.residents_3col > div {
+  border: 0px solid white;
+  border-radius: 0px;
+  padding: 0;
+  color: black;
+}
+
+.residents_2col > div {
+  border: 0px solid white;
+  border-radius: 0px;
+  background-color: white ;
+  padding: 0;
+  color: black;
+}
+
+.intro_map {
+  grid-column: 3;
+  grid-row: 1/3;
+}
+.intro_text {
+  grid-column: 1;
+  grid-row: 1;
+  height: 180px;
+}
+.intro_aust_map {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.values_text {
+  grid-column: 1;
+  grid-row: 1;
+}
+.values_heatmap {
+  grid-column: 1;
+  grid-row: 2;
+}
+.values_histogram {
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+.words_columns_A {
+  grid-column: 1;
+  grid-row: 1/5;
+  background-color: aqua;
+}
+.words_columns_B {
+  grid-column: 5;
+  grid-row: 1/5;
+    background-color: aqua;
+}
+.words_cloud {
+  display: grid;
+  grid-column: 2/5;
+  grid-row: 2;
+  place-items: center;
+}
+.words_text_A {
+  grid-column: 3;
+  grid-row: 1;
+}
+.words_text_B {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.words_bar {
+  display: grid;
+  grid-column: 2/5;
+  grid-row: 4;
+  place-items: center;
+}

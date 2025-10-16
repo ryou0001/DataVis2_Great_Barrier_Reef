@@ -1,13 +1,14 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 600,
-"height": 400,
 "title": { "text": "Water temperature at different depths in the GBR" },
 "data": {
     "url": "vegalite_files/data/water_temp_1m.csv"
     },
 "transform": [{"filter": "datum.TEMP > 10"}],
-"layer": [
+"hconcat": [{
+    "width": 600,
+    "height": 400,
+    "layer": [
     {
         "mark": {"type": "rect"},
         "data": {
@@ -59,6 +60,10 @@
             "y": {"field": "y", "type": "quantitative", "scale": {"domain": [16,34]}}}
     },{
         "mark": {"type": "point", "opacity": 0.5},
+        "params": [{
+                "name": "brush", 
+                "select": {"type": "interval","encodings": ["x"]}
+        }],
         "encoding": {
             "x": {"field": "TIME", "type": "temporal"},
             "y": {"field": "TEMP", "type": "quantitative", "scale": {"domain": [16,34]}}, 
@@ -85,4 +90,38 @@
             ]
         }
     }
+]
+},{
+    "width": 600,
+    "height": 400,
+    "layer": [
+        {
+        "mark": {"type": "point", "opacity": 0.5},
+        "encoding": {
+            "x": {"field": "TIME", "type": "temporal", "scale": {"domain": {"param": "brush"}}},
+            "y": {"field": "TEMP", "type": "quantitative", "scale": {"domain": [16,34]}}, 
+            "tooltip": [
+                {"field": "TIME", "type": "nominal", "title": "Time"}, 
+                {"field": "TEMP", "type": "quantitative", "title": "Temperature"}
+            ]
+        }
+    },{
+        "mark": "line",
+        "transform": [{
+            "joinaggregate": [{"op": "mean", "field": "TEMP", "as": "my_average"}], "groupby": ["MONTH"]
+        }],
+        "encoding": {
+            "x": {"field": "TIME", "type": "temporal", "scale": {"domain": {"param": "brush"}}},
+            "y": {"field": "my_average", "type": "quantitative"},
+            "color": {
+                "condition": {
+                    "test": "datum.my_average > 27",
+                    "value": "red"
+                }, "value": "black"
+            }
+        }
+    }
+    ]
+}
+
 ]}

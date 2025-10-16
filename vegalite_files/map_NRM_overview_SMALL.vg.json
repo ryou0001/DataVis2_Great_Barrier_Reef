@@ -1,11 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-        "width": 610,
-        "height": 600,
-        "title": { "text": "Natural Resource Management (NRM) Regions" },
-        "projection": {"type": "mercator"},
+        "width": 430,
+        "height": 430,
+        "autosize": "fit",
+        "title": { "text": "Natural Resource Management (NRM) Regions", "fontSize": 12},
+        "projection": {"type": "mercator", "scale": 1100, "center": [148.5,-19.8]},
         "view": {"fill": "lightblue"},
+        "padding": 0,
         "layer": [
             {
             "data": {
@@ -58,12 +60,12 @@
                 "latitude": {"field": "y"}}
             },{
             "data": {"values":[
-              {"longitude": 144.1, "latitude": -12.5, "label": "CAPE YORK"},
-              {"longitude": 146.5, "latitude": -17, "label": "WET TROPICS"},
-              {"longitude": 148, "latitude": -18.8, "label": "BURDEKIN"},
-              {"longitude": 150, "latitude": -20.4, "label": "MACKAY WHITSUNDAY"},
-              {"longitude": 151.4, "latitude": -22.6, "label": "FITZROY"},
-              {"longitude": 151.4, "latitude": -27.2, "label": "BURNETT MARY"}
+              {"longitude": 145.1, "latitude": -12.5, "label": "CAPE YORK"},
+              {"longitude": 147.5, "latitude": -17, "label": "WET TROPICS"},
+              {"longitude": 149.8, "latitude": -18.8, "label": "BURDEKIN"},
+              {"longitude": 153.5, "latitude": -20.4, "label": ["MACKAY","WHITSUNDAY"]},
+              {"longitude": 154, "latitude": -22.6, "label": "FITZROY"},
+              {"longitude": 154, "latitude": -25.3, "label": ["BURNETT","MARY"]}
             ]},
             "mark": {"type": "text", "align": "left", "fontSize": 13},
             "encoding": {
@@ -71,24 +73,7 @@
               "longitude": {"field": "longitude"},
               "latitude": {"field": "latitude"}
             }
-            },
-                {
-    "data": {
-        "url": "vegalite_files/maps/Population_centres.csv"
-    },
-    "encoding": {
-        "longitude": {"field": "long", "type": "quantitative"}, 
-        "latitude": {"field": "lat", "type": "quantitative"}
-    },
-    "layer": [ {
-        "mark": {"type": "circle", "fill": "black", "opacity": 0.6}
-    }, {
-        "mark": {"type": "text", "dx":-10, "align":"right", "color": "black", "opacity": 0.8}, 
-        "encoding": {
-            "text": {"field": "name", "type": "nominal"}}
-    }
-    ]
-    }
+            }
 
         ]
     }

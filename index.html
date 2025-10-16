@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -21,28 +24,123 @@
 
 <body>
 
-    <h1>Tensions of the Great Barrier Reef</h1>
+    <div class="wrapper">
 
-    <h2>Residents of the GBR</h2>
-    <div id="map_NRM_overview"></div>
-    <div id="resident_financial_bar"></div>
-    <div id="resident_visits_heatmap"></div>
-    <div id="resident_value_histogram"></div>
-    <div id="resident_word_cloud"></div>
-    <div id="resident_word_bar"></div>
+          <h1 style="text-align: center; font-family: 'Original Surfer'; font-size: 60px;">Tensions of the Great Barrier Reef Region</h1>
+      <div class="residents_2col">
+        <div class="intro_map">
+          <div id="map_NRM_overview"></div>
+        </div>
+        <div class="intro_text">
+              <div style="font-size:20px;">Residents' concerns for the preservation of the 
+              Great Barrier Reef exist in tension with the economic 
+              realities of the area.</div>
+              <p></p>
+              <div style="column-count: 2;column-fill: balance; widows: 2;">
+                The Great Barrier Reef Region describes an area 
+                that includes the Great Barrier Reef Marine Park 
+                and six Natural Resource Management (NRM) Regions. 
+                Residents of the Great Barrier Reef (GBR) live in these regions.
+                <p></p>
+                A survey conducted in 2017 sought to find out residents' feelings
+                both about the Great Barrier Reef, and threats to the Reef. 
+              </div>
+        </div>
+        <div class="intro_aust_map">
+          <div id="map_overview"></div>
+        </div>
+      </div>
+      
+      <br>
+      <br>
+      <br>
 
-    <h2>Climate Change</h2>
-    <div id="watertemp_scatterplot"></div>
-    <div id="map_resident_threats_climate"></div>
+      <div class="residents_2col">
+        <div class="values_text" style="column-count: 2;column-fill: balance;">
+          Residents tended to speak positively of the Great Barrier 
+          Reef, with the overwhelming majority strongly agreeing with
+          the statement "I love that I live beside the GBR". 
+          <p></p>
+          More than 94% of residents had visited the Great Barrier Reef before,
+          and more than 87% had visited at least once in the previous twelve months. 
+        </div>
+        <div class="values_heatmap">
+          <div id="resident_visits_heatmap"></div>
+        </div>
+        <div class="values_histogram">
+          <div id="resident_value_histogram"></div>
+        </div>
+      </div>
 
-    <h2>Mining</h2>
-    <div id="map_resident_threats_mining"></div>
+      <br>
+      <br>
+      <br>
 
-    <h2>Tourism</h2>
-    <div id="tourist_origins"></div>
-    <div id="map_resident_threats_tourism"></div>
+      <div class="residents_3col">
+        <div class="words_columns_A"></div>
+        <div class="words_columns_B"></div>
+        <div class="words_cloud">
+          <div id="resident_word_cloud"></div>
+        </div>
+        <div class="words_text_A">
+          When residents were asked to list the first words that come to mind
+          when they think of the Great Barrier Reef, the most common words were
+          <b>beautiful</b> and <b>beauty</b>, as well as <b>coral</b> and <b>fish</b>. 
 
+        </div>
+        <div class="words_bar">
+          <div id="resident_word_bar"></div>
+        </div>
+        <div class="words_text_B">
+          However, it was also common for residents to report more negative words 
+          and phrases such as <b>bleaching</b> and <b>endangered</b>. Many residents also gave the
+          words <b>tourism</b> and <b>tourist</b>.
+        </div>
+      </div>
     
+      <br>
+      <br>
+      <br>
+
+      <div class="residents_jobs">
+        <div class="jobs_text">
+          Jobs in the Great Barrier Reef region  tend to follow a similar pattern to jobs in Australia. 
+          No one job type goes beyond 12% of the region's jobs.
+          Australia's top 3 most common job types, <b>Health care and social assistance</b>, 
+          <b>Retail trade</b>, and <b>Education and training</b> all appear as top 5 most common 
+          job types for the region. 
+          <b>Accommodation and food services</b> and <b>Construction</b>
+          also appear in Australia's top 10 most common job types. 
+          <p>
+           However, when two less common job types are examined - <b>mining</b> and <b>tourism</b> - 
+            the tensions of the region become clear.
+        </div>
+        <div class="jobs_bar">
+          <div id="resident_financial_bar"></div>
+        </div>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+      <h2 style="text-align: center; font-family: 'Original Surfer'; font-size: 50px;">Mining</h1>
+      
+      <div id="map_resident_threats_mining"></div>
+      <div id="mining_jobs_donut"></div>
+      <div id="mining_jobs_bar"></div>
+
+      <br>
+      <hr>
+      <br>
+      <h2 style="text-align: center; font-family: 'Original Surfer'; font-size: 50px;">Tourism</h1>
+        <div id="map_resident_threats_tourism"></div>
+        <div id="tourist_numbers_line"></div>
+        <div id="tourist_jobs_donut"></div>
+
+    </div>
+
+
+
 
 </body>
 <footer>

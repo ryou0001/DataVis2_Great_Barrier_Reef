@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "hconcat": [
+    {
+  "width": 600,
+  "height": 200,
+  "padding": 0,
+  "title": "Percentage of jobs in mining",
+  "data": {"url": "vegalite_files/data/mining_num_jobs.csv"},
+  "layer": [{
+    "params": [{
+      "name": "job_bar", "select":  {
+        "type": "point", 
+        "fields": ["NRM", "job"]}, 
+        "value": [{"NRM": null, "job": "Construction"}]
+    }],
+    "transform": [{
+      "filter": "datum.NRM != 'Australia' && datum.NRM != 'Queensland'"
+    },
+    {
+      "calculate": "datum.mining_count / datum.total_count", "as": "mining_perc"
+    },{
+      "calculate": "datum.mining_count * 1000", "as": "job_count"
+    }
+      ],
+    "mark": {"type": "bar", "size": 20},
+    "encoding": {
+          "y": {"field": "NRM", "type": "nominal", "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"]},
+          "x": {"field": "mining_perc", "type": "quantitative"},
+					"opacity": {
+						"condition": {
+							"test": "job_bar == null || job_bar.job == datum.job",
+							"value": 1
+						}, "value": 0.4
+					},
+          "color": {
+            "condition": {
+              "test": {"field": "NRM", "equal": "Total GBR"},
+              "value": "blue"
+            }, "value": "black"
+          },
+					"tooltip": [
+						{"field": "NRM", "title": "NRM Region"},
+						{"field": "job_count", "format": ",", "title": "Total mining jobs"},
+            {"field": "mining_perc", "format": ".0%", "title": "Percentage jobs in mining"}
+					]
+        }
+  	},{
+			"mark": "rule",
+			"encoding": {
+				"x": {"datum": 0.0163}
+			}
+		},
+    {
+			"mark": "rule",
+			"encoding": {
+				"x": {"datum": 0.0194}
+			}
+		}
+  ]
+    }
+  ]
+}

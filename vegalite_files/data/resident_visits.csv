@@ -44,3 +44,12 @@ Wet Tropics,59,cat_5,521,13-24 days (approximately fortnightly)
 Wet Tropics,36,cat_6,521,25-52 days (approximately weekly)
 Wet Tropics,29,cat_7,521,53-100 days (several times a week)
 Wet Tropics,69,cat_8,521,>100 days (>3 times a week)
+GBR Region,90,cat_0,1751,Never visited
+GBR Region,137,cat_1,1751,0 days in last 12 months
+GBR Region,201,cat_2,1751,1-2 days (once or twice a year)
+GBR Region,320,cat_3,1751,3-6 days (every few months)
+GBR Region,190,cat_4,1751,7-12 days (approximately monthly)
+GBR Region,237,cat_5,1751,13-24 days (approximately fortnightly)
+GBR Region,220,cat_6,1751,25-52 days (approximately weekly)
+GBR Region,130,cat_7,1751,53-100 days (several times a week)
+GBR Region,226,cat_8,1751,>100 days (>3 times a week)

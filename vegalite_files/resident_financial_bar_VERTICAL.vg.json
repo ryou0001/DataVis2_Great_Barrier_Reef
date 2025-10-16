@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "hconcat": [
+    "vconcat": [
     {
   "width": 200,
   "height": 200,
@@ -47,8 +47,8 @@
   ]
     },
     {
-  "width": 600,
-  "height": 200,
+  "width": 200,
+  "height": 400,
   "padding": 0,
   "title": "Job numbers by type",
   "layer": [{
@@ -66,17 +66,14 @@
     },{
       "calculate": "datum.count * 1000", "as": "job_count"
     },{
-			"calculate": "(datum.job == 'Other' ? 2 : 1)", "as": "job_order"
-		}      
-  ],
+			"calculate": "datum.job == 'Other' ? 2 : 1", "as": "job_order"
+		}
+      ],
     "mark": {"type": "bar", "size": 20},
     "encoding": {
-          "y": {"field": "NRM", "type": "nominal", "axis": null, "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"]},
-          "x": {"field": "job_count", "type": "quantitative"},
-          "color": {
-            "field": "job",
-            "legend": {"direction": "horizontal", "orient": "bottom", "labelLimit": 200}
-          },
+          "x": {"field": "NRM", "type": "nominal", "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"]},
+          "y": {"field": "job_count", "type": "quantitative"},
+          "color": {"field": "job", "legend": {"orient": "none", "legendY": 600, "legendX": 240}},
 					"opacity": {
 						"condition": {
 							"test": "job_bar == null || job_bar.job == datum.job",
@@ -87,8 +84,7 @@
 					"tooltip": [
 						{"field": "NRM", "title": "NRM"},
 						{"field": "job", "title": "Job type"},
-						{"field": "job_count", "format": ",", "title": "Count"},
-            {"field": "percent", "format": ".2%", "title": "Percentage of region's jobs"}
+						{"field": "job_count", "format": ",", "title": "Count"}
 					]
         }
   	},{

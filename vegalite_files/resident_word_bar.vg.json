@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A bar chart visualization depicting words that GBR residents associate with the GBR.",
   "width": 400,
-  "height": 400,
+  "height": 200,
   "padding": 0,
   "title": "Words residents use to describe the Great Barrier Reef",
   "data": {
@@ -17,18 +17,16 @@
           null,
           "Burdekin", 
           "Burnett Mary",
-          "Cape York",
           "Fitzroy",
-          "Mackay Whitsundays",
+          "Mackay Whitsunday",
           "Wet Tropics"
         ],
         "labels": [
           "Show all",
           "Burdekin", 
           "Burnett Mary",
-          "Cape York",
           "Fitzroy",
-          "Mackay Whitsundays",
+          "Mackay Whitsunday",
           "Wet Tropics"
         ],
         "name": "NRM selection: "
@@ -48,7 +46,7 @@
       "window": [{"op": "rank", "as": "rank"}],
       "sort": [{"field": "word_count", "order": "descending"}]
     },{
-      "filter": "datum.rank <=18"
+      "filter": "datum.rank <=10 && datum.word_count > 3"
     }
   ],
   "encoding": {
@@ -66,6 +64,10 @@
               "value": "red"
             }, {
               "test": {"field": "words", "equal": "DYING"},
+              "value": "red"
+            }, 
+            {
+              "test": {"field": "words", "equal": "ENDANGERED"},
               "value": "red"
             }, 
             {

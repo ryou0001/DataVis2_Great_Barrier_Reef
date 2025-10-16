@@ -1,10 +1,9 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "width": 610,
-"height": 400,
-"padding": 0,
+"height": 300,
 "title": { "text": "Great Barrier Reef" },
-"projection": {"type": "mercator", "scale": 500, "center": [133, -28]},
+"projection": {"type": "mercator", "scale": 800, "center": [133, -28]},
 "view": {"fill": "lightblue"},
 "layer": [
     {
@@ -39,6 +38,13 @@
             "stroke": "darkgray",
             "opacity": 0.5 
         }
+    },
+    {
+    "data": {
+        "url": "vegalite_files/maps/GBR_reef.json",
+        "format": {"type": "topojson", "feature": "TS_AIMS_NESP_Torres_Strait_Features_V1b_with_GBR_Features"}
+    },
+    "mark": {"type": "geoshape", "fill": "pink"}
     },
     {
     "data": {

@@ -73,8 +73,24 @@
             {
               "test": {"field": "words", "equal": "TOURISM"},
               "value": "green"
+            },
+            {
+              "test": {"field": "words", "equal": "BEAUTIFUL"},
+              "value": "palevioletred"
+            },
+            {
+              "test": {"field": "words", "equal": "BEAUTY"},
+              "value": "palevioletred"
+            },
+            {
+              "test": {"field": "words", "equal": "CORAL"},
+              "value": "goldenrod"
+            },
+            {
+              "test": {"field": "words", "equal": "FISH"},
+              "value": "goldenrod"
             }
-        ]
+        ], "value": "darkgrey"
         }
       }
     }, {

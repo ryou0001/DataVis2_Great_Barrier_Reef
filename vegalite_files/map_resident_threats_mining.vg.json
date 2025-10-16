@@ -70,7 +70,7 @@
                         "field": "threat_perc",
                         "type": "quantitative",
                         "scale": {
-                            "domain": [0,0.45], "scheme": {"name": "reds"}
+                            "domain": [0,0.25], "scheme": {"name": "oranges"}
                         },
                     "legend": {
                         "title": "% of residents",

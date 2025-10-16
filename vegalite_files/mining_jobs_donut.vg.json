@@ -1,7 +1,8 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 400,
+"width": 200,
 "height": 200,
+"view": {"stroke": null},
 "layer": [
         {
         "data": {
@@ -12,8 +13,12 @@
         "mark": {"type": "arc", "innerRadius": 60},
         "encoding": {
             "theta": {"field": "value", "type": "quantitative"},
-            "color": {"field": "category", "legend": null}
-        }
+        "color": {
+          "field": "category",
+          "scale": {
+          "domain": ["mining", "other"],
+          "range": ["orange", "#4682b4"]
+        }}        }
     },
     {
         "data": {"values": [{"label": "4.25%"}]},

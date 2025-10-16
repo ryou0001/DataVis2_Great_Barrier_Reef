@@ -9,6 +9,13 @@
 "layer": [
     {
     "data": {
+        "url": "vegalite_files/maps/ne_110m_admin_0_countries.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "darkgrey"}
+    },
+    {
+    "data": {
         "url": "vegalite_files/maps/GBR_boundary.json",
         "format": {"type": "topojson", "feature": "GBR_boundary"}
     },
@@ -41,29 +48,35 @@
         }
     },
     {
-    "data": {
-        "url": "vegalite_files/maps/Population_centres.csv"
-    },
-    "encoding": {
-        "longitude": {"field": "long", "type": "quantitative"}, 
-        "latitude": {"field": "lat", "type": "quantitative"}
-    },
-    "layer": [ {
-        "mark": {"type": "circle", "fill": "black", "opacity": 0.75}
-    }, {
-        "mark": {"type": "text", "dx":-10, "align":"right", "opacity": 0.75}, 
-        "encoding": {
-            "text": {"field": "name", "type": "nominal"}}
-    }
-    ]
-    },
-    {
     "data": {"values": [{"state": "QUEENSLAND", "x": 146, "y": -27.5}]},
-    "mark": {"type": "text", "fontSize": 18, "color": "darkgray"},
+    "mark": {"type": "text", "fontSize": 12, "color": "darkgray"},
     "encoding": {
         "text": {"field": "state", "type": "nominal"},
         "longitude": {"field": "x"}, 
         "latitude": {"field": "y"}}
+    },
+    {
+    "data": {"values": [{"state": "AUSTRALIA", "x": 132, "y": -24}]},
+    "mark": {"type": "text", "fontSize": 32, "color": "darkgray"},
+    "encoding": {
+        "text": {"field": "state", "type": "nominal"},
+        "longitude": {"field": "x"}, 
+        "latitude": {"field": "y"}}
+    },
+        {
+    "data": {"values": [{"state": "Great Barrier Reef", "x": 150, "y": -16}]},
+    "mark": {"type": "text", "fontSize": 12, "color": "green", "angle": 45},
+    "encoding": {
+        "text": {"field": "state", "type": "nominal"},
+        "longitude": {"field": "x"}, 
+        "latitude": {"field": "y"}}
+    },
+    {
+    "data": {
+        "url": "vegalite_files/maps/ne_10m_graticules_5.json",
+        "format": {"type": "topojson", "feature": "ne_10m_graticules_5"}
+    },
+    "mark": {"type": "geoshape", "stroke": "darkgrey", "opacity": 0.3}
     }
 ]
 }

@@ -27,7 +27,7 @@
       "name": "color",
       "type": "ordinal",
       "domain": {"data": "table", "field": "text"},
-      "range": ["blue", "blue", "blue"]
+      "range": ["#4682b4"]
     }
   ],
 

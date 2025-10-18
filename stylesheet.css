@@ -97,7 +97,14 @@
 
 .mining_tourism_header {
   display: grid;
-  grid-template-columns: 260px 1fr 270px;
+  grid-template-columns: 260px 1fr 380px;
+  gap: 0px;
+  background-color: aquamarine;
+}
+
+.climate_change_header {
+  display: grid;
+  grid-template-columns: 460px 1fr 270px;
   gap: 0px;
   background-color: aquamarine;
 }
@@ -127,7 +134,7 @@
 /*Word cloud*/
 .words_cloud {
   grid-column: 1;
-  grid-row: 2/4;
+  grid-row: 2/5;
   place-items: center;
 }
 .words_text_A {
@@ -145,7 +152,11 @@
 }
 .word_cloud_description{
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 5;
+}
+.resident_threats {
+  grid-column: 3;
+  grid-row: 4/6;
 }
 
 

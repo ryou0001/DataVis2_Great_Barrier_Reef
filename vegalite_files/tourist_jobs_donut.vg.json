@@ -1,52 +1,115 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 120,
-"height": 120,
 "background": "aquamarine",
-"view": {"stroke": null},
-"layer": [
-        {
-        "data": {
-            "values": [
-                {"category": "other", "value": 646600},
-                {"category": "tourism", "value": 60000}
-            ]},
-        "mark": {"type": "arc", "innerRadius": 50},
-        "encoding": {
-            "theta": {"field": "value", "type": "quantitative"},
-        "color": {
-          "field": "category",
-          "scale": {
-          "domain": ["tourism", "other"],
-          "range": ["green", "lightgrey"]
-        }, "legend": null}
+"hconcat": [  {
+  "width": 200,
+  "height": 120,
+  "view": {"stroke": null},
+  "layer": [
+          {
+          "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+          "transform": [
+            {"filter": "datum.NRM == 'GBR Region'"},
+            {"calculate": "datum.threat_total/datum.total_interviewed", "as": "threat_perc"}
+          ],
+          "mark": {"type": "bar"},
+          "encoding": {
+              "x": {"field": "threat", "type": "nominal", "sort": "-y", "axis": null},
+              "y": {"field": "threat_perc", "type": "quantitative", "axis": {"format": ".0%"}, "title": null},
+            "color": {
+              "condition": {
+                "test": "datum.threat == 'tourism'",
+                "value": "green"
+              }, "value": "darkgrey"
+              }
+            }        
+          },
+          {
+            "data": {
+              "values": [{"label": "11%"}]
+            },
+            "mark": {
+              "type": "text", 
+              "fill": "black", 
+              "align": "center", 
+              "baseline": "middle", 
+              "dy": -20,
+              "dx": 40,
+              "fontSize": 28
+            },
+            "encoding": {
+              "text": {"field": "label"}
+            }
+          },
+                    {
+            "data": {
+              "values": [{"label": ["residents concerned","about tourism"]}]
+            },
+            "mark": {
+              "type": "text", 
+              "fill": "black", 
+              "align": "center", 
+              "baseline": "middle", 
+              "dy": 0,
+              "dx": 40,
+              "fontSize": 12
+            },
+            "encoding": {
+              "text": {"field": "label"}
+            }
+          }
+
+        ]
+  },
+  {
+  "width": 120,
+  "height": 120,
+  "view": {"stroke": null},
+  "layer": [
+          {
+          "data": {
+              "values": [
+                  {"category": "other", "value": 646600},
+                  {"category": "tourism", "value": 60000}
+              ]},
+          "mark": {"type": "arc", "innerRadius": 50},
+          "encoding": {
+              "theta": {"field": "value", "type": "quantitative"},
+          "color": {
+            "field": "category",
+            "scale": {
+            "domain": ["tourism", "other"],
+            "range": ["green", "lightgrey"]
+          }, "legend": null}
+          }
+      },
+      {
+          "data": {"values": [{"label": "8.49%"}]},
+        "mark": {
+          "type": "text", 
+          "fill": "black", 
+          "align": "center", 
+          "baseline": "middle", 
+          "dy": -15,
+          "fontSize": 30},
+      "encoding": {
+          "text": {"field": "label"}
         }
-    },
-    {
-        "data": {"values": [{"label": "8.49%"}]},
-      "mark": {
-        "type": "text", 
-        "fill": "black", 
-        "align": "center", 
-        "baseline": "middle", 
-        "dy": -15,
-        "fontSize": 30},
-    "encoding": {
-        "text": {"field": "label"}
+      },
+      {
+          "data": {"values": [{"label": ["jobs supported", "by marine", "tourism"]}]},
+        "mark": {
+          "type": "text", 
+          "fill": "black", 
+          "align": "center", 
+          "baseline": "middle",
+          "dy": 10, 
+          "fontSize": 12},
+      "encoding": {
+          "text": {"field": "label"}
+        }
       }
-    },
-    {
-        "data": {"values": [{"label": ["jobs supported", "by marine", "tourism"]}]},
-      "mark": {
-        "type": "text", 
-        "fill": "black", 
-        "align": "center", 
-        "baseline": "middle",
-        "dy": 10, 
-        "fontSize": 12},
-    "encoding": {
-        "text": {"field": "label"}
-      }
-    }
+  ]
+  }
 ]
 }

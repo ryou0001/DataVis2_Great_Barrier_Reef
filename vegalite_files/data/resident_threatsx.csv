@@ -23,3 +23,49 @@ Cape York4,Cape York,17206,1,4,tourism,0
 Fitzroy4,Fitzroy,235000,244,4,tourism,11
 Mackay Whitsunday4,Mackay Whitsunday,189643,283,4,tourism,38
 Wet Tropics4,Wet Tropics,250000,521,4,tourism,102
+GBR Region1,GBR Region,,1752,1,climate change,724
+GBR Region2,GBR Region,,1752,2,coral bleaching,306
+GBR Region3,GBR Region,,1752,3,mining,283
+GBR Region4,GBR Region,,1752,4,tourism,201
+GBR Region5,GBR Region,,1752,5,water quality,354
+GBR Region6,GBR Region,,1752,6,pollution,808
+GBR Region7,GBR Region,,1752,7,shipping,237
+GBR Region8,GBR Region,,1752,8,fishing & take,492
+GBR Region9,GBR Region,,1752,9,governance,166
+GBR Region10,GBR Region,,1752,10,humanity,246
+Burdekin5,Burdekin,240000,659,5,water quality,111
+Burdekin6,Burdekin,240000,659,6,pollution,327
+Burdekin7,Burdekin,240000,659,7,shipping,69
+Burdekin8,Burdekin,240000,659,8,fishing & take,203
+Burdekin9,Burdekin,240000,659,9,governance,69
+Burdekin10,Burdekin,240000,659,10,humanity,104
+Burnett Mary5,Burnett Mary,350000,44,5,water quality,14
+Burnett Mary6,Burnett Mary,350000,44,6,pollution,22
+Burnett Mary7,Burnett Mary,350000,44,7,shipping,11
+Burnett Mary8,Burnett Mary,350000,44,8,fishing & take,14
+Burnett Mary9,Burnett Mary,350000,44,9,governance,2
+Burnett Mary10,Burnett Mary,350000,44,10,humanity,6
+Cape York5,Cape York,17206,1,5,water quality,1
+Cape York6,Cape York,17206,1,6,pollution,1
+Cape York7,Cape York,17206,1,7,shipping,0
+Cape York8,Cape York,17206,1,8,fishing & take,0
+Cape York9,Cape York,17206,1,9,governance,0
+Cape York10,Cape York,17206,1,10,humanity,0
+Fitzroy5,Fitzroy,235000,244,5,water quality,56
+Fitzroy6,Fitzroy,235000,244,6,pollution,116
+Fitzroy7,Fitzroy,235000,244,7,shipping,44
+Fitzroy8,Fitzroy,235000,244,8,fishing & take,76
+Fitzroy9,Fitzroy,235000,244,9,governance,9
+Fitzroy10,Fitzroy,235000,244,10,humanity,34
+Mackay Whitsunday5,Mackay Whitsunday,189643,283,5,water quality,58
+Mackay Whitsunday6,Mackay Whitsunday,189643,283,6,pollution,116
+Mackay Whitsunday7,Mackay Whitsunday,189643,283,7,shipping,52
+Mackay Whitsunday8,Mackay Whitsunday,189643,283,8,fishing & take,66
+Mackay Whitsunday9,Mackay Whitsunday,189643,283,9,governance,22
+Mackay Whitsunday10,Mackay Whitsunday,189643,283,10,humanity,41
+Wet Tropics5,Wet Tropics,250000,521,5,water quality,114
+Wet Tropics6,Wet Tropics,250000,521,6,pollution,226
+Wet Tropics7,Wet Tropics,250000,521,7,shipping,61
+Wet Tropics8,Wet Tropics,250000,521,8,fishing & take,133
+Wet Tropics9,Wet Tropics,250000,521,9,governance,64
+Wet Tropics10,Wet Tropics,250000,521,10,humanity,61

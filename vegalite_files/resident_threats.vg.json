@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 200,
+  "view": {"stroke": null},
+  "title": "Residents' Top 10 Threats to the GBR",
+  "layer": [
+          {
+          "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+          "transform": [
+            {"filter": "datum.NRM != 'GBR Region'"},
+            {"calculate": "datum.threat_total/datum.total_interviewed", "as": "threat_perc"}
+          ],
+          "mark": {"type": "bar"},
+          "encoding": {
+              "x": {"field": "threat", "type": "nominal", "sort": "-y", "title": "Identified threat"},
+              "y": {"field": "threat_total", "type": "quantitative", "title": "Number of residents who listed threat"},
+              "color": {"field": "NRM", "legend": {"title": "NRM Region"}}
+            }        
+          }
+        ]
+}

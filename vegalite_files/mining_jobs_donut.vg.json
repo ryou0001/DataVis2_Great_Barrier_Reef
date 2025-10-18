@@ -1,57 +1,66 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"background": "aquamarine",
 "hconcat": [
   {
-  "width": 120,
+  "width": 200,
   "height": 120,
   "view": {"stroke": null},
   "layer": [
           {
-          "data": {
-              "values": [
-                  {"category": "other", "value": 84},
-                  {"category": "mining", "value": 16}
-              ]},
-          "mark": {"type": "arc", "innerRadius": 50},
+          "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+          "transform": [
+            {"filter": "datum.NRM == 'GBR Region'"},
+            {"calculate": "datum.threat_total/datum.total_interviewed", "as": "threat_perc"}
+          ],
+          "mark": {"type": "bar"},
           "encoding": {
-              "theta": {"field": "value", "type": "quantitative"},
-          "color": {
-            "field": "category",
-            "scale": {
-            "domain": ["mining", "other"],
-            "range": ["orange", "lightgrey"]
-            },
-            "legend": null
+              "x": {"field": "threat", "type": "nominal", "sort": "-y", "axis": null},
+              "y": {"field": "threat_perc", "type": "quantitative", "axis": {"format": ".0%"}, "title": null},
+            "color": {
+              "condition": {
+                "test": "datum.threat == 'mining'",
+                "value": "orange"
+              }, "value": "darkgrey"
+              }
             }        
+          },
+          {
+            "data": {
+              "values": [{"label": "16%"}]
+            },
+            "mark": {
+              "type": "text", 
+              "fill": "black", 
+              "align": "center", 
+              "baseline": "middle", 
+              "dy": -20,
+              "dx": 40,
+              "fontSize": 28
+            },
+            "encoding": {
+              "text": {"field": "label"}
+            }
+          },
+                    {
+            "data": {
+              "values": [{"label": ["residents concerned","about mining"]}]
+            },
+            "mark": {
+              "type": "text", 
+              "fill": "black", 
+              "align": "center", 
+              "baseline": "middle", 
+              "dy": 0,
+              "dx": 40,
+              "fontSize": 12
+            },
+            "encoding": {
+              "text": {"field": "label"}
+            }
           }
-      },
-      {
-          "data": {"values": [{"label": "16.15%"}]},
-        "mark": {
-          "type": "text", 
-          "fill": "black", 
-          "align": "center", 
-          "baseline": "middle", 
-          "dy": -15,
-          "fontSize": 28},
-      "encoding": {
-          "text": {"field": "label"}
-        }
-      },
-      {
-          "data": {"values": [{"label": ["residents think", "mining threatens", "the GBR"]}]},
-        "mark": {
-          "type": "text", 
-          "fill": "black", 
-          "align": "center", 
-          "baseline": "middle",
-          "dy": 8, 
-          "fontSize": 12},
-      "encoding": {
-          "text": {"field": "label"}
-        }
-      }
-  ]
+
+        ]
   },{
   "width": 120,
   "height": 120,

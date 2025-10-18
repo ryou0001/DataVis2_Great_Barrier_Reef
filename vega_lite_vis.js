@@ -8,6 +8,7 @@ var resident_value_histogram = "vegalite_files/resident_value_histogram_square.v
 
 var resident_word_cloud = "vegalite_files/resident_word_cloud.vg.json"
 var resident_word_bar = "vegalite_files/resident_word_bar.vg.json"
+var resident_threats = "vegalite_files/resident_threats.vg.json"
 
 
 //Climate Change
@@ -27,6 +28,9 @@ var tourist_origins = "vegalite_files/tourist_origin.vg.json"
 var tourist_numbers_line = "vegalite_files/tourist_numbers_line.vg.json"
 var tourist_jobs_donut = "vegalite_files/tourist_jobs_donut.vg.json"
 
+
+vegaEmbed("#resident_threats", resident_threats).then(function(result) {
+}).catch(console.error);
 
 vegaEmbed("#map_overview", map_overview).then(function(result) {
 }).catch(console.error);

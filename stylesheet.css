@@ -5,6 +5,7 @@
 .wrapper {
   max-width: 1290px;
   margin: 0 auto;
+  border: 2px solid black
 }
 
 .wrapper > div {
@@ -30,6 +31,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/*Templates for different sections*/
 
 .residents_2col {
   display: grid;
@@ -61,6 +64,33 @@
   grid-template-columns: 500px 610px;
   gap: 10px
 }
+
+/*Sections*/
+
+/*Word cloud*/
+.words_cloud {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2/4;
+  place-items: center;
+}
+.words_text_A {
+  grid-column: 1;
+  grid-row: 1;
+}
+.words_text_B {
+  grid-column: 3;
+  grid-row: 3;
+}
+.words_bar {
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
+  place-items: center;
+}
+
+
+
 
 .mining_tourism_header_heading {
   grid-column: 1;
@@ -152,34 +182,3 @@
   grid-row: 1/3;
 }
 
-.words_columns_A {
-  grid-column: 1;
-  grid-row: 1/5;
-  background-color: aqua;
-}
-.words_columns_B {
-  grid-column: 5;
-  grid-row: 1/5;
-    background-color: aqua;
-}
-.words_cloud {
-  display: grid;
-  grid-column: 2/5;
-  grid-row: 2;
-  place-items: center;
-}
-.words_text_A {
-  grid-column: 3;
-  grid-row: 1;
-}
-.words_text_B {
-  grid-column: 3;
-  grid-row: 3;
-}
-
-.words_bar {
-  display: grid;
-  grid-column: 2/5;
-  grid-row: 4;
-  place-items: center;
-}

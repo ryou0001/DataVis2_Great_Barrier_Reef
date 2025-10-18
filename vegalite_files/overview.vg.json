@@ -4,7 +4,13 @@
 "height": 400,
 "padding": 0,
 "title": { "text": "Great Barrier Reef" },
-"projection": {"type": "mercator", "scale": 500, "center": [133, -28]},
+"projection": {
+    "type": "conicEqualArea", 
+    "scale": 560, 
+    "center": [5, -28],
+    "parallels": [-18, -36],
+    "rotate": [-130, 0, 0]
+},
 "view": {"fill": "lightblue"},
 "layer": [
     {
@@ -48,8 +54,8 @@
         }
     },
     {
-    "data": {"values": [{"state": "QUEENSLAND", "x": 146, "y": -27.5}]},
-    "mark": {"type": "text", "fontSize": 12, "color": "darkgray"},
+    "data": {"values": [{"state": "QUEENSLAND", "x": 147, "y": -27.5}]},
+    "mark": {"type": "text", "fontSize": 12, "color": "darkgray", "angle": 5},
     "encoding": {
         "text": {"field": "state", "type": "nominal"},
         "longitude": {"field": "x"}, 
@@ -65,7 +71,7 @@
     },
         {
     "data": {"values": [{"state": "Great Barrier Reef", "x": 150, "y": -16}]},
-    "mark": {"type": "text", "fontSize": 12, "color": "green", "angle": 45},
+    "mark": {"type": "text", "fontSize": 12, "color": "green", "angle": 55},
     "encoding": {
         "text": {"field": "state", "type": "nominal"},
         "longitude": {"field": "x"}, 
@@ -76,7 +82,7 @@
         "url": "vegalite_files/maps/ne_10m_graticules_5.json",
         "format": {"type": "topojson", "feature": "ne_10m_graticules_5"}
     },
-    "mark": {"type": "geoshape", "stroke": "darkgrey", "opacity": 0.3}
+    "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.4}
     }
 ]
 }

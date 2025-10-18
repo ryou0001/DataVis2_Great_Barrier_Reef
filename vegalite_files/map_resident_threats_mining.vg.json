@@ -3,6 +3,7 @@
 "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
         "width": 303,
         "height": 360,
+        "padding": 0,
         "title": { "text": "Mining" },
         "projection": {"type": "mercator"},
         "view": {"fill": "white"},

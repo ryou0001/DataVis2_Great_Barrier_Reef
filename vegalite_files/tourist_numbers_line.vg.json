@@ -12,7 +12,7 @@
     "groupby": ["Quarter"]
   }
 ],
-"concat": [
+"vconcat": [
   {
     "width": 600,
     "height": 400,
@@ -115,8 +115,8 @@
   {"hconcat": [
   {
     "title": "Cairns/Cooktown",
-    "width": 200,
-    "height": 100,
+    "width": 220,
+    "height": 120,
     "layer": [
             {
         "data": {
@@ -146,8 +146,8 @@
   },
   {
     "title": "Townsville/Whitsunday",
-    "width": 200,
-    "height": 100,
+    "width": 220,
+    "height": 120,
     "layer": [
       {
         "data": {
@@ -178,8 +178,8 @@
   {"hconcat": [
   {
     "title": "Far Northern",
-    "width": 200,
-    "height": 100,
+    "width": 220,
+    "height": 120,
     "layer": [
       {
         "data": {
@@ -208,8 +208,8 @@
     ]
   },
   { "title": "Mackay/Capricorn",
-    "width": 200,
-    "height": 100,
+    "width": 220,
+    "height": 120,
     "layer": [
       {
         "data": {
@@ -224,7 +224,7 @@
           "x": {"field": "start", "type": "temporal"},
           "x2": {"field": "end", "type": "temporal"},
           "opacity": {"value": 0.2},
-          "color": {"field": "type"}
+          "color": {"field": "type", "legend": null}
         }
       },
       {

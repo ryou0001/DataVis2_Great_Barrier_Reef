@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .wrapper {
-  max-width: 1290px;
+  width: 1290px;
   margin: 0 auto;
   border: 2px solid black
 }
@@ -11,7 +11,6 @@
 .wrapper > div {
   border: 0px solid white;
   border-radius: 0px;
-  background-color: white;
   padding: 0;
   color: black;  
 }
@@ -36,40 +35,97 @@
 
 .residents_2col {
   display: grid;
-  grid-template-columns: 610px 70px 610px;
+  grid-template-columns: 612px 62px 612px;
+  gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+  font-family: Helvetica;
+  row-gap: 20px;
+}
+
+.residents_2col > div {
+  border: 1px solid black;
+  border-radius: 0px;
+  background-color: white ;
+  padding: 0;
+  color: black;
+}
+
+.residents_jobs {
+  display: grid;
+  grid-template-columns: 280px 26px 980px;
   gap: 0px;
   grid-auto-rows: minmax(100px, auto);
   font-family: Helvetica;
 }
 
-.residents_3col {
-  display: grid;
-  grid-template-columns: 195px 285px 310px 285px 195px;
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  font-family: Helvetica;
-  background-color: aqua;
+.residents_jobs > div {
+  border: 1px solid black;
+  border-radius: 0px;
+  padding: 0;
+  color: black;
 }
 
-.mining_tourism_3col {
+.mining_content {
   display: grid;
-  grid-template-columns: 200px 400px 1fr 200px 400px;
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  font-family: Helvetica;
+  grid-template-columns: 482px 62px 742px;
+  gap: 0px;
+  font-family:Helvetica;
+}
+
+.mining_content > div {
+  border: 1px solid black;
+  border-radius: 0px;
+  background-color: white ;
+  padding: 0;
+  color: black;
+}
+
+.tourism_content {
+  display: grid;
+  grid-template-columns: 482px 62px 742px;
+  gap: 0px;
+  font-family:Helvetica;
+}
+
+.tourism_content > div {
+  border: 1px solid black;
+  border-radius: 0px;
+  background-color: white ;
+  padding: 0;
+  color: black;
 }
 
 .mining_tourism_header {
   display: grid;
-  grid-template-columns: 500px 610px;
-  gap: 10px
+  grid-template-columns: 260px 1fr 270px;
+  gap: 0px;
+  background-color: aquamarine;
 }
 
 /*Sections*/
 
+/*Tourism*/
+.tourism_map {
+  grid-column: 1;
+  grid-row: 1;
+}
+.tourism_numbers_line {
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+/*Mining*/
+.mining_map {
+  grid-column: 1;
+  grid-row: 1;
+}
+.mining_jobs_bar {
+  grid-column: 3;
+  grid-row:1;
+}
+
 /*Word cloud*/
 .words_cloud {
-  display: grid;
   grid-column: 1;
   grid-row: 2/4;
   place-items: center;
@@ -83,52 +139,30 @@
   grid-row: 3;
 }
 .words_bar {
-  display: grid;
   grid-column: 3;
   grid-row: 2;
   place-items: center;
 }
+.word_cloud_description{
+  grid-column: 1;
+  grid-row: 4;
+}
 
 
 
-
+/*Miing and Tourism Headings*/
 .mining_tourism_header_heading {
   grid-column: 1;
+  grid-row: 1;
+}
+.mining_tourism_header_donut {
+  grid-column: 3;
   grid-row: 1;
 }
 .mining_tourism_header_text {
   grid-column: 2;
   grid-row: 1;
-  column-count: 2;
-}
-
-.mining_text {
-  grid-column: 1;
-  grid-row: 2;
-}
-.mining_pie {
-  grid-column: 1;
-  grid-row: 1;
-}
-.mining_map {
-  grid-column: 2;
-  grid-row: 1;
-}
-.tourism_pie {
-  grid-column: 4;
-  grid-row: 1;
-}
-.tourism_map {
-  grid-column: 5;
-  grid-row: 1;
-}
-
-.residents_jobs {
-  display: grid;
-  grid-template-columns: 310px 70px 910px;
-  gap: 0px;
-  grid-auto-rows: minmax(100px, auto);
-  font-family: Helvetica;
+  font-family:Helvetica;
 }
 
 .jobs_text {
@@ -138,21 +172,6 @@
 .jobs_bar {
   grid-column: 3;
   grid-row: 1
-}
-
-.residents_3col > div {
-  border: 0px solid white;
-  border-radius: 0px;
-  padding: 0;
-  color: black;
-}
-
-.residents_2col > div {
-  border: 0px solid white;
-  border-radius: 0px;
-  background-color: white ;
-  padding: 0;
-  color: black;
 }
 
 .intro_map {

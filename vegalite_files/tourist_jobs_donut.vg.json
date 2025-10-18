@@ -1,7 +1,8 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 200,
-"height": 200,
+"width": 120,
+"height": 120,
+"background": "aquamarine",
 "view": {"stroke": null},
 "layer": [
         {
@@ -10,15 +11,15 @@
                 {"category": "other", "value": 646600},
                 {"category": "tourism", "value": 60000}
             ]},
-        "mark": {"type": "arc", "innerRadius": 60},
+        "mark": {"type": "arc", "innerRadius": 50},
         "encoding": {
             "theta": {"field": "value", "type": "quantitative"},
         "color": {
           "field": "category",
           "scale": {
           "domain": ["tourism", "other"],
-          "range": ["green", "#4682b4"]
-        }}
+          "range": ["green", "lightgrey"]
+        }, "legend": null}
         }
     },
     {
@@ -35,14 +36,14 @@
       }
     },
     {
-        "data": {"values": [{"label": ["jobs supported by","marine tourism"]}]},
+        "data": {"values": [{"label": ["jobs supported", "by marine", "tourism"]}]},
       "mark": {
         "type": "text", 
         "fill": "black", 
         "align": "center", 
         "baseline": "middle",
         "dy": 10, 
-        "fontSize": 13},
+        "fontSize": 12},
     "encoding": {
         "text": {"field": "label"}
       }

@@ -1,50 +1,107 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 200,
-"height": 200,
-"view": {"stroke": null},
-"layer": [
-        {
-        "data": {
-            "values": [
-                {"category": "other", "value": 676.6},
-                {"category": "mining", "value": 30}
-            ]},
-        "mark": {"type": "arc", "innerRadius": 60},
-        "encoding": {
-            "theta": {"field": "value", "type": "quantitative"},
-        "color": {
-          "field": "category",
-          "scale": {
-          "domain": ["mining", "other"],
-          "range": ["orange", "#4682b4"]
-        }}        }
-    },
-    {
-        "data": {"values": [{"label": "4.25%"}]},
-      "mark": {
-        "type": "text", 
-        "fill": "black", 
-        "align": "center", 
-        "baseline": "middle", 
-        "dy": -15,
-        "fontSize": 30},
-    "encoding": {
-        "text": {"field": "label"}
+"hconcat": [
+  {
+  "width": 120,
+  "height": 120,
+  "view": {"stroke": null},
+  "layer": [
+          {
+          "data": {
+              "values": [
+                  {"category": "other", "value": 84},
+                  {"category": "mining", "value": 16}
+              ]},
+          "mark": {"type": "arc", "innerRadius": 50},
+          "encoding": {
+              "theta": {"field": "value", "type": "quantitative"},
+          "color": {
+            "field": "category",
+            "scale": {
+            "domain": ["mining", "other"],
+            "range": ["orange", "lightgrey"]
+            },
+            "legend": null
+            }        
+          }
+      },
+      {
+          "data": {"values": [{"label": "16.15%"}]},
+        "mark": {
+          "type": "text", 
+          "fill": "black", 
+          "align": "center", 
+          "baseline": "middle", 
+          "dy": -15,
+          "fontSize": 28},
+      "encoding": {
+          "text": {"field": "label"}
+        }
+      },
+      {
+          "data": {"values": [{"label": ["residents think", "mining threatens", "the GBR"]}]},
+        "mark": {
+          "type": "text", 
+          "fill": "black", 
+          "align": "center", 
+          "baseline": "middle",
+          "dy": 8, 
+          "fontSize": 12},
+      "encoding": {
+          "text": {"field": "label"}
+        }
       }
-    },
-    {
-        "data": {"values": [{"label": ["jobs supported by","mining"]}]},
-      "mark": {
-        "type": "text", 
-        "fill": "black", 
-        "align": "center", 
-        "baseline": "middle",
-        "dy": 10, 
-        "fontSize": 13},
-    "encoding": {
-        "text": {"field": "label"}
+  ]
+  },{
+  "width": 120,
+  "height": 120,
+  "view": {"stroke": null},
+  "layer": [
+          {
+          "data": {
+              "values": [
+                  {"category": "other", "value": 676.6},
+                  {"category": "mining", "value": 30}
+              ]},
+          "mark": {"type": "arc", "innerRadius": 50},
+          "encoding": {
+              "theta": {"field": "value", "type": "quantitative"},
+          "color": {
+            "field": "category",
+            "scale": {
+            "domain": ["mining", "other"],
+            "range": ["orange", "lightgrey"]
+            },
+            "legend": null
+        }        }
+      },
+      {
+          "data": {"values": [{"label": "4.25%"}]},
+        "mark": {
+          "type": "text", 
+          "fill": "black", 
+          "align": "center", 
+          "baseline": "middle", 
+          "dy": -15,
+          "fontSize": 30},
+      "encoding": {
+          "text": {"field": "label"}
+        }
+      },
+      {
+          "data": {"values": [{"label": ["jobs supported", "by mining"]}]},
+        "mark": {
+          "type": "text", 
+          "fill": "black", 
+          "align": "center", 
+          "baseline": "middle",
+          "dy": 10, 
+          "fontSize": 13},
+      "encoding": {
+          "text": {"field": "label"}
+        }
       }
-    }
+  ]
+  }
 ]
 }

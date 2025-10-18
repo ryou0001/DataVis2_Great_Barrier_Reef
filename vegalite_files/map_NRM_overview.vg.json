@@ -3,6 +3,7 @@
 
         "width": 610,
         "height": 600,
+        "padding": 0,
         "title": { "text": "Natural Resource Management (NRM) Regions" },
         "projection": {"type": "mercator", "scale": 1600, "center": [148.5,-19.8]},
         "view": {"fill": "lightblue"},

@@ -1,6 +1,7 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+"padding": 0,
 
         "width": 303,
         "height": 360,

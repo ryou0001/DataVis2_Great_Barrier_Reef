@@ -12,6 +12,7 @@ var resident_threats = "vegalite_files/resident_threats.vg.json"
 
 
 //Climate Change
+var climate_change_donut = "vegalite_files/climate_change_donut.vg.json"
 var watertemp_scatterplot = "vegalite_files/water_temp_scatterplot.vg.json"
 var map_resident_threats_climate = "vegalite_files/map_resident_threats_climate.vg.json"
 
@@ -28,6 +29,9 @@ var tourist_origins = "vegalite_files/tourist_origin.vg.json"
 var tourist_numbers_line = "vegalite_files/tourist_numbers_line.vg.json"
 var tourist_jobs_donut = "vegalite_files/tourist_jobs_donut.vg.json"
 
+
+vegaEmbed("#climate_change_donut", climate_change_donut).then(function(result) {
+}).catch(console.error);
 
 vegaEmbed("#resident_threats", resident_threats).then(function(result) {
 }).catch(console.error);

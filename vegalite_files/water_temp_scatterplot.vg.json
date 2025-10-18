@@ -5,8 +5,8 @@
     "url": "vegalite_files/data/water_temp_1m.csv"
     },
 "transform": [{"filter": "datum.TEMP > 10"}],
-"hconcat": [{
-    "width": 600,
+"vconcat": [{
+    "width": 660,
     "height": 400,
     "layer": [
     {

@@ -5,7 +5,47 @@
         "height": 600,
         "padding": 0,
         "title": { "text": "Natural Resource Management (NRM) Regions" },
-        "projection": {"type": "mercator", "scale": 1600, "center": [148.5,-19.8]},
+        "params": [
+            {
+                "name": "zoom_level",
+                "value": 1686,
+                "bind": {
+                    "input": "range",
+                    "min": 1686,
+                    "max": 6000,
+                    "step": 100,
+                    "name": "Zoom: "
+                }
+            },
+            {
+                "name": "center_to",
+                "value": [7.2, -6],
+                "bind": {
+                "input": "select",
+                "options": [
+                    [5, -2],
+                    [7.2, -6],
+                    [9, -10]
+                ],
+                "labels": ["North Queensland", "Central Coast Queensland", "South Queensland"],
+                "name": "Map Centre: "
+                }
+            },
+            {
+                "name": "show_pop_centres",
+                "value": false,
+                "bind": {
+                "input": "select",
+                "options": [
+                    true,
+                    false
+                ],
+                "labels": ["Show", "Hide"],
+                "name": "Show all population centres: "
+                }
+            }
+        ],
+        "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": {"expr": "zoom_level"}, "center": {"expr": "center_to"}},
         "view": {"fill": "lightblue"},
         "layer": [
             {
@@ -19,7 +59,7 @@
             {
                 "data": {
                     "url": "vegalite_files/maps/queensland_surrounds.json",
-                    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+                    "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
                 },
                 "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"}
             },
@@ -40,16 +80,13 @@
                     "stroke": "darkgray",
                     "opacity": 0.3
                 },
-								"encoding": {
+				"encoding": {
                   "color": {
                     "field": "properties.NRM_REGION",
                     "scale": {"range": ["red", "blue", "yellow", "green", "purple", "orange"]},
                     "legend": null
-                  },
-									"tooltip": [
-										{"field": "properties.NRM_REGION", "title": "NRM Region"}
-									]
-								}
+                  }
+				}
             },{
             "data": {"values": {"state": "QUEENSLAND", "x": 146, "y": -27.5}},
             "mark": {"type": "text", "fontSize": 28, "color": "darkgray"},
@@ -111,7 +148,37 @@
         "url": "vegalite_files/maps/ne_10m_graticules_5.json",
         "format": {"type": "topojson", "feature": "ne_10m_graticules_5"}
     },
-    "mark": {"type": "geoshape", "stroke": "darkgrey", "opacity": 0.3}
+    "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.3}
+    },
+    {
+        "data": {"url": "vegalite_files/data/Population_centres.csv"},
+        "mark": {"type":"circle","color":"blue"},
+        "encoding": {
+            "longitude": {"field": "long", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "size": {
+                "field": "population", 
+                "type": "quantitative",
+                
+                "legend": {
+                    "title": "Population", 
+                    "strokeColor": "black",
+                    "fillColor": "white",
+                    "padding": 10,
+                    "orient": "none",
+                    "legendX": 480, 
+                    "legendY": 30}},
+            "opacity": {
+                "condition": {
+                    "test": "show_pop_centres",
+                    "value": 0.9
+                }, "value": 0
+            },
+            "tooltip": [
+                {"field": "name", "title": "Population centre name"},
+                {"field": "population", "format": ",", "title": "Population"}
+        ]
+        }
     }
 
         ]

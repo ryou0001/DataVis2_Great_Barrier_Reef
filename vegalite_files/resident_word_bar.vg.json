@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A bar chart visualization depicting words that GBR residents associate with the GBR.",
-  "width": 500,
+  "width": 530,
   "height": 220,
   "padding": 0,
   "config": {"font": "Arial"},
@@ -30,7 +30,7 @@
           "Mackay Whitsunday",
           "Wet Tropics"
         ],
-        "name": "NRM selection: "
+        "name": "Select NRM Region: "
       }
     }
   ],
@@ -100,7 +100,8 @@
         "align": "right",
         "baseline": "middle",
         "dx": -4,
-        "color": "white"
+        "color": "white",
+        "fontSize": 12
       },
       "encoding": {
         "text": {"field": "word_count", "type": "quantitative"}

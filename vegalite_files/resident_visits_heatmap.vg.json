@@ -2,27 +2,46 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 	"height": 240,
 	"width": 380,
-	"title": { "text": "Frequency that Residents visit the GBR" },
+	"title": { "text": "Frequency with which residents visit the GBR", "fontSize": 14 },
 	"data": {"url": "vegalite_files/data/resident_visits.csv"},
 	"transform": [
 		{"calculate": "datum.count / datum.total_count", "as": "count_perc"}
 	],
 	"layer": [
 		{
-		"mark": {"type":"rect"},
+		"mark": {"type":"rect", "stroke": "black"},
 		"encoding": {
-			"x": {"field": "cat_description", "type": "ordinal", "title": null},
-			"y": {"field": "NRM", "type": "nominal", "title":null, "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary", "GBR Region"]},
-			"color": {"field": "count_perc", "type": "quantitative", "legend": {"format": ".0%"}},
+			"x": {
+				"field": "cat_description", 
+				"type": "ordinal", 
+				"title": null, 
+				"sort": {"field": "category"},
+				"axis": {"labelAngle": -50, "labelFontSize": 12}
+			},
+			"y": {
+				"field": "NRM", 
+				"type": "nominal", 
+				"title":null, 
+				"sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary", "GBR Region"],
+				"axis": {"labelFontSize": 12}
+			},
+			"color": {
+				"bin": true,
+				"field": "count_perc", 
+				"type": "quantitative",
+				"legend": {
+					"format": ".0%", 
+					"title": ["% of residents","who visit with","given frequency"]
+				}},
 			"tooltip": [
-				{"field": "cat_description"},
-				{"field": "count_perc", "format": ".2%"}
+				{"field": "cat_description", "title": "Frequency"},
+				{"field": "count_perc", "format": ".2%", "title": "Percentage of residents"}
 			]
 		}
 		},{
-		"mark": {"type":"rule", "strokeWidth":10, "color": "white"},
+		"mark": {"type":"rule", "strokeWidth":10, "color": "black"},
 		"encoding": {
-			"x": {"value": 335}
+			"x": {"value": 42}
 		}
 		}
 ]

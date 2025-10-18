@@ -1,55 +1,55 @@
-NRM,count,category,total_count,cat_description
-Burdekin,28,cat_0,659,Never visited
-Burdekin,48,cat_1,659,0 days in last 12 months
-Burdekin,74,cat_2,659,1-2 days (once or twice a year)
-Burdekin,115,cat_3,659,3-6 days (every few months)
-Burdekin,73,cat_4,659,7-12 days (approximately monthly)
-Burdekin,105,cat_5,659,13-24 days (approximately fortnightly)
-Burdekin,86,cat_6,659,25-52 days (approximately weekly)
-Burdekin,55,cat_7,659,53-100 days (several times a week)
-Burdekin,75,cat_8,659,>100 days (>3 times a week)
-Burnett Mary,4,cat_0,44,Never visited
-Burnett Mary,4,cat_1,44,0 days in last 12 months
-Burnett Mary,6,cat_2,44,1-2 days (once or twice a year)
-Burnett Mary,8,cat_3,44,3-6 days (every few months)
-Burnett Mary,4,cat_4,44,7-12 days (approximately monthly)
-Burnett Mary,4,cat_5,44,13-24 days (approximately fortnightly)
-Burnett Mary,3,cat_6,44,25-52 days (approximately weekly)
-Burnett Mary,3,cat_7,44,53-100 days (several times a week)
-Burnett Mary,8,cat_8,44,>100 days (>3 times a week)
-Fitzroy,13,cat_0,244,Never visited
-Fitzroy,11,cat_1,244,0 days in last 12 months
-Fitzroy,19,cat_2,244,1-2 days (once or twice a year)
-Fitzroy,41,cat_3,244,3-6 days (every few months)
-Fitzroy,23,cat_4,244,7-12 days (approximately monthly)
-Fitzroy,40,cat_5,244,13-24 days (approximately fortnightly)
-Fitzroy,52,cat_6,244,25-52 days (approximately weekly)
-Fitzroy,18,cat_7,244,53-100 days (several times a week)
-Fitzroy,27,cat_8,244,>100 days (>3 times a week)
-Mackay Whitsunday,7,cat_0,283,Never visited
-Mackay Whitsunday,17,cat_1,283,0 days in last 12 months
-Mackay Whitsunday,27,cat_2,283,1-2 days (once or twice a year)
-Mackay Whitsunday,53,cat_3,283,3-6 days (every few months)
-Mackay Whitsunday,35,cat_4,283,7-12 days (approximately monthly)
-Mackay Whitsunday,29,cat_5,283,13-24 days (approximately fortnightly)
-Mackay Whitsunday,43,cat_6,283,25-52 days (approximately weekly)
-Mackay Whitsunday,25,cat_7,283,53-100 days (several times a week)
-Mackay Whitsunday,47,cat_8,283,>100 days (>3 times a week)
-Wet Tropics,38,cat_0,521,Never visited
-Wet Tropics,57,cat_1,521,0 days in last 12 months
-Wet Tropics,75,cat_2,521,1-2 days (once or twice a year)
-Wet Tropics,103,cat_3,521,3-6 days (every few months)
-Wet Tropics,55,cat_4,521,7-12 days (approximately monthly)
-Wet Tropics,59,cat_5,521,13-24 days (approximately fortnightly)
-Wet Tropics,36,cat_6,521,25-52 days (approximately weekly)
-Wet Tropics,29,cat_7,521,53-100 days (several times a week)
-Wet Tropics,69,cat_8,521,>100 days (>3 times a week)
-GBR Region,90,cat_0,1751,Never visited
-GBR Region,137,cat_1,1751,0 days in last 12 months
-GBR Region,201,cat_2,1751,1-2 days (once or twice a year)
-GBR Region,320,cat_3,1751,3-6 days (every few months)
-GBR Region,190,cat_4,1751,7-12 days (approximately monthly)
-GBR Region,237,cat_5,1751,13-24 days (approximately fortnightly)
-GBR Region,220,cat_6,1751,25-52 days (approximately weekly)
-GBR Region,130,cat_7,1751,53-100 days (several times a week)
-GBR Region,226,cat_8,1751,>100 days (>3 times a week)
+NRM,count,category,total_count,cat_description,original_description
+Burdekin,28,cat_0,659,Never visited,Never visited
+Burdekin,48,cat_1,659,Zero days in last 12 months,0 days in last 12 months
+Burdekin,74,cat_2,659,Once or twice a year,1-2 days (once or twice a year)
+Burdekin,115,cat_3,659,Every few months,3-6 days (every few months)
+Burdekin,73,cat_4,659,Monthly,7-12 days (approximately monthly)
+Burdekin,105,cat_5,659,Fortnightly,13-24 days (approximately fortnightly)
+Burdekin,86,cat_6,659,Weekly,25-52 days (approximately weekly)
+Burdekin,55,cat_7,659,Several times a week,53-100 days (several times a week)
+Burdekin,75,cat_8,659,>3 times a week,>100 days (>3 times a week)
+Burnett Mary,4,cat_0,44,Never visited,Never visited
+Burnett Mary,4,cat_1,44,Zero days in last 12 months,0 days in last 12 months
+Burnett Mary,6,cat_2,44,Once or twice a year,1-2 days (once or twice a year)
+Burnett Mary,8,cat_3,44,Every few months,3-6 days (every few months)
+Burnett Mary,4,cat_4,44,Monthly,7-12 days (approximately monthly)
+Burnett Mary,4,cat_5,44,Fortnightly,13-24 days (approximately fortnightly)
+Burnett Mary,3,cat_6,44,Weekly,25-52 days (approximately weekly)
+Burnett Mary,3,cat_7,44,Several times a week,53-100 days (several times a week)
+Burnett Mary,8,cat_8,44,>3 times a week,>100 days (>3 times a week)
+Fitzroy,13,cat_0,244,Never visited,Never visited
+Fitzroy,11,cat_1,244,Zero days in last 12 months,0 days in last 12 months
+Fitzroy,19,cat_2,244,Once or twice a year,1-2 days (once or twice a year)
+Fitzroy,41,cat_3,244,Every few months,3-6 days (every few months)
+Fitzroy,23,cat_4,244,Monthly,7-12 days (approximately monthly)
+Fitzroy,40,cat_5,244,Fortnightly,13-24 days (approximately fortnightly)
+Fitzroy,52,cat_6,244,Weekly,25-52 days (approximately weekly)
+Fitzroy,18,cat_7,244,Several times a week,53-100 days (several times a week)
+Fitzroy,27,cat_8,244,>3 times a week,>100 days (>3 times a week)
+Mackay Whitsunday,7,cat_0,283,Never visited,Never visited
+Mackay Whitsunday,17,cat_1,283,Zero days in last 12 months,0 days in last 12 months
+Mackay Whitsunday,27,cat_2,283,Once or twice a year,1-2 days (once or twice a year)
+Mackay Whitsunday,53,cat_3,283,Every few months,3-6 days (every few months)
+Mackay Whitsunday,35,cat_4,283,Monthly,7-12 days (approximately monthly)
+Mackay Whitsunday,29,cat_5,283,Fortnightly,13-24 days (approximately fortnightly)
+Mackay Whitsunday,43,cat_6,283,Weekly,25-52 days (approximately weekly)
+Mackay Whitsunday,25,cat_7,283,Several times a week,53-100 days (several times a week)
+Mackay Whitsunday,47,cat_8,283,>3 times a week,>100 days (>3 times a week)
+Wet Tropics,38,cat_0,521,Never visited,Never visited
+Wet Tropics,57,cat_1,521,Zero days in last 12 months,0 days in last 12 months
+Wet Tropics,75,cat_2,521,Once or twice a year,1-2 days (once or twice a year)
+Wet Tropics,103,cat_3,521,Every few months,3-6 days (every few months)
+Wet Tropics,55,cat_4,521,Monthly,7-12 days (approximately monthly)
+Wet Tropics,59,cat_5,521,Fortnightly,13-24 days (approximately fortnightly)
+Wet Tropics,36,cat_6,521,Weekly,25-52 days (approximately weekly)
+Wet Tropics,29,cat_7,521,Several times a week,53-100 days (several times a week)
+Wet Tropics,69,cat_8,521,>3 times a week,>100 days (>3 times a week)
+GBR Region,90,cat_0,1751,Never visited,Never visited
+GBR Region,137,cat_1,1751,Zero days in last 12 months,0 days in last 12 months
+GBR Region,201,cat_2,1751,Once or twice a year,1-2 days (once or twice a year)
+GBR Region,320,cat_3,1751,Every few months,3-6 days (every few months)
+GBR Region,190,cat_4,1751,Monthly,7-12 days (approximately monthly)
+GBR Region,237,cat_5,1751,Fortnightly,13-24 days (approximately fortnightly)
+GBR Region,220,cat_6,1751,Weekly,25-52 days (approximately weekly)
+GBR Region,130,cat_7,1751,Several times a week,53-100 days (several times a week)
+GBR Region,226,cat_8,1751,>3 times a week,>100 days (>3 times a week)

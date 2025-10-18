@@ -1,7 +1,8 @@
-feature_ty,name,long,lat,alternate_,qld_pndb_i,attribute_,attribute1,additional,add_names_,feature_so,feature_da,operationa,population,populati_1,local_gove,pfi,ufi,upper_scal,text_note,add_inform
-Population Centre,Mackay,149.185891,-21.141206,,20426,Qld_Place Names Database,2005-11-11T00:00:00.000Z,,,Orthophotography_10cm_Mackay,2014-08-18T00:00:00.000Z,Operational,74219,2011-01-01T00:00:00.000Z,Mackay Regional,103001000000190,103001000000190,10000000,,
-Population Centre,Townsville,146.8159705,-19.258995,,35084,Qld_Place Names Database,2005-11-11T00:00:00.000Z,,,Orthophotography_10cm_Townsville,2015-04-27T00:00:00.000Z,Operational,162292,2011-01-01T00:00:00.000Z,Townsville City,103001000000359,103001000000359,10000000,,
-Population Centre,Rockhampton,150.50724,-23.3720299999999,,28641,Qld_Place Names Database,2005-11-11T00:00:00.000Z,,,Orthophotography_10cm_Rockhampton,2014-04-20T00:00:00.000Z,Operational,61724,2011-01-01T00:00:00.000Z,Rockhampton Regional,103001000000512,103001000000512,10000000,,
-Population Centre,Cairns,145.775821,-16.9220759999999,,5683,Qld_Place Names Database,2005-11-11T00:00:00.000Z,,,Orthophotography_10cm_Cairns,2013-09-26T00:00:00.000Z,Operational,133893,2011-01-01T00:00:00.000Z,Cairns Regional,103001000000541,103001000000541,10000000,,
-Population Centre,Gladstone,151.2592575,-23.8466645,,13860,Qld_Place Names Database,2005-11-11T00:00:00.000Z,,,Orthophotography_10cm_Gladstone,2014-05-05T00:00:00.000Z,Operational,32073,2011-01-01T00:00:00.000Z,Gladstone Regional,103001000000566,103001000000566,5000000,,
-Population Centre,Bundaberg,152.3480955,-24.8712879999999,,5190,Qld_Place Names Database,2005-11-11T00:00:00.000Z,,,Orthophotography_6cm_Bundaberg,2014-04-20T00:00:00.000Z,Operational,49750,2011-01-01T00:00:00.000Z,Bundaberg Regional,103001000000629,103001000000629,10000000,,
+name,long,lat,local_gove
+Mackay,149.185891,-21.141206,Mackay Regional
+Townsville,146.8159705,-19.258995,Townsville City
+Rockhampton,150.50724,-23.3720299999999,Rockhampton Regional
+Cairns,145.775821,-16.9220759999999,Cairns Regional
+Gladstone,151.2592575,-23.8466645,Gladstone Regional
+Bundaberg,152.3480955,-24.8712879999999,Bundaberg Regional
+Hervey Bay,152.8488575,-25.289623,Fraser Coast Regional

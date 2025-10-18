@@ -1,22 +1,80 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
-  "height": 200,
+  "width": 572,
+  "height": 180,
+  "padding": 0,
   "view": {"stroke": null},
-  "title": "Residents' Top 10 Threats to the GBR",
+  "title": {"text":"Residents' Top 10 Threats to the GBR", "fontSize": 14},
+    "params": [
+    {
+      "name": "NRM_selection",
+      "value": "GBR Region",
+      "bind": {
+        "input": "select",
+        "options": [
+          "GBR Region",
+          "Burdekin", 
+          "Burnett Mary",
+          "Fitzroy",
+          "Mackay Whitsunday",
+          "Wet Tropics"
+        ],
+        "labels": [
+          "Show all",
+          "Burdekin", 
+          "Burnett Mary",
+          "Fitzroy",
+          "Mackay Whitsunday",
+          "Wet Tropics"
+        ],
+        "name": "Select NRM Region: "
+      }
+    }
+  ],
+  "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
+  "transform": [
+    {"filter": "NRM_selection == datum.NRM"},
+    {"calculate": "datum.threat_total/datum.total_interviewed", "as": "threat_perc"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "threat", 
+      "type": "nominal", 
+      "sort": {"field": "threat_total", "order": "descending"}, 
+      "title": "Identified threat",
+      "axis": {"labelAngle": -50, "labelFontSize": 12}
+    },
+    "y": {"field": "threat_total", "type": "quantitative", "title": "Number of residents who listed threat", "stack": null}
+  },
   "layer": [
           {
-          "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
-          "transform": [
-            {"filter": "datum.NRM != 'GBR Region'"},
-            {"calculate": "datum.threat_total/datum.total_interviewed", "as": "threat_perc"}
-          ],
           "mark": {"type": "bar"},
           "encoding": {
-              "x": {"field": "threat", "type": "nominal", "sort": "-y", "title": "Identified threat"},
-              "y": {"field": "threat_total", "type": "quantitative", "title": "Number of residents who listed threat"},
-              "color": {"field": "NRM", "legend": {"title": "NRM Region"}}
-            }        
+              "opacity": {
+                "condition": {
+                  "test": "datum.threat == 'mining' || datum.threat == 'climate change' || datum.threat == 'tourism'",
+                  "value": 1
+                }, "value": 0.6
+              },
+              "tooltip": [
+                {"field": "threat", "title": "Threat"},
+                {"field": "threat_total", "title": "Count"},
+                {"field": "threat_perc", "format": ".2%", "title": "Percentage of residents said it was a top-3 threat"}
+              ]
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "center",
+              "baseline": "top",
+              "color": "white",
+              "dy": 10,
+              "fontSize": 12
+            },
+            "encoding": {
+              "text": {"field": "threat_total", "type": "quantitative"}
+            }
           }
         ]
 }

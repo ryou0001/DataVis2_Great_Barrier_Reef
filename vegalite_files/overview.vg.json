@@ -1,9 +1,9 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "width": 610,
-"height": 400,
+"height": 360,
 "padding": 0,
-"title": { "text": "Great Barrier Reef" },
+"title": { "text": "Location of the Great Barrier Reef", "fontSize": 14 },
 "projection": {
     "type": "conicEqualArea", 
     "scale": 560, 

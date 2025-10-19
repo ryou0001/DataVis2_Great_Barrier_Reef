@@ -4,7 +4,7 @@
         "width": 610,
         "height": 600,
         "padding": 0,
-        "title": { "text": "Natural Resource Management (NRM) Regions" },
+        "title": { "text": ["Natural Resource Management (NRM) Regions", "and Population Centres"], "fontSize": 14 },
         "params": [
             {
                 "name": "zoom_level",

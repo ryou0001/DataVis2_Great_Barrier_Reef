@@ -3,10 +3,10 @@
 "data": {"url": "vegalite_files/data/resident_threatsx.csv"},
 "padding": 0,
 
-        "width": 303,
+        "width": 358,
         "height": 360,
         "title": { "text": "Tourism" },
-        "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": 1020, "center": [5.2,-5.6]},
+        "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": 1020, "center": [6.2,-5.6]},
         "view": {"fill": "white"},
         "layer": [
             {
@@ -93,12 +93,35 @@
                 "longitude": {"field": "x"}, 
                 "latitude": {"field": "y"}}
             },
-    {
-    "data": {
-        "url": "vegalite_files/maps/ne_10m_graticules_5.json",
-        "format": {"type": "topojson", "feature": "ne_10m_graticules_5"}
-    },
-    "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.3}
-    }
+            {
+            "data": {
+                "url": "vegalite_files/maps/ne_10m_graticules_5.json",
+                "format": {"type": "topojson", "feature": "ne_10m_graticules_5"}
+            },
+            "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.3}
+            },{
+            "data": {"values":[
+              {"longitude": 147.5, "latitude": -17, "label": ["WET TROPICS", "Highest: 19.58%"]},
+              {"longitude": 153, "latitude": -22.6, "label": ["FITZROY", "Lowest: 4.51%"]}
+            ]},
+            "mark": {"type": "text", "align": "left", "fontSize": 13},
+            "encoding": {
+              "text": {"field": "label"},
+              "longitude": {"field": "longitude"},
+              "latitude": {"field": "latitude"}
+            }
+            },{
+            "data": {"values":[
+              {"longitude1": 145.6, "latitude1": -17.4, "longitude2": 147.5, "latitude2": -17},
+              {"longitude1": 149.2, "latitude1": -23.7, "longitude2": 153, "latitude2": -22.6}
+            ]},
+            "mark": {"type": "line", "opacity": 0.3, "color":"black"},
+            "encoding": {
+                "longitude": {"field": "longitude1"},
+                "latitude": {"field": "latitude1"},
+                "longitude2": {"field": "longitude2"},
+                "latitude2": {"field": "latitude2"}
+            }
+            }
         ]
     }

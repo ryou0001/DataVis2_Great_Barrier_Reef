@@ -1,12 +1,14 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "Water temperature at different depths in the GBR" },
+"padding": 0,
+"config": {"view": {"stroke": "transparent"}},
 "data": {
     "url": "vegalite_files/data/water_temp_1m.csv"
     },
 "transform": [{"filter": "datum.TEMP > 10"}],
 "vconcat": [{
-    "width": 660,
+    "title": { "text": "Water temperature at 1 metre in the GBR", "fontSize": 14, "subtitle": "Select interval to get details for that period" },
+    "width": 698,
     "height": 400,
     "layer": [
     {
@@ -53,11 +55,11 @@
         }
     },{
         "data": {"values": {"label": ["WORLDWIDE","BLEACHING EVENT"], "x": "2016", "y": 18}},
-        "mark": {"type": "text", "fontSize": 12, "color": "darkgray", "align": "center"},
+        "mark": {"type": "text", "fontSize": 14, "color": "black", "opacity":0.6, "align": "center"},
         "encoding": {
             "text": {"field": "label", "type": "nominal"},
-            "x": {"field": "x", "type": "temporal"}, 
-            "y": {"field": "y", "type": "quantitative", "scale": {"domain": [16,34]}}}
+            "x": {"field": "x", "type": "temporal", "title": ""}, 
+            "y": {"field": "y", "type": "quantitative", "scale": {"domain": [16,34]}, "title": ""}}
     },{
         "mark": {"type": "point", "opacity": 0.5},
         "params": [{
@@ -65,20 +67,20 @@
                 "select": {"type": "interval","encodings": ["x"]}
         }],
         "encoding": {
-            "x": {"field": "TIME", "type": "temporal"},
-            "y": {"field": "TEMP", "type": "quantitative", "scale": {"domain": [16,34]}}, 
+            "x": {"field": "TIME", "type": "temporal", "axis": {"grid": false}, "title": "Time"},
+            "y": {"field": "TEMP", "type": "quantitative", "scale": {"domain": [16,34]}, "axis": {"grid": false}, "title": "Temperature (°C)"}, 
             "tooltip": [
-                {"field": "TIME", "type": "nominal", "title": "Time"}, 
-                {"field": "TEMP", "type": "quantitative", "title": "Temperature"}
+                {"field": "TIME", "type": "temporal", "title": "Time"}, 
+                {"field": "TEMP", "type": "quantitative", "title": "Temperature (°C)", "format": ".4"}
             ]
         }
     },{
         "data": {"url": "vegalite_files/data/water_temp_av.csv"},
         "mark": {"type": "line"},
         "encoding": {
-            "y": {"field": "average_temp", "type": "quantitative"},
-            "x": {"field": "start", "type": "temporal"},
-            "x2": {"field": "end", "type": "temporal"},
+            "y": {"field": "average_temp", "type": "quantitative", "title": ""},
+            "x": {"field": "start", "type": "temporal", "title": ""},
+            "x2": {"field": "end", "type": "temporal", "title": ""},
             "color": {
                 "condition": {
                     "test": "datum.average_temp > 27", "value": "red"
@@ -86,42 +88,158 @@
             "size": {"value": 2},
             "tooltip": [
                 {"field": "start", "formatType": "time", "format": "%Y", "title": "Year"},
-                {"field": "average_temp", "format": ".2C", "title": "Year's average temperature (°C)"}
-            ]
-        }
-    }
-]
-},{
-    "width": 600,
-    "height": 400,
-    "layer": [
-        {
-        "mark": {"type": "point", "opacity": 0.5},
-        "encoding": {
-            "x": {"field": "TIME", "type": "temporal", "scale": {"domain": {"param": "brush"}}},
-            "y": {"field": "TEMP", "type": "quantitative", "scale": {"domain": [16,34]}}, 
-            "tooltip": [
-                {"field": "TIME", "type": "nominal", "title": "Time"}, 
-                {"field": "TEMP", "type": "quantitative", "title": "Temperature"}
+                {"field": "average_temp", "format": ".4", "title": "Year's average temperature (°C)"}
             ]
         }
     },{
-        "mark": "line",
-        "transform": [{
-            "joinaggregate": [{"op": "mean", "field": "TEMP", "as": "my_average"}], "groupby": ["MONTH"]
-        }],
+        "data": {"values": [
+            {"label": ["Average temperature","for the year"], "x": "2006-06", "y": 20},
+            {"label": ["Individual","reading"], "x": "2012", "y": 19},
+            {"label": ["GBR mass bleaching event"], "x": "2009", "y": 32.5}
+        ]},
+        "mark": {"type": "text", "fontSize": 13, "color": "black", "opacity":0.9, "align": "left"},
         "encoding": {
-            "x": {"field": "TIME", "type": "temporal", "scale": {"domain": {"param": "brush"}}},
-            "y": {"field": "my_average", "type": "quantitative"},
-            "color": {
-                "condition": {
-                    "test": "datum.my_average > 27",
-                    "value": "red"
-                }, "value": "black"
-            }
+            "text": {"field": "label", "type": "nominal"},
+            "x": {"field": "x", "type": "temporal", "title": ""}, 
+            "y": {"field": "y", "type": "quantitative", "scale": {"domain": [16,34]}, "title": ""}}
+    },{
+        "data": {"values": [
+            {"x1": "2006", "x2": "2006-06", "y1": 23, "y2": 20.2},
+            {"x1": "2011-08", "x2": "2011-11", "y1": 19.5, "y2": 19.2},
+            {"x1": "2013-06", "x2": "2016", "y1": 32.5, "y2": 32.6}
+        ]},
+        "mark": {"type": "rule"},
+        "encoding": {
+            "x": {"field": "x1", "type": "temporal", "title": ""},
+            "x2": {"field": "x2"},
+            "y": {"field": "y1", "type": "quantitative", "scale": {"domain": [16,34]}, "title": ""},
+            "y2": {"field": "y2", "type": "quantitative"}}
+        }
+    
+]
+}, {"hconcat": [
+    {
+    "title": {"text": "Temperature distribution", "fontSize": 13},
+    "width": 320,
+    "height": 300,
+    "transform": [{
+        "filter": {"param": "brush"}
+    }],
+    "layer": [
+        {
+        "mark": {"type": "bar"},
+        "encoding": {
+            "x": {"bin": true, "field": "TEMP", "title": "Temperature (°C) (binned)"},
+            "y": {"aggregate": "count", "title": "Count", "axis": {"grid": false}},
+            "tooltip": [
+                {"field": "TEMP", "bin": true, "title": "Temperature (°C) (binned)"},
+                {"aggregate": "count", "field": "TEMP", "title": "Count"}
+            ]
+        }
+    }, 
+    {
+        "mark": {"type": "rule", "strokeWidth":2},
+        "encoding": {
+            "x": {"aggregate": "mean", "field": "TEMP"},
+            "color": {"value": "red"}
+        }
+    },
+    {
+        "mark": {
+            "type": "text", 
+            "color": "red", 
+            "angle": -90, 
+            "dx": 110,
+            "dy": -10, 
+            "fontSize": 12},
+        "encoding": {
+            "text": {"aggregate": "mean", "field": "TEMP", "format": ".3"},
+            "x": {"aggregate": "mean", "field": "TEMP"}
+        }
+    },
+    {
+        "mark": {
+            "type": "text", 
+            "color": "red", 
+            "angle": -90, 
+            "dx": 70,
+            "dy": -10, 
+            "fontSize": 12},
+        "encoding": {
+            "text": {"value": "Average: "},
+            "x": {"aggregate": "mean", "field": "TEMP"}
         }
     }
     ]
+},
+{
+    "title": {"text": "Temperature trend by month", "fontSize": 13},
+    "width": 320,
+    "height": 300,
+    "encoding": {
+                "x": {"field": "MONTH", "type": "temporal", "axis": {"grid": false, "tickCount": 8, "format": "%b", "title": "Month"}},
+                "y": {"field": "month_avg", "type": "quantitative", "scale": {"domain": [20,31]}, "axis": {"grid": false}, "title": "Average monthly temperature (°C)"}, 
+                "tooltip": [
+                    {"field": "MONTH", "type": "temporal", "timeUnit": "month", "title": "Month"},
+                    {"field": "month_avg", "type": "quantitative", "format": ".4", "title": "Average monthly temperature (°C)"}
+                ]
+            },
+    "layer": [
+        {
+            "transform": [
+                {"aggregate": [{"op": "average", "field": "TEMP", "as": "month_avg"}], "groupby": ["MONTH"]}
+            ],
+            "mark": {"type": "line", "opacity": 0.5, "color": "darkgray"}
+        },{
+            "transform": [
+                {"aggregate": [{"op": "average", "field": "TEMP", "as": "month_avg"}], "groupby": ["MONTH"]}
+            ],
+            "mark": {"type": "circle", "opacity": 0.5, "color": "darkgray"}
+        },{
+            "transform": [
+                {"filter": {"param": "brush"}},
+                {"aggregate": [{"op": "average", "field": "TEMP", "as": "month_avg"}], "groupby": ["MONTH"]}
+            ],
+            "mark": {"type": "line", "opacity": 1}
+        },{
+            "transform": [
+                {"filter": {"param": "brush"}},
+                {"aggregate": [{"op": "average", "field": "TEMP", "as": "month_avg"}], "groupby": ["MONTH"]}
+            ],
+            "mark": {"type": "circle", "opacity": 1}
+        },{
+            "data": {"values": [{"label": ["Average monthly","temperature", "for 2005-2022"]}]},
+            "mark": {
+                "type": "text", 
+                "color": "darkgray",
+                "align": "left",
+                "fontSize": 12},
+            "encoding": {
+                "text": {"field": "label"},
+                "x": {"value": 230}, 
+                "y": {"value": 200}
+            }
+        },{
+            "data": {"values": [{"label": ["Average monthly","temperature", "for selected period"]}]},
+            "mark": {
+                "type": "text", 
+                "align": "left",
+                "color": "darkblue",
+                "fontSize": 12},
+            "encoding": {
+                "text": {"field": "label"},
+                "x": {"value": 90}, 
+                "y": {"value": 60}
+            }
+        },{
+            "mark": {"type": "rule", "color": "red", "opacity": 1},
+            "data": {"values": [{"start": "February","end": "April"}]},
+            "encoding": {
+                "x": {"field": "start", "type": "temporal", "timeUnit": "month"}
+            }
+        }
+    ]
 }
+]}
 
 ]}

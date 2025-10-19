@@ -1,7 +1,7 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "Tourist numbers at the GBR" },
 "data": {"url": "vegalite_files/data/tourist_numbers.csv"},
+"padding": 0,
 "transform": [
   {
     "joinaggregate": [{
@@ -14,7 +14,8 @@
 ],
 "vconcat": [
   {
-    "width": 660,
+    "title": { "text": "Tourist numbers at the GBR", "fontSize": 14 },
+    "width": 678,
     "height": 400,
     "layer": [
       {
@@ -44,7 +45,7 @@
             "fill": "black", 
             "align": "center", 
             "baseline": "middle",
-            "dy": 25,
+            "dy": 35,
             "dx": 80,
             "fontSize": 13,
             "opacity": 0.5
@@ -64,7 +65,7 @@
             "fill": "black", 
             "align": "center", 
             "baseline": "middle",
-            "dy": 95,
+            "dy": 105,
             "dx": 80,
             "fontSize": 13,
             "opacity": 0.5
@@ -84,7 +85,7 @@
             "fill": "black", 
             "align": "center", 
             "baseline": "middle",
-            "dy": -160,
+            "dy": -180,
             "dx": -80,
             "fontSize": 13,
             "opacity": 0.5
@@ -94,10 +95,105 @@
         }
       },
       {
+        "data": {
+          "values": [
+            {"label": "Total tourists"}
+          ]},
+          "mark": {
+            "type": "text",
+            "align": "center", 
+            "baseline": "middle",
+            "dy": -100,
+            "dx": 240,
+            "color": "darkblue",
+            "fontSize": 13,
+            "opacity": 1
+          },
+          "encoding": {
+            "text": {"field": "label"}
+        }
+      },
+      {
+        "data": {
+          "values": [
+            {"label": "Cairns/Cooktown"}
+          ]},
+          "mark": {
+            "type": "text",
+            "align": "center", 
+            "baseline": "middle",
+            "dy": 40,
+            "dx": 240,
+            "color": "darkgray",
+            "fontSize": 13,
+            "opacity": 0.6
+          },
+          "encoding": {
+            "text": {"field": "label"}
+        }
+      },
+      {
+        "data": {
+          "values": [
+            {"label": "Total tourists"}
+          ]},
+          "mark": {
+            "type": "text",
+            "align": "center", 
+            "baseline": "middle",
+            "dy": 120,
+            "dx": 240,
+            "color": "darkgray",
+            "fontSize": 13,
+            "opacity": 0.6
+          },
+          "encoding": {
+            "text": {"field": "label"}
+        }
+      },
+      {
+        "data": {
+          "values": [
+            {"label": "Mackay/Capricorn"}
+          ]},
+        "mark": {
+            "type": "text",
+            "align": "center", 
+            "baseline": "middle",
+            "dy": 160,
+            "dx": 240,
+            "color": "darkgray",
+            "fontSize": 13,
+            "opacity": 0.6
+          },
+          "encoding": {
+            "text": {"field": "label"}
+        }
+      },
+      {
+        "data": {
+          "values": [
+            {"label": "Far Northern"}
+          ]},
+          "mark": {
+            "type": "text",
+            "align": "center", 
+            "baseline": "middle",
+            "dy": 190,
+            "dx": 240,
+            "color": "darkgray",
+            "fontSize": 13,
+            "opacity": 0.6
+          },
+          "encoding": {
+            "text": {"field": "label"}
+        }
+      },
+      {
         "mark": "line",
         "encoding": {
-            "x": {"field": "Quarter", "type": "temporal"},
-            "y": {"field": "GBR_visits", "type": "quantitative"}
+            "x": {"field": "Quarter", "type": "temporal", "axis": {"grid": false}},
+            "y": {"field": "GBR_visits", "type": "quantitative", "axis": {"grid": false}}
         }
       },
       {
@@ -115,7 +211,7 @@
   {"hconcat": [
   {
     "title": "Cairns/Cooktown",
-    "width": 220,
+    "width": 290,
     "height": 120,
     "layer": [
             {
@@ -146,7 +242,7 @@
   },
   {
     "title": "Townsville/Whitsunday",
-    "width": 220,
+    "width": 290,
     "height": 120,
     "layer": [
       {
@@ -178,7 +274,7 @@
   {"hconcat": [
   {
     "title": "Far Northern",
-    "width": 220,
+    "width": 290,
     "height": 120,
     "layer": [
       {
@@ -208,7 +304,7 @@
     ]
   },
   { "title": "Mackay/Capricorn",
-    "width": 220,
+    "width": 290,
     "height": 120,
     "layer": [
       {

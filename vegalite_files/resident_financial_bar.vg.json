@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {"view": {"stroke": "transparent"}},
     "hconcat": [
     {
   "width": 300,
@@ -18,6 +19,7 @@
         "y": {"field": "NRM", "type": "nominal", "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"], "title": null},
         "x": {"field": "population", "type": "quantitative", "scale": {"domain": [0,360000]}, "axis": {"tickCount": 4, "title": "Count"}},
         "tooltip": [
+          {"field": "NRM", "title": "NRM Region"},
           {"field": "population", "title": "Population", "format": ","}
         ]
       }
@@ -49,6 +51,7 @@
           "color": {"condition": {"test": "job_bar.job == datum.job", "value": "darkblue"}, "value": "lightblue"},
 					"order": {"field": "job_order"},
           "tooltip": [
+            {"field": "NRM", "title": "NRM Region"},
             {"field": "total_job_count", "title": "Total number of jobs", "format": ","}
           ]
         }
@@ -102,7 +105,7 @@
     "mark": {"type": "bar", "size": 20},
     "encoding": {
           "y": {"field": "NRM", "type": "nominal", "axis": null, "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"]},
-          "x": {"field": "job_count", "type": "quantitative", "title": "Count"},
+          "x": {"field": "job_count", "type": "quantitative", "title": "Count", "axis": {"grid": false}},
           "color": {
             "field": "job",
             "legend": {"direction": "horizontal", "orient": "bottom", "labelLimit": 200, "title": "Job types", "labelFontSize": 12}
@@ -115,37 +118,13 @@
 					},
 					"order": {"field": "job_order"},
 					"tooltip": [
-						{"field": "NRM", "title": "NRM"},
+						{"field": "NRM", "title": "NRM Region"},
 						{"field": "job", "title": "Job type"},
 						{"field": "job_count", "format": ",", "title": "Count"},
             {"field": "percent", "format": ".2%", "title": "Percentage of region's jobs"}
 					]
         }
-  	},{
-      "data": {
-        "url": "vegalite_files/data/num_jobs.csv"
-        },
-      "transform": [{
-      "filter": "datum.NRM != 'Australia' && datum.NRM != 'Queensland'"
-      },{
-      "calculate": "datum.count * 1000", "as": "job_count"
-      },{
-			"calculate": "(datum.job == 'Other' ? 2 : 1)", "as": "job_order"
-		  },{
-        "filter": "datum.count > 12"
-      }
-      ],
-			"mark": {
-        "type": "text", "align": "left", 
-        "baseline": "middle", "color": "black"},
-			"encoding": {
-        "order": {"field": "job_order"},
-				"text": {"field": "count"},
-        "x": {"field": "job_count", "type": "quantitative", "stack": "zero"},
-        "y": {"field": "NRM", "type": "nominal"},
-        "detail": {"field": "job", "type": "nominal"}
-			}
-		}
+  	}
   ]
     }
   ]

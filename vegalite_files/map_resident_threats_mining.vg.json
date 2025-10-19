@@ -4,7 +4,7 @@
         "width": 358,
         "height": 360,
         "padding": 0,
-        "title": { "text": "Mining" },
+        "title": { "text": "Residents' attitudes to mining", "fontSize": 14 },
         "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": 1020, "center": [6.2,-5.6]},
         "view": {"fill": "white"},
         "layer": [

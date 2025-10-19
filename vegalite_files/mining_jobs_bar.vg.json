@@ -1,20 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "hconcat": [
-    {
-  "width": 600,
+    "config": {"view": {"stroke": "transparent"}},
+      "padding": 0,
+   "width": 624,
   "height": 200,
-  "padding": 0,
-  "title": "Percentage of jobs in mining",
+  "title": {"text": "Percentage of jobs in mining", "fontSize": 14},
   "data": {"url": "vegalite_files/data/mining_num_jobs.csv"},
-  "layer": [{
-    "params": [{
-      "name": "job_bar", "select":  {
-        "type": "point", 
-        "fields": ["NRM", "job"]}, 
-        "value": [{"NRM": null, "job": "Construction"}]
-    }],
-    "transform": [{
+  "transform": [{
       "filter": "datum.NRM != 'Australia' && datum.NRM != 'Queensland'"
     },
     {
@@ -23,16 +15,11 @@
       "calculate": "datum.mining_count * 1000", "as": "job_count"
     }
       ],
-    "mark": {"type": "bar", "size": 20},
+  "layer": [{
+    "mark": {"type": "bar", "size": 20, "opacity": 0.4},
     "encoding": {
-          "y": {"field": "NRM", "type": "nominal", "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"]},
-          "x": {"field": "mining_perc", "type": "quantitative"},
-					"opacity": {
-						"condition": {
-							"test": "job_bar == null || job_bar.job == datum.job",
-							"value": 1
-						}, "value": 0.4
-					},
+          "y": {"field": "NRM", "type": "nominal", "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"], "axis": {"labelFontSize": 12}, "title": null},
+          "x": {"field": "mining_perc", "type": "quantitative", "axis": {"grid": false, "format": ".0%"}, "title": "Percentage of jobs in mining"},
           "color": {
             "condition": {
               "test": {"field": "NRM", "equal": "Total GBR"},
@@ -42,7 +29,7 @@
 					"tooltip": [
 						{"field": "NRM", "title": "NRM Region"},
 						{"field": "job_count", "format": ",", "title": "Total mining jobs"},
-            {"field": "mining_perc", "format": ".0%", "title": "Percentage jobs in mining"}
+            {"field": "mining_perc", "format": ".2%", "title": "Percentage jobs in mining"}
 					]
         }
   	},{
@@ -50,14 +37,87 @@
 			"encoding": {
 				"x": {"datum": 0.0163}
 			}
-		},
+		},{
+        "mark": {"type": "bar", "size": 20},
+        "transform": [
+          {"filter": "datum.mining_perc >= 0.0163"},
+          {"calculate": "0.0163", "as": "baseline"}
+        ],
+        "encoding": {
+          "y": {"field": "NRM", "type": "nominal", "sort": ["Cape York", "Wet Tropics", "Burdekin", "Mackay Whitsunday", "Fitzroy", "Burnett Mary"], "axis": {"labelFontSize": 12}, "title": null},
+          "x": {"field": "baseline", "type": "quantitative"},
+          "x2": {"field": "mining_perc"},
+          "color": {
+            "condition": {
+              "test": {"field": "NRM", "equal": "Total GBR"},
+              "value": "blue"
+            }, "value": "black"
+            },
+          "tooltip": [
+						{"field": "NRM", "title": "NRM Region"},
+						{"field": "job_count", "format": ",", "title": "Total mining jobs"},
+            {"field": "mining_perc", "format": ".2%", "title": "Percentage jobs in mining"}
+					]
+
+        }
+    },{
+      "data": {"values": [
+        {"label": ["Very high percentage of mining jobs", "Low real number of mining jobs"]}
+      ]},
+      "mark": {
+        "type": "text", 
+        "align": "right", 
+        "baseline": "middle",
+        "dx": 280,
+        "dy": -65
+      },
+      "encoding": {
+        "text": {"field": "label"}
+      }
+    },{
+      "data": {"values": [
+        {"label": ["High number and percentage of mining jobs","Low rate of concern about mining"]}
+      ]},
+      "mark": {
+        "type": "text", 
+        "align": "left", 
+        "baseline": "middle",
+        "dx": 100,
+        "dy": 25
+      },
+      "encoding": {
+        "text": {"field": "label"}
+      }
+    },{
+      "data": {"values": [
+        {"label": ["Low percentage of mining jobs","High rate of concern about mining"]}
+      ]},
+      "mark": {
+        "type": "text", 
+        "align": "left", 
+        "baseline": "middle",
+        "dx": -200,
+        "dy": 50
+      },
+      "encoding": {
+        "text": {"field": "label"}
+      }
+    },
     {
-			"mark": "rule",
-			"encoding": {
-				"x": {"datum": 0.0194}
-			}
-		}
-  ]
+      "data": {"values": [
+        {"label": ["Percentage jobs in mining in Australia"]}
+      ]},
+      "mark": {
+        "type": "text", 
+        "align": "center", 
+        "baseline": "middle",
+        "dx": 0,
+        "dy": -250,
+        "angle": -90
+      },
+      "encoding": {
+        "text": {"field": "label"}
+      }
     }
   ]
 }

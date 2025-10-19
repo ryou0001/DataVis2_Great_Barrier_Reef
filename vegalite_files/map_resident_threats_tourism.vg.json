@@ -5,17 +5,17 @@
 
         "width": 358,
         "height": 360,
-        "title": { "text": "Tourism" },
+        "title": { "text": ["Total tourist numbers in 2017 and","Residents' attitudes to tourism"], "fontSize": 14 },
         "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": 1020, "center": [6.2,-5.6]},
         "view": {"fill": "white"},
         "layer": [
             {
             "data": {
                 "name": "GBR_boundary",
-                "url": "vegalite_files/maps/GBR_boundary.json",
-                "format": {"type": "topojson", "feature": "GBR_boundary"}
+                "url": "vegalite_files/maps/GBR_management_areas.json",
+                "format": {"type": "topojson", "feature": "Great_Barrier_Reef_Marine_Park_Management_Areas_20_8519682087340233118"}
             },
-            "mark": {"type": "geoshape", "fill": "lightgray", "opacity": 0.5}
+            "mark": {"type": "geoshape", "fill": "lightgray", "opacity": 0.5, "stroke": "black"}
             },
             {
                 "data": {
@@ -101,10 +101,10 @@
             "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.3}
             },{
             "data": {"values":[
-              {"longitude": 147.5, "latitude": -17, "label": ["WET TROPICS", "Highest: 19.58%"]},
-              {"longitude": 153, "latitude": -22.6, "label": ["FITZROY", "Lowest: 4.51%"]}
+              {"longitude": 144, "latitude": -18.2, "label": ["WET TROPICS", "Highest: 19.58%"]},
+              {"longitude": 146, "latitude": -24.6, "label": ["FITZROY", "Lowest: 4.51%"]}
             ]},
-            "mark": {"type": "text", "align": "left", "fontSize": 13},
+            "mark": {"type": "text", "align": "right", "fontSize": 13},
             "encoding": {
               "text": {"field": "label"},
               "longitude": {"field": "longitude"},
@@ -112,8 +112,8 @@
             }
             },{
             "data": {"values":[
-              {"longitude1": 145.6, "latitude1": -17.4, "longitude2": 147.5, "latitude2": -17},
-              {"longitude1": 149.2, "latitude1": -23.7, "longitude2": 153, "latitude2": -22.6}
+              {"longitude1": 145.6, "latitude1": -17.4, "longitude2": 144, "latitude2": -18.2},
+              {"longitude1": 149.2, "latitude1": -23.7, "longitude2": 146, "latitude2": -24.6}
             ]},
             "mark": {"type": "line", "opacity": 0.3, "color":"black"},
             "encoding": {
@@ -122,6 +122,97 @@
                 "longitude2": {"field": "longitude2"},
                 "latitude2": {"field": "latitude2"}
             }
+            },{
+            "data": {"values": [
+                {"name": "Cairns",	"longitude": 145.7, "latitude":	-16.9},
+                {"name":"Port Douglas",	"longitude": 145.4, "latitude":	-16.4},
+                {"name": "Whitsunday", "longitude": 148.7, "latitude": -20.2}
+            ]},
+            "mark": {"type": "circle", "opacity": 1, "color": "black", "size": 10},
+            "encoding": {
+                "latitude": {"field": "latitude"},
+                "longitude": {"field": "longitude"}
+            }
+            },
+            {
+            "data": {"values": [
+                {"name": "Cairns",	"longitude": 145.7, "latitude":	-16.9},
+                {"name":"Port Douglas",	"longitude": 145.4, "latitude":	-16.4},
+                {"name": "Whitsunday", "longitude": 148.7, "latitude": -20.2}
+            ]},
+            "mark": {"type": "text", "opacity": 1, "color": "black", "fontSize": 10, "align": "right", "dx": -5},
+            "encoding": {
+                "text": {"field": "name"},
+                "latitude": {"field": "latitude"},
+                "longitude": {"field": "longitude"}
+            }
+            },{
+            "data": {
+                "values": [
+                {"x": 150.8, "y": -18.3, "img": "vegalite_files/data/people_99.png"}
+                ]
+            },
+            "mark": {"type": "image", "width": 90, "height": 90},
+            "encoding": {
+                "longitude": {"field": "x", "type": "quantitative"},
+                "latitude": {"field": "y", "type": "quantitative"},
+                "url": {"field": "img", "type": "nominal"}
+            }
+            },{
+            "data": {
+                "values": [
+                {"x": 144.5, "y": -12.5, "img": "vegalite_files/data/people_0.6.png"}
+                ]
+            },
+            "mark": {"type": "image", "width": 10, "height": 20},
+            "encoding": {
+                "longitude": {"field": "x", "type": "quantitative"},
+                "latitude": {"field": "y", "type": "quantitative"},
+                "url": {"field": "img", "type": "nominal"}
+            }
+            },{
+            "data": {
+                "values": [
+                {"x": 152.5, "y": -22.4, "img": "vegalite_files/data/people_19.png"}
+                ]
+            },
+            "mark": {"type": "image", "width": 35, "height": 35},
+            "encoding": {
+                "longitude": {"field": "x", "type": "quantitative"},
+                "latitude": {"field": "y", "type": "quantitative"},
+                "url": {"field": "img", "type": "nominal"}
+            }
+            },{
+            "data": {
+                "values": [
+                {"x": 149, "y": -15, "img": "vegalite_files/data/people_139.png"}
+                ]
+            },
+            "mark": {"type": "image", "width": 100, "height": 100},
+            "encoding": {
+                "longitude": {"field": "x", "type": "quantitative"},
+                "latitude": {"field": "y", "type": "quantitative"},
+                "url": {"field": "img", "type": "nominal"}
+            }
+            },{
+            "data": {
+                "values": [
+                {"x": 152.5, "y": -11, "img": "vegalite_files/data/person.png"}
+                ]
+            },
+            "mark": {"type": "image", "width": 30, "height": 30},
+            "encoding": {
+                "longitude": {"field": "x", "type": "quantitative"},
+                "latitude": {"field": "y", "type": "quantitative"},
+                "url": {"field": "img", "type": "nominal"}
+            }
+            },{
+            "data": {"values": {"label": "10,000 tourists", "x": 153, "y": -11}},
+            "mark": {"type": "text", "fontSize": 12, "color": "black", "align": "left"},
+            "encoding": {
+                "text": {"field": "label", "type": "nominal"},
+                "longitude": {"field": "x"}, 
+                "latitude": {"field": "y"}}
             }
         ]
     }

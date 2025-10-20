@@ -5,7 +5,7 @@
 .wrapper {
   width: 1290px;
   margin: 0 auto;
-  border: 2px solid black
+  border: 0px
 }
 
 .wrapper > div {
@@ -86,7 +86,7 @@
   display: grid;
   grid-template-columns: 100px 460px 1fr 130px 250px;
   gap: 0px;
-  background-color: aquamarine;
+  background-color: #002857;
 }
 
 /*Sections*/
@@ -109,6 +109,10 @@
 .text_section{
   grid-column: 2;
   grid-row: 1;
+}
+.padding_section{
+  grid-column: 1;
+  grid-row: 1
 }
 
 /*Tourism*/

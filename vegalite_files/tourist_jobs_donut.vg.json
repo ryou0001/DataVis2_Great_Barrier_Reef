@@ -1,6 +1,6 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"background": "aquamarine",
+"background": "#002857",
     "config": {"view": {"stroke": "transparent"}},
 "hconcat": [  
   {
@@ -29,7 +29,7 @@
           "data": {"values": [{"label": "8.49%"}]},
         "mark": {
           "type": "text", 
-          "fill": "black", 
+          "fill": "white", 
           "align": "center", 
           "baseline": "middle", 
           "dy": -15,
@@ -42,7 +42,7 @@
           "data": {"values": [{"label": ["jobs supported", "by marine", "tourism"]}]},
         "mark": {
           "type": "text", 
-          "fill": "black", 
+          "fill": "white", 
           "align": "center", 
           "baseline": "middle",
           "dy": 10, 
@@ -86,7 +86,7 @@
             },
             "mark": {
               "type": "text", 
-              "fill": "black", 
+              "fill": "white", 
               "align": "center", 
               "baseline": "middle", 
               "dy": -20,
@@ -103,7 +103,7 @@
             },
             "mark": {
               "type": "text", 
-              "fill": "black", 
+              "fill": "white", 
               "align": "center", 
               "baseline": "middle", 
               "dy": 0,

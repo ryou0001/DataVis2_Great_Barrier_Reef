@@ -174,6 +174,4 @@ we do not want mesh blocks (too granular)
 Colour / image ideas: https://www.coralcoe.org.au/
 
 ------------------------------
-
-Code: 
-=AVERAGEIF($A$2:$A$1032, "="&A2, $M$2:$M$1032)
+Coral images from: https://www.theoceanagency.org/ocean-image-bank/coral-bleaching 

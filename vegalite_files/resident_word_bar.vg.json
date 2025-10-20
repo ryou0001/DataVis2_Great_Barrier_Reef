@@ -62,34 +62,34 @@
           "condition": [
             {
               "test": {"field": "words", "equal": "BLEACHING"},
-              "value": "red"
+              "value": "#d95f02"
             }, {
               "test": {"field": "words", "equal": "DYING"},
-              "value": "red"
+              "value": "#d95f02"
             }, 
             {
               "test": {"field": "words", "equal": "ENDANGERED"},
-              "value": "red"
+              "value": "#d95f02"
             }, 
             {
               "test": {"field": "words", "equal": "TOURISM"},
-              "value": "green"
+              "value": "#66a61e"
             },
             {
               "test": {"field": "words", "equal": "BEAUTIFUL"},
-              "value": "palevioletred"
+              "value": "#e7298a"
             },
             {
               "test": {"field": "words", "equal": "BEAUTY"},
-              "value": "palevioletred"
+              "value": "e7298a"
             },
             {
               "test": {"field": "words", "equal": "CORAL"},
-              "value": "goldenrod"
+              "value": "#e6ab02"
             },
             {
               "test": {"field": "words", "equal": "FISH"},
-              "value": "goldenrod"
+              "value": "#e6ab02"
             }
         ], "value": "darkgrey"
         }

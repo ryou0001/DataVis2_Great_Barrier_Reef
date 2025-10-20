@@ -4,7 +4,7 @@
         "width": 610,
         "height": 600,
         "padding": 0,
-        "title": { "text": ["Natural Resource Management (NRM) Regions", "and Population Centres"], "fontSize": 14 },
+        "title": { "text": ["Natural Resource Management (NRM) Regions", "and Population Centres with >2000 people"], "fontSize": 14 },
         "params": [
             {
                 "name": "zoom_level",
@@ -30,19 +30,6 @@
                 "labels": ["North Queensland", "Central Coast Queensland", "South Queensland"],
                 "name": "Map Centre: "
                 }
-            },
-            {
-                "name": "show_pop_centres",
-                "value": false,
-                "bind": {
-                "input": "select",
-                "options": [
-                    true,
-                    false
-                ],
-                "labels": ["Show", "Hide"],
-                "name": "Show all population centres: "
-                }
             }
         ],
         "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": {"expr": "zoom_level"}, "center": {"expr": "center_to"}},
@@ -54,7 +41,15 @@
                 "url": "vegalite_files/maps/GBR_boundary.json",
                 "format": {"type": "topojson", "feature": "GBR_boundary"}
             },
-            "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray", "opacity": 0.9}
+            "mark": {"type": "geoshape", "fill": "white", "stroke": "darkgray", "opacity": 1}
+            },
+            {
+            "data": {
+                "name": "GBR_boundary",
+                "url": "vegalite_files/maps/GBR_boundary.json",
+                "format": {"type": "topojson", "feature": "GBR_boundary"}
+            },
+            "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray", "opacity": 0.7}
             },
             {
                 "data": {
@@ -83,7 +78,7 @@
 				"encoding": {
                   "color": {
                     "field": "properties.NRM_REGION",
-                    "scale": {"range": ["red", "blue", "yellow", "green", "purple", "orange"]},
+                    "scale": {"scheme": "dark2"},
                     "legend": null
                   }
 				}
@@ -96,12 +91,12 @@
                 "latitude": {"field": "y"}}
             },{
             "data": {"values":[
-              {"longitude": 145.1, "latitude": -12.5, "label": "CAPE YORK"},
-              {"longitude": 147.5, "latitude": -17, "label": "WET TROPICS"},
-              {"longitude": 149.8, "latitude": -18.8, "label": "BURDEKIN"},
-              {"longitude": 153.5, "latitude": -20.4, "label": ["MACKAY","WHITSUNDAY"]},
-              {"longitude": 154, "latitude": -22.6, "label": "FITZROY"},
-              {"longitude": 154, "latitude": -25.3, "label": ["BURNETT","MARY"]}
+              {"longitude": 145.1, "latitude": -12.5, "label": ["CAPE YORK", "Population: 17,206"]},
+              {"longitude": 147.5, "latitude": -17, "label": ["WET TROPICS", "Population: 250,000"]},
+              {"longitude": 149.8, "latitude": -18.8, "label": ["BURDEKIN", "Population: 240,000"]},
+              {"longitude": 153.5, "latitude": -20.4, "label": ["MACKAY","WHITSUNDAY", "Population: 189,643"]},
+              {"longitude": 154, "latitude": -22.6, "label": ["FITZROY", "Population: 235,000"]},
+              {"longitude": 154, "latitude": -25.3, "label": ["BURNETT MARY", "Population: 350,000"]}
             ]},
             "mark": {"type": "text", "align": "left", "fontSize": 13},
             "encoding": {
@@ -111,12 +106,12 @@
             }
             },{
             "data": {"values":[
-              {"longitude1": 143, "latitude1": -13, "longitude2": 145.1, "latitude2": -12.5},
-              {"longitude1": 145.6, "latitude1": -17.4, "longitude2": 147.5, "latitude2": -17},
-              {"longitude1": 146.6, "latitude1": -20.3, "longitude2": 149.8, "latitude2": -18.8},
-              {"longitude1": 149.2, "latitude1": -20.9, "longitude2": 153.5, "latitude2": -20.4},
-              {"longitude1": 149.2, "latitude1": -23.7, "longitude2": 154, "latitude2": -22.6},
-              {"longitude1": 151.9, "latitude1": -25.5, "longitude2": 154, "latitude2": -25.3}
+              {"longitude1": 144, "latitude1": -13, "longitude2": 145.1, "latitude2": -12.5},
+              {"longitude1": 146.2, "latitude1": -17.4, "longitude2": 147.5, "latitude2": -17},
+              {"longitude1": 147.8, "latitude1": -19.3, "longitude2": 149.8, "latitude2": -18.8},
+              {"longitude1": 150.1, "latitude1": -20.8, "longitude2": 153.5, "latitude2": -20.4},
+              {"longitude1": 151.2, "latitude1": -22.9, "longitude2": 154, "latitude2": -22.6},
+              {"longitude1": 152.9, "latitude1": -25.5, "longitude2": 154, "latitude2": -25.3}
             ]},
             "mark": {"type": "line", "opacity": 0.3, "color":"black"},
             "encoding": {
@@ -126,23 +121,6 @@
                 "latitude2": {"field": "latitude2"}
             }
             },
-                {
-    "data": {
-        "url": "vegalite_files/maps/Population_centres.csv"
-    },
-    "encoding": {
-        "longitude": {"field": "long", "type": "quantitative"}, 
-        "latitude": {"field": "lat", "type": "quantitative"}
-    },
-    "layer": [ {
-        "mark": {"type": "circle", "fill": "black", "opacity": 0.6}
-    }, {
-        "mark": {"type": "text", "dx":-10, "align":"right", "color": "black", "opacity": 0.8}, 
-        "encoding": {
-            "text": {"field": "name", "type": "nominal"}}
-    }
-    ]
-    },
     {
     "data": {
         "url": "vegalite_files/maps/ne_10m_graticules_5.json",
@@ -151,8 +129,19 @@
     "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.3}
     },
     {
+    "data": {
+        "url": "vegalite_files/maps/Population_centres.csv"
+    },
+    "encoding": {
+        "longitude": {"field": "long", "type": "quantitative"}, 
+        "latitude": {"field": "lat", "type": "quantitative"},
+                    "text": {"field": "name", "type": "nominal"}},
+        "mark": {"type": "text", "dx":-16, "align":"right", "color": "black", "opacity": 0.8}
+    },
+    {
         "data": {"url": "vegalite_files/data/Population_centres.csv"},
-        "mark": {"type":"circle","color":"blue"},
+        "transform": [{"filter": "datum.population > 2000"}],
+        "mark": {"type":"circle","color":"black", "stroke": "white"},
         "encoding": {
             "longitude": {"field": "long", "type": "quantitative"},
             "latitude": {"field": "lat", "type": "quantitative"},
@@ -168,12 +157,7 @@
                     "orient": "none",
                     "legendX": 480, 
                     "legendY": 30}},
-            "opacity": {
-                "condition": {
-                    "test": "show_pop_centres",
-                    "value": 0.9
-                }, "value": 0
-            },
+            "opacity": {"value": 0.7},
             "tooltip": [
                 {"field": "name", "title": "Population centre name"},
                 {"field": "population", "format": ",", "title": "Population"}

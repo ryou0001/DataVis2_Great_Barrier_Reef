@@ -24,8 +24,9 @@
                         "fields": ["Management_Area", "visits"]                    }
                 }
             ],
-            "mark": {"type": "geoshape", "fill": "lightgray", "opacity": 0.5, "stroke": "black"},
+            "mark": {"type": "geoshape", "opacity": 0.5, "stroke": "black"},
             "encoding": {
+                "color": {"field": "Management_Area", "scale": {"scheme": "dark2"}, "legend": {"title": "Management Area"}},
                 "tooltip": [
                     {"field": "Management_Area", "title": "Management Area"},
                     {"field": "visits", "format": ",", "title": "Total tourists in 2017"}

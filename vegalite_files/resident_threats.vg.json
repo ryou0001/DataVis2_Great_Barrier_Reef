@@ -48,7 +48,7 @@
   },
   "layer": [
           {
-          "mark": {"type": "bar"},
+          "mark": {"type": "bar", "color": "#002857"},
           "encoding": {
               "opacity": {
                 "condition": {

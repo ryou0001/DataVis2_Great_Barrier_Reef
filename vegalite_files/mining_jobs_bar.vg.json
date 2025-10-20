@@ -23,8 +23,8 @@
           "color": {
             "condition": {
               "test": {"field": "NRM", "equal": "Total GBR"},
-              "value": "blue"
-            }, "value": "black"
+              "value": "#e47238"
+            }, "value": "orange"
           },
 					"tooltip": [
 						{"field": "NRM", "title": "NRM Region"},
@@ -50,8 +50,8 @@
           "color": {
             "condition": {
               "test": {"field": "NRM", "equal": "Total GBR"},
-              "value": "blue"
-            }, "value": "black"
+              "value": "#e47238"
+            }, "value": "orange"
             },
           "tooltip": [
 						{"field": "NRM", "title": "NRM Region"},

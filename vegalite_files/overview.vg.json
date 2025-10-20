@@ -1,7 +1,7 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "width": 610,
-"height": 360,
+"height": 375,
 "padding": 0,
 "title": { "text": "Location of the Great Barrier Reef", "fontSize": 14 },
 "projection": {
@@ -83,6 +83,23 @@
         "format": {"type": "topojson", "feature": "ne_10m_graticules_5"}
     },
     "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.4}
+    },
+    {
+    "data": {
+        "url": "vegalite_files/maps/Population_centres.csv"
+    },
+    "encoding": {
+        "longitude": {"field": "long", "type": "quantitative"}, 
+        "latitude": {"field": "lat", "type": "quantitative"}
+    },
+    "layer": [ {
+        "mark": {"type": "circle", "fill": "black", "opacity": 0.6, "size": 10}
+    }, {
+        "mark": {"type": "text", "dx":-10, "align":"right", "color": "black", "opacity": 0.8}, 
+        "encoding": {
+            "text": {"field": "name", "type": "nominal"}}
+    }
+    ]
     }
 ]
 }

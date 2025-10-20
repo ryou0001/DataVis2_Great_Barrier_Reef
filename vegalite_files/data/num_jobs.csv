@@ -1,42 +1,42 @@
-job,NRM,count,percent
-Accommodation and food services,Burdekin,10.2,0.0475
-Construction,Burdekin,13.1,0.061
-Education and training,Burdekin,12.8,0.0596
-Health care and social assistance,Burdekin,15.4,0.0717
-Other,Burdekin,149.3,0.6954
-Retail trade,Burdekin,13.9,0.0647
-Accommodation and food services,Burnett Mary,9.6,0.0617
-Construction,Burnett Mary,12.1,0.0777
-Education and training,Burnett Mary,13.1,0.0841
-Health care and social assistance,Burnett Mary,18.4,0.1182
-Other,Burnett Mary,87.4,0.5613
-Retail trade,Burnett Mary,15.1,0.097
-Accommodation and food services,Cape York,0.4,0.0444
-Construction,Cape York,0.3,0.0333
-Education and training,Cape York,0.7,0.0778
-Health care and social assistance,Cape York,0.9,0.1
-Other,Cape York,6.4,0.7111
-Retail trade,Cape York,0.3,0.0333
-Accommodation and food services,Fitzroy,11.4,0.0594
-Construction,Fitzroy,15.9,0.0829
-Education and training,Fitzroy,12.2,0.0636
-Health care and social assistance,Fitzroy,12.1,0.0631
-Other,Fitzroy,125.5,0.6543
-Retail trade,Fitzroy,14.7,0.0766
-Accommodation and food services,Mackay Whitsunday,7.9,0.0666
-Construction,Mackay Whitsunday,10.8,0.0911
-Education and training,Mackay Whitsunday,5.6,0.0472
-Health care and social assistance,Mackay Whitsunday,6.3,0.0531
-Other,Mackay Whitsunday,78.1,0.6585
-Retail trade,Mackay Whitsunday,9.9,0.0835
-Accommodation and food services,Queensland,190.4,0
-Construction,Queensland,205.2,0
-Education and training,Queensland,229.4,0
-Health care and social assistance,Queensland,293.8,0
-Retail trade,Queensland,254.5,0
-Accommodation and food services,Wet Tropics,14.4,0.0965
-Construction,Wet Tropics,11,0.0737
-Education and training,Wet Tropics,12.6,0.0844
-Health care and social assistance,Wet Tropics,16,0.1072
-Other,Wet Tropics,80.9,0.5419
-Retail trade,Wet Tropics,14.4,0.0965
+job,NRM,count,percent,rank
+Accommodation and food services,Burdekin,10.2,0.0475,5
+Accommodation and food services,Burnett Mary,9.6,0.0617,5
+Accommodation and food services,Cape York,0.4,0.0444,5
+Accommodation and food services,Fitzroy,11.4,0.0594,5
+Accommodation and food services,Mackay Whitsunday,7.9,0.0666,5
+Accommodation and food services,Queensland,190.4,0,5
+Accommodation and food services,Wet Tropics,14.4,0.0965,5
+Construction,Burdekin,13.1,0.061,4
+Construction,Burnett Mary,12.1,0.0777,4
+Construction,Cape York,0.3,0.0333,4
+Construction,Fitzroy,15.9,0.0829,4
+Construction,Mackay Whitsunday,10.8,0.0911,4
+Construction,Queensland,205.2,0,4
+Construction,Wet Tropics,11,0.0737,4
+Education and training,Burdekin,12.8,0.0596,3
+Education and training,Burnett Mary,13.1,0.0841,3
+Education and training,Cape York,0.7,0.0778,3
+Education and training,Fitzroy,12.2,0.0636,3
+Education and training,Mackay Whitsunday,5.6,0.0472,3
+Education and training,Queensland,229.4,0,3
+Education and training,Wet Tropics,12.6,0.0844,3
+Health care and social assistance,Burdekin,15.4,0.0717,1
+Health care and social assistance,Burnett Mary,18.4,0.1182,1
+Health care and social assistance,Cape York,0.9,0.1,1
+Health care and social assistance,Fitzroy,12.1,0.0631,1
+Health care and social assistance,Mackay Whitsunday,6.3,0.0531,1
+Health care and social assistance,Queensland,293.8,0,1
+Health care and social assistance,Wet Tropics,16,0.1072,1
+Other,Burdekin,149.3,0.6954,6
+Other,Burnett Mary,87.4,0.5613,6
+Other,Cape York,6.4,0.7111,6
+Other,Fitzroy,125.5,0.6543,6
+Other,Mackay Whitsunday,78.1,0.6585,6
+Other,Wet Tropics,80.9,0.5419,6
+Retail trade,Burdekin,13.9,0.0647,2
+Retail trade,Burnett Mary,15.1,0.097,2
+Retail trade,Cape York,0.3,0.0333,2
+Retail trade,Fitzroy,14.7,0.0766,2
+Retail trade,Mackay Whitsunday,9.9,0.0835,2
+Retail trade,Queensland,254.5,0,2
+Retail trade,Wet Tropics,14.4,0.0965,2

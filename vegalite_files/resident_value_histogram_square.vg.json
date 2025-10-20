@@ -40,7 +40,7 @@
 				"title": { "text": "I love that I live beside the GBR" },
 				"layer": [
 					{
-						"mark": "bar",
+						"mark": {"type": "bar", "color": "#002857"},
 						"encoding": {
 							"x": {"bin": true, "field": "love_live_beside", "axis": {"format": ".0f"}, "title": ["Resident responses (binned)","strongly disagree to strongly agree"]},
 							"y": {"aggregate": "count", "scale": {"domain": [0,1400]}, "title": "Count"} 
@@ -50,13 +50,13 @@
 						"mark": {"type": "rule", "strokeWidth":2},
 						"encoding": {
 							"x": {"aggregate": "mean", "field": "love_live_beside"},
-							"color": {"value": "red"}
+							"color": {"value": "#e47238"}
 						}
 					},
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": 30,
 							"dy": -10, 
@@ -69,7 +69,7 @@
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": -5,
 							"dy": -10, 
@@ -86,7 +86,7 @@
 			"title": { "text": "The GBR is part of my identity" },
 				"layer": [
 					{
-						"mark": "bar",
+						"mark": {"type": "bar", "color": "#002857"},
 						"encoding": {
 							"x": {"bin": true, "field": "identity", "axis": {"format": ".0f"}, "title": ["Resident responses (binned)","strongly disagree to strongly agree"]},
 							"y": {"aggregate": "count", "scale": {"domain": [0,1400]}, "title": "Count"} 
@@ -96,13 +96,13 @@
 						"mark": {"type": "rule", "strokeWidth":2},
 						"encoding": {
 							"x": {"aggregate": "mean", "field": "identity"},
-							"color": {"value": "red"}
+							"color": {"value": "#e47238"}
 						}
 					},
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": 30,
 							"dy": -10, 
@@ -115,7 +115,7 @@
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": -5,
 							"dy": -10, 
@@ -135,7 +135,7 @@
 				"title": { "text": ["The GBR is a great asset for","the economy of this region"] },
 				"layer": [
 					{
-						"mark": "bar",
+						"mark": {"type": "bar", "color": "#002857"},
 						"encoding": {
 							"x": {"bin": true, "field": "asset", "axis": {"format": ".0f"}, "title": ["Resident responses (binned)","strongly disagree to strongly agree"]},
 							"y": {"aggregate": "count", "scale": {"domain": [0,1400]}, "title": "Count"} 
@@ -145,13 +145,13 @@
 						"mark": {"type": "rule", "strokeWidth":2},
 						"encoding": {
 							"x": {"aggregate": "mean", "field": "asset"},
-							"color": {"value": "red"}
+							"color": {"value": "#e47238"}
 						}
 					},
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": 30,
 							"dy": -10, 
@@ -164,7 +164,7 @@
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": -5,
 							"dy": -10, 
@@ -182,7 +182,7 @@
 			"title": { "text": ["The GBR contributes to my","quality of life and well-being"] },
 				"layer": [
 					{
-						"mark": "bar",
+						"mark": {"type": "bar", "color": "#002857"},
 						"encoding": {
 							"x": {"bin": true, "field": "quality_of_life", "axis": {"format": ".0f"}, "title": ["Resident responses (binned)","strongly disagree to strongly agree"]},
 							"y": {"aggregate": "count", "scale": {"domain": [0,1400]}, "title": "Count"} 
@@ -192,13 +192,13 @@
 						"mark": {"type": "rule", "strokeWidth":2},
 						"encoding": {
 							"x": {"aggregate": "mean", "field": "quality_of_life"},
-							"color": {"value": "red"}
+							"color": {"value": "#e47238"}
 						}
 					},
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": 30,
 							"dy": -10, 
@@ -211,7 +211,7 @@
 					{
 						"mark": {
 							"type": "text", 
-							"color": "red", 
+							"color": "#e47238", 
 							"angle": -90, 
 							"dx": -5,
 							"dy": -10, 

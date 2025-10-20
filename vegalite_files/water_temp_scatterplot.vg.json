@@ -61,7 +61,7 @@
             "x": {"field": "x", "type": "temporal", "title": ""}, 
             "y": {"field": "y", "type": "quantitative", "scale": {"domain": [16,34]}, "title": ""}}
     },{
-        "mark": {"type": "point", "opacity": 0.5},
+        "mark": {"type": "point", "opacity": 0.5, "color": "#002857"},
         "params": [{
                 "name": "brush", 
                 "select": {"type": "interval","encodings": ["x"]}
@@ -76,7 +76,7 @@
         }
     },{
         "data": {"url": "vegalite_files/data/water_temp_av.csv"},
-        "mark": {"type": "line"},
+        "mark": {"type": "line", "color": "#002857"},
         "encoding": {
             "y": {"field": "average_temp", "type": "quantitative", "title": ""},
             "x": {"field": "start", "type": "temporal", "title": ""},
@@ -127,7 +127,7 @@
     }],
     "layer": [
         {
-        "mark": {"type": "bar"},
+        "mark": {"type": "bar", "color": "#002857"},
         "encoding": {
             "x": {"bin": true, "field": "TEMP", "title": "Temperature (°C) (binned)"},
             "y": {"aggregate": "count", "title": "Count", "axis": {"grid": false}},
@@ -141,13 +141,13 @@
         "mark": {"type": "rule", "strokeWidth":2},
         "encoding": {
             "x": {"aggregate": "mean", "field": "TEMP"},
-            "color": {"value": "red"}
+            "color": {"value": "#e47238"}
         }
     },
     {
         "mark": {
             "type": "text", 
-            "color": "red", 
+            "color": "#e47238", 
             "angle": -90, 
             "dx": 110,
             "dy": -10, 
@@ -160,7 +160,7 @@
     {
         "mark": {
             "type": "text", 
-            "color": "red", 
+            "color": "#e47238", 
             "angle": -90, 
             "dx": 70,
             "dy": -10, 
@@ -200,13 +200,13 @@
                 {"filter": {"param": "brush"}},
                 {"aggregate": [{"op": "average", "field": "TEMP", "as": "month_avg"}], "groupby": ["MONTH"]}
             ],
-            "mark": {"type": "line", "opacity": 1}
+            "mark": {"type": "line", "opacity": 1, "color": "#002857"}
         },{
             "transform": [
                 {"filter": {"param": "brush"}},
                 {"aggregate": [{"op": "average", "field": "TEMP", "as": "month_avg"}], "groupby": ["MONTH"]}
             ],
-            "mark": {"type": "circle", "opacity": 1}
+            "mark": {"type": "circle", "opacity": 1, "color": "#002857"}
         },{
             "data": {"values": [{"label": ["Average monthly","temperature", "for 2005-2022"]}]},
             "mark": {
@@ -224,7 +224,7 @@
             "mark": {
                 "type": "text", 
                 "align": "left",
-                "color": "darkblue",
+                "color": "#002857",
                 "fontSize": 12},
             "encoding": {
                 "text": {"field": "label"},

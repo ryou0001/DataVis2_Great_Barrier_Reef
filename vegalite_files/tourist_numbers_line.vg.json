@@ -26,8 +26,8 @@
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
             {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}                 
         ]
         },
@@ -36,7 +36,7 @@
           "x": {"field": "start", "type": "temporal"},
           "x2": {"field": "end", "type": "temporal"},
           "opacity": {"value": 0.2},
-          "color": {"field": "type"}
+          "color": {"field": "type", "scale": {"domain": ["survey", "closure"], "range": ["#a6761d", "#666666"]}}
         }
       },
       {
@@ -110,7 +110,7 @@
             "baseline": "middle",
             "dy": -100,
             "dx": 240,
-            "color": "darkblue",
+            "color": "#002857",
             "fontSize": 13,
             "opacity": 1
           },
@@ -194,7 +194,7 @@
         }
       },
       {
-        "mark": "line",
+        "mark": {"type": "line", "color": "#002857", "strokeWidth": 3},
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal", "axis": {"grid": false}},
             "y": {"field": "GBR_visits", "type": "quantitative", "axis": {"grid": false}}
@@ -202,6 +202,7 @@
       },{
           "params": [{
           "name": "hover",
+          "value": [{"Management_Area": "Cairns/Cooktown"}],
           "select": {
             "type": "point",
             "fields": ["Management_Area"],
@@ -221,6 +222,9 @@
             "y": {"field": "visits", "type": "quantitative"},
             "color": {
               "field":"Management_Area",
+              "scale": {
+                "domain": ["Far Northern", "Cairns/Cooktown", "Mackay/Capricorn", "Townsville/Whitsunday"], 
+                "range": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a"]},
               "type":"nominal",
               "legend": null
             },
@@ -245,9 +249,9 @@
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
-            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}                 
         ]
         },
         "mark": "rect",
@@ -261,7 +265,7 @@
         "transform": [
           {"filter": "datum.Management_Area == 'Cairns/Cooktown'"}
         ],
-        "mark": "line",
+        "mark": {"type": "line", "color": "#1b9e77"},
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
             "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,400000]}},
@@ -282,9 +286,9 @@
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
-            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}                 
         ]
         },
         "mark": "rect",
@@ -299,7 +303,7 @@
         "transform": [
           {"filter": "datum.Management_Area == 'Townsville/Whitsunday'"}
         ],
-        "mark": "line",
+        "mark": {"type": "line", "color": "#e7298a"},
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
             "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,400000]}},
@@ -321,9 +325,9 @@
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
-            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}                 
         ]
         },
         "mark": "rect",
@@ -338,7 +342,7 @@
         "transform": [
           {"filter": "datum.Management_Area == 'Far Northern'"}
         ],
-        "mark": "line",
+        "mark": {"type": "line", "color": "#d95f02"},
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
             "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,60000]}},
@@ -358,9 +362,9 @@
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
-            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "closure", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}                 
         ]
         },
         "mark": "rect",
@@ -375,7 +379,7 @@
         "transform": [
           {"filter": "datum.Management_Area == 'Mackay/Capricorn'"}
         ],
-        "mark": "line",
+        "mark": {"type": "line", "color": "#7570b3"},
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
             "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,60000]}},

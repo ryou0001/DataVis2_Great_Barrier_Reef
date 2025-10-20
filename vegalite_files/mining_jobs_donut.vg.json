@@ -1,5 +1,6 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": "transparent"}},
 "background": "aquamarine",
 "hconcat": [
   {
@@ -67,13 +68,17 @@
           "mark": {"type": "bar"},
           "encoding": {
               "x": {"field": "threat", "type": "nominal", "sort": "-y", "axis": null},
-              "y": {"field": "threat_perc", "type": "quantitative", "axis": {"format": ".0%"}, "title": null},
+              "y": {"field": "threat_perc", "type": "quantitative", "axis": null, "title": null},
             "color": {
               "condition": {
                 "test": "datum.threat == 'mining'",
                 "value": "orange"
               }, "value": "darkgrey"
-              }
+              },
+              "tooltip": [
+                {"field": "threat", "title": "Threat"},
+                {"field": "threat_perc", "format": ".2%", "title": "Percentage of residents said it was a top-3 threat"}
+              ]
             }        
           },
           {

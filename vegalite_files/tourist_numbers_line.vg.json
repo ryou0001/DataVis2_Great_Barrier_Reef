@@ -1,5 +1,6 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": "transparent"}},
 "data": {"url": "vegalite_files/data/tourist_numbers.csv"},
 "padding": 0,
 "transform": [
@@ -17,6 +18,10 @@
     "title": { "text": "Tourist numbers at the GBR", "fontSize": 14 },
     "width": 678,
     "height": 400,
+    "encoding": {
+      "x": {"axis": {"title": "Time"}},
+      "y": {"axis": {"title": "Number of tourist visits"}}
+    },
     "layer": [
       {
         "data": {
@@ -116,7 +121,7 @@
       {
         "data": {
           "values": [
-            {"label": "Cairns/Cooktown"}
+            {"label": "Townsville/Whitsunday"}
           ]},
           "mark": {
             "type": "text",
@@ -124,18 +129,18 @@
             "baseline": "middle",
             "dy": 40,
             "dx": 240,
-            "color": "darkgray",
-            "fontSize": 13,
-            "opacity": 0.6
+            "color": "black",
+            "fontSize": 13
           },
-          "encoding": {
-            "text": {"field": "label"}
+            "encoding": {
+              "text": {"field": "label"},
+              "opacity": {"condition": {"test": "hover.Management_Area == 'Townsville/Whitsunday'", "value": 1}, "value": 0.4}
         }
       },
       {
         "data": {
           "values": [
-            {"label": "Total tourists"}
+            {"label": "Cairns/Cooktown"}
           ]},
           "mark": {
             "type": "text",
@@ -143,12 +148,12 @@
             "baseline": "middle",
             "dy": 120,
             "dx": 240,
-            "color": "darkgray",
-            "fontSize": 13,
-            "opacity": 0.6
+            "color": "black",
+            "fontSize": 13
           },
-          "encoding": {
-            "text": {"field": "label"}
+            "encoding": {
+              "text": {"field": "label"},
+              "opacity": {"condition": {"test": "hover.Management_Area == 'Cairns/Cooktown'", "value": 1}, "value": 0.4}
         }
       },
       {
@@ -162,14 +167,13 @@
             "baseline": "middle",
             "dy": 160,
             "dx": 240,
-            "color": "darkgray",
-            "fontSize": 13,
-            "opacity": 0.6
+            "color": "black",
+            "fontSize": 13
           },
-          "encoding": {
-            "text": {"field": "label"}
-        }
-      },
+           "encoding": {
+              "text": {"field": "label"},
+              "opacity": {"condition": {"test": "hover.Management_Area == 'Mackay/Capricorn'", "value": 1}, "value": 0.4}
+        } },
       {
         "data": {
           "values": [
@@ -181,12 +185,12 @@
             "baseline": "middle",
             "dy": 190,
             "dx": 240,
-            "color": "darkgray",
-            "fontSize": 13,
-            "opacity": 0.6
+            "color": "black",
+            "fontSize": 13
           },
           "encoding": {
-            "text": {"field": "label"}
+            "text": {"field": "label"},
+            "opacity": {"condition": {"test": "hover.Management_Area == 'Far Northern'", "value": 1}, "value": 0.4}
         }
       },
       {
@@ -195,14 +199,34 @@
             "x": {"field": "Quarter", "type": "temporal", "axis": {"grid": false}},
             "y": {"field": "GBR_visits", "type": "quantitative", "axis": {"grid": false}}
         }
-      },
-      {
+      },{
+          "params": [{
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["Management_Area"],
+            "on": "pointermove",
+            "nearest": true
+              }
+          }],
+            "mark": {"type": "point", "opacity": 0},
+            "encoding": {
+                "x": {"field": "Quarter", "type": "temporal"},
+                "y": {"field": "visits", "type": "quantitative"}
+            }
+      },{
         "mark": "line",
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
             "y": {"field": "visits", "type": "quantitative"},
-            "color": {"field": "Management_Area"},
-            "opacity": {"value": 0.2}
+            "color": {
+              "field":"Management_Area",
+              "type":"nominal",
+              "legend": null
+            },
+            "opacity": {
+              "condition": {"param": "hover", "value": 1},
+              "value": 0.2}
         }
       }
     ]
@@ -213,29 +237,35 @@
     "title": "Cairns/Cooktown",
     "width": 290,
     "height": 120,
+    "encoding": {
+      "x": {"axis": {"title": "Time", "grid": false}},
+      "y": {"axis": {"title": "Number of tourist visits", "grid": false}}
+    },
     "layer": [
-            {
+      {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"}            
+            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
         ]
         },
         "mark": "rect",
         "encoding": {
           "x": {"field": "start", "type": "temporal"},
           "x2": {"field": "end", "type": "temporal"},
-          "opacity": {"value": 0.2}
+          "opacity": {"value": 0.2},
+          "color": {"field": "type", "legend": null}
         }
-      },
-      {
+      },      {
         "transform": [
           {"filter": "datum.Management_Area == 'Cairns/Cooktown'"}
         ],
         "mark": "line",
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
-            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,400000]}}
+            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,400000]}},
+            "opacity": {"condition": {"test": "hover.Management_Area == 'Cairns/Cooktown'", "value": 1}, "value": 0.4}
         }
       }
     ]
@@ -244,19 +274,25 @@
     "title": "Townsville/Whitsunday",
     "width": 290,
     "height": 120,
+    "encoding": {
+      "x": {"axis": {"title": "Time", "grid": false}},
+      "y": {"axis": {"title": "Number of tourist visits", "grid": false}}
+    },
     "layer": [
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"}            
+            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
         ]
         },
         "mark": "rect",
         "encoding": {
           "x": {"field": "start", "type": "temporal"},
           "x2": {"field": "end", "type": "temporal"},
-          "opacity": {"value": 0.2}
+          "opacity": {"value": 0.2},
+          "color": {"field": "type", "legend": null}
         }
       },
       {
@@ -266,7 +302,8 @@
         "mark": "line",
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
-            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,400000]}}
+            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,400000]}},
+            "opacity": {"condition": {"test": "hover.Management_Area == 'Townsville/Whitsunday'", "value": 1}, "value": 0.4}
         }
       }
     ]
@@ -276,19 +313,25 @@
     "title": "Far Northern",
     "width": 290,
     "height": 120,
+    "encoding": {
+      "x": {"axis": {"title": "Time", "grid": false}},
+      "y": {"axis": {"title": "Number of tourist visits", "grid": false}}
+    },
     "layer": [
       {
         "data": {
           "values": [
-            {"label": "Borders close due to COVID-19", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
-            {"label": "Borders close due to COVID-19", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"}            
+            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Mar-Jun 2020", "end": "Jan-Mar 2021"},
+            {"label": "Borders close due to COVID-19", "type": "covid", "start": "Jul-Sep 2021", "end": "Jan-Mar 2022"},
+            {"label": "Resident survey conducted", "type": "survey", "start": "Apr-Jun 2017", "end": "Jul-Sep 2017"}            
         ]
         },
         "mark": "rect",
         "encoding": {
           "x": {"field": "start", "type": "temporal"},
           "x2": {"field": "end", "type": "temporal"},
-          "opacity": {"value": 0.2}
+          "opacity": {"value": 0.2},
+          "color": {"field": "type", "legend": null}
         }
       },
       {
@@ -298,7 +341,8 @@
         "mark": "line",
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
-            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,60000]}}
+            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,60000]}},
+            "opacity": {"condition": {"test": "hover.Management_Area == 'Far Northern'", "value": 1}, "value": 0.4}
         }
       }
     ]
@@ -306,6 +350,10 @@
   { "title": "Mackay/Capricorn",
     "width": 290,
     "height": 120,
+    "encoding": {
+      "x": {"axis": {"title": "Time", "grid": false}},
+      "y": {"axis": {"title": "Number of tourist visits", "grid": false}}
+    },
     "layer": [
       {
         "data": {
@@ -330,7 +378,8 @@
         "mark": "line",
         "encoding": {
             "x": {"field": "Quarter", "type": "temporal"},
-            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,60000]}}
+            "y": {"field": "visits", "type": "quantitative", "scale": {"domain": [0,60000]}},
+            "opacity": {"condition": {"test": "hover.Management_Area == 'Mackay/Capricorn'", "value": 1}, "value": 0.4}
         }
       }
     ]

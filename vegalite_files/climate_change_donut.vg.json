@@ -1,6 +1,7 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "background": "aquamarine",
+    "config": {"view": {"stroke": "transparent"}},
 "hconcat": [
   {
   "width": 200,
@@ -16,18 +17,22 @@
           "mark": {"type": "bar"},
           "encoding": {
               "x": {"field": "threat", "type": "nominal", "sort": "-y", "axis": null},
-              "y": {"field": "threat_perc", "type": "quantitative", "axis": {"format": ".0%"}, "title": null},
+              "y": {"field": "threat_perc", "type": "quantitative", "axis": null, "title": null},
             "color": {
               "condition": {
                 "test": "datum.threat == 'climate change'",
                 "value": "red"
               }, "value": "darkgrey"
-              }
+              },              "tooltip": [
+                {"field": "threat", "title": "Threat"},
+                {"field": "threat_perc", "format": ".2%", "title": "Percentage of residents said it was a top-3 threat"}
+              ]
+
             }        
           },
           {
             "data": {
-              "values": [{"label": "40%"}]
+              "values": [{"label": "41%"}]
             },
             "mark": {
               "type": "text", 

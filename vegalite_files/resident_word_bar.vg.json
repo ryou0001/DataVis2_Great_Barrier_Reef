@@ -4,7 +4,7 @@
   "width": 530,
   "height": 220,
   "padding": 0,
-  "config": {"font": "Arial"},
+  "config": {"font": "Arial", "view": {"stroke": "transparent"}},
   "title": {"text": "Words residents use to describe the Great Barrier Reef", "fontSize": 14},
   "data": {
       "url": "vegalite_files/data/resident_words.csv"
@@ -51,7 +51,7 @@
     }
   ],
   "encoding": {
-        "x": {"field": "word_count", "type": "quantitative", "stack": null},
+        "x": {"field": "word_count", "type": "quantitative", "stack": null, "axis": {"grid": false}, "title": "Count of residents using the word"},
         "y": {"field": "words", "type": "nominal", "sort": "-x", "title": null, "axis": {"labelFontSize": 12}}
       },
   "layer": [

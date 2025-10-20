@@ -15,7 +15,22 @@
                 "url": "vegalite_files/maps/GBR_management_areas.json",
                 "format": {"type": "topojson", "feature": "Great_Barrier_Reef_Marine_Park_Management_Areas_20_8519682087340233118"}
             },
-            "mark": {"type": "geoshape", "fill": "lightgray", "opacity": 0.5, "stroke": "black"}
+            "transform": [
+                {
+                    "lookup": "properties.AREA_DESCR",
+                    "from": {
+                        "data": {"url": "vegalite_files/data/tourist_numbers_2017.csv"},
+                        "key": "MA",
+                        "fields": ["Management_Area", "visits"]                    }
+                }
+            ],
+            "mark": {"type": "geoshape", "fill": "lightgray", "opacity": 0.5, "stroke": "black"},
+            "encoding": {
+                "tooltip": [
+                    {"field": "Management_Area", "title": "Management Area"},
+                    {"field": "visits", "format": ",", "title": "Total tourists in 2017"}
+                ]
+            }
             },
             {
                 "data": {
@@ -149,50 +164,68 @@
             },{
             "data": {
                 "values": [
-                {"x": 150.8, "y": -18.3, "img": "vegalite_files/data/people_99.png"}
+                {"x": 150.8, "y": -18.3, "img": "vegalite_files/data/people_99.png", "MA": "Townsville/Whitsunday", "visits": "999554"}
                 ]
             },
             "mark": {"type": "image", "width": 90, "height": 90},
             "encoding": {
                 "longitude": {"field": "x", "type": "quantitative"},
                 "latitude": {"field": "y", "type": "quantitative"},
-                "url": {"field": "img", "type": "nominal"}
+                "url": {"field": "img", "type": "nominal"},
+                                "tooltip": [
+                    {"field": "MA", "title": "Management Area"},
+                    {"field": "visits", "format": ",", "title": "Total tourists in 2017"}
+                ]
+
             }
             },{
             "data": {
                 "values": [
-                {"x": 144.5, "y": -12.5, "img": "vegalite_files/data/people_0.6.png"}
+                {"x": 144.5, "y": -12.5, "img": "vegalite_files/data/people_0.6.png", "MA": "Far Northern", "visits": "6217"}
                 ]
             },
             "mark": {"type": "image", "width": 10, "height": 20},
             "encoding": {
                 "longitude": {"field": "x", "type": "quantitative"},
                 "latitude": {"field": "y", "type": "quantitative"},
-                "url": {"field": "img", "type": "nominal"}
+                "url": {"field": "img", "type": "nominal"},
+                                "tooltip": [
+                    {"field": "MA", "title": "Management Area"},
+                    {"field": "visits", "format": ",", "title": "Total tourists in 2017"}
+                ]
+
             }
             },{
             "data": {
                 "values": [
-                {"x": 152.5, "y": -22.4, "img": "vegalite_files/data/people_19.png"}
+                {"x": 152.5, "y": -22.4, "img": "vegalite_files/data/people_19.png", "MA": "Mackay/Capricorn", "visits": "191785"}
                 ]
             },
             "mark": {"type": "image", "width": 35, "height": 35},
             "encoding": {
                 "longitude": {"field": "x", "type": "quantitative"},
                 "latitude": {"field": "y", "type": "quantitative"},
-                "url": {"field": "img", "type": "nominal"}
+                "url": {"field": "img", "type": "nominal"},
+                "tooltip": [
+                    {"field": "MA", "title": "Management Area"},
+                    {"field": "visits", "format": ",", "title": "Total tourists in 2017"}
+                ]
             }
             },{
             "data": {
                 "values": [
-                {"x": 149, "y": -15, "img": "vegalite_files/data/people_139.png"}
+                {"x": 149, "y": -15, "img": "vegalite_files/data/people_139.png", "MA": "Cairns/Cooktown", "visits": "1397565"}
                 ]
             },
             "mark": {"type": "image", "width": 100, "height": 100},
             "encoding": {
                 "longitude": {"field": "x", "type": "quantitative"},
                 "latitude": {"field": "y", "type": "quantitative"},
-                "url": {"field": "img", "type": "nominal"}
+                "url": {"field": "img", "type": "nominal"},
+                "tooltip": [
+                    {"field": "MA", "title": "Management Area"},
+                    {"field": "visits", "format": ",", "title": "Total tourists in 2017"}
+                ]
             }
             },{
             "data": {

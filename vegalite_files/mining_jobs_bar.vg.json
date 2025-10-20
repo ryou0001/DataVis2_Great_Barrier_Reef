@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "config": {"view": {"stroke": "transparent"}},
       "padding": 0,
-   "width": 624,
+   "width": 424,
   "height": 200,
   "title": {"text": "Percentage of jobs in mining", "fontSize": 14},
   "data": {"url": "vegalite_files/data/mining_num_jobs.csv"},
@@ -61,15 +61,39 @@
 
         }
     },{
+      "mark": "rule",
+      "encoding": {
+        "x": {"value": 410},
+        "y": {"value": 15},
+        "x2": {"value": 425},
+        "y2": {"value": 15}
+      }
+    },{
+      "mark": "rule",
+      "encoding": {
+        "x": {"value": 275},
+        "y": {"value": 130},
+        "x2": {"value": 295},
+        "y2": {"value": 130}
+      }
+    },{
+      "mark": "rule",
+      "encoding": {
+        "x": {"value": 70},
+        "y": {"value": 155},
+        "x2": {"value": 90},
+        "y2": {"value": 155}
+      }
+    },{
       "data": {"values": [
         {"label": ["Very high percentage of mining jobs", "Low real number of mining jobs"]}
       ]},
       "mark": {
         "type": "text", 
-        "align": "right", 
+        "align": "left", 
         "baseline": "middle",
-        "dx": 280,
-        "dy": -65
+        "dx": 220,
+        "dy": -92
       },
       "encoding": {
         "text": {"field": "label"}
@@ -82,8 +106,8 @@
         "type": "text", 
         "align": "left", 
         "baseline": "middle",
-        "dx": 100,
-        "dy": 25
+        "dx": 85,
+        "dy": 24
       },
       "encoding": {
         "text": {"field": "label"}
@@ -96,7 +120,7 @@
         "type": "text", 
         "align": "left", 
         "baseline": "middle",
-        "dx": -200,
+        "dx": -120,
         "dy": 50
       },
       "encoding": {
@@ -112,8 +136,40 @@
         "align": "center", 
         "baseline": "middle",
         "dx": 0,
-        "dy": -250,
+        "dy": -170,
         "angle": -90
+      },
+      "encoding": {
+        "text": {"field": "label"}
+      }
+    }, {
+      "data": {"values": [
+        {"label": ["800 jobs"]}
+      ]},
+      "mark": {
+        "type": "text", 
+        "align": "center", 
+        "baseline": "middle",
+        "dx": 170,
+        "dy": -85,
+        "color": "white",
+        "fontSize": 12
+      },
+      "encoding": {
+        "text": {"field": "label"}
+      }
+    }, {
+      "data": {"values": [
+        {"label": ["13,100 jobs"]}
+      ]},
+      "mark": {
+        "type": "text", 
+        "align": "center", 
+        "baseline": "middle",
+        "dx": 25,
+        "dy": 28,
+        "color": "white",
+        "fontSize": 12
       },
       "encoding": {
         "text": {"field": "label"}

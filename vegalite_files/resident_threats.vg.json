@@ -44,7 +44,7 @@
       "title": "Identified threat",
       "axis": {"labelAngle": -50, "labelFontSize": 12}
     },
-    "y": {"field": "threat_total", "type": "quantitative", "title": "Number of residents who listed threat", "stack": null}
+    "y": {"field": "threat_total", "type": "quantitative", "title": "Number of residents who listed threat", "stack": null, "axis": {"grid": false}}
   },
   "layer": [
           {

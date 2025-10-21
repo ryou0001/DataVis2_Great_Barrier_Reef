@@ -36,7 +36,7 @@
           "x": {"field": "start", "type": "temporal"},
           "x2": {"field": "end", "type": "temporal"},
           "opacity": {"value": 0.2},
-          "color": {"field": "type", "scale": {"domain": ["survey", "closure"], "range": ["#a6761d", "#666666"]}}
+          "color": {"field": "type", "scale": {"domain": ["survey", "closure"], "range": ["#666666"]}}
         }
       },
       {

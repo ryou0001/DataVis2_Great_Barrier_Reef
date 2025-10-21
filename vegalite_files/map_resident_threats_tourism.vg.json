@@ -8,6 +8,24 @@
         "title": { "text": ["Total tourist numbers in 2017 and","Residents' attitudes to tourism"], "fontSize": 14 },
         "projection": {"type": "azimuthalEqualArea", "rotate":[-141, 14], "scale": 1020, "center": [6.2,-5.6]},
         "view": {"fill": "white"},
+        "params": [
+		{
+			"name": "highlight",
+            "value": "concern",
+			"bind": {
+				"input": "select",
+				"options": [
+					"concern",
+                    "MA"
+				],
+				"labels": [
+					"Residents' attitudes to tourism",
+                    "Management Areas"
+				],
+				"name": "Highlight: "
+			}
+		}
+	],
         "layer": [
             {
             "data": {
@@ -26,7 +44,13 @@
             ],
             "mark": {"type": "geoshape", "opacity": 0.5, "stroke": "black"},
             "encoding": {
-                "color": {"field": "Management_Area", "scale": {"scheme": "dark2"}, "legend": {"title": "Management Area"}},
+                "color": {
+                    "condition": {
+                        "test": "highlight == 'MA'",
+                        "field": "Management_Area", 
+                        "scale": {"scheme": "dark2"},
+                        "legend": {"title": "Management Area"}
+                    }, "value": "darkgrey"}, 
                 "tooltip": [
                     {"field": "Management_Area", "title": "Management Area"},
                     {"field": "visits", "format": ",", "title": "Total tourists in 2017"}
@@ -78,22 +102,19 @@
                     "opacity": 0.6
                 },
                 "encoding": {
-                    "opacity": {
-                    },
                     "color": {
                         "condition": {
-                            "test": "datum.threat_perc == 0",
-                            "value": "lightgrey"
-                        },
-                        "field": "threat_perc",
-                        "type": "quantitative",
-                        "scale": {
-                            "domain": [0,0.25], "scheme": {"name": "greens"}
-                        },
-                    "legend": {
-                        "title": ["% of residents who", "identified tourism as", "a threat"],
-                        "format": ".0%"
-                    }
+                            "test": "(highlight == 'concern') && datum.threat_perc > 0",
+                            "field": "threat_perc",
+                            "type": "quantitative",
+                            "scale": {
+                                "domain": [0,0.25], "scheme": {"name": "greens"}
+                            },
+                            "legend": {
+                                "title": ["% of residents who", "identified tourism as", "a threat"],
+                                "format": ".0%"
+                             }
+                        },"value": "lightgrey"
                     },
                     "tooltip": [
                         {"field": "properties.NRM_REGION", "type": "nominal", "title": "NRM Region"},
@@ -117,8 +138,8 @@
             "mark": {"type": "geoshape", "stroke": "darkgrey", "fill": null, "opacity": 0.3}
             },{
             "data": {"values":[
-              {"longitude": 144, "latitude": -18.2, "label": ["WET TROPICS", "Highest: 19.58%"]},
-              {"longitude": 146, "latitude": -24.6, "label": ["FITZROY", "Lowest: 4.51%"]}
+              {"longitude": 144, "latitude": -18.2, "label": ["WET TROPICS", "Highest concern:", "19.58%"]},
+              {"longitude": 146, "latitude": -24.6, "label": ["FITZROY", "Lowest concern:","4.51%"]}
             ]},
             "mark": {"type": "text", "align": "right", "fontSize": 13},
             "encoding": {
